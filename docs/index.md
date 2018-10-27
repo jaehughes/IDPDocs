@@ -37,7 +37,7 @@ Team work is key to the success of this project.  Teams should elect one team le
 
 ## Resources
 
-Full resources including getting started guides and a list of parts can be found on the resources page [project license](../site/assesment/index.html) for further details..
+Full resources including getting started guides and a list of parts can be found on the resources page [here](assesment.md).
 
 ## Assessment
 
@@ -54,7 +54,7 @@ The assessment of the course has a number of different components. These are sum
 | Final Report                    | 10%     | Week 5, Monday  |
 
 
-Detailed requirements and examples of the materials which must be submitted can be found here.
+Detailed requirements and examples of the materials which must be submitted can be found [here](assesment.md).
 
 ## Schedule & Deadlines
 

@@ -4,3 +4,6 @@ nav:
 - Home: index.md
 - Design Acceptance: da.md
 - Assessment: assesment.md
+
+extra_css:
+    - css/extracss.css
