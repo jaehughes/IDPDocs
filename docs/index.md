@@ -1,4 +1,4 @@
-# Welcome to ipp
+# Integrated Design Project V2.0
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
 
