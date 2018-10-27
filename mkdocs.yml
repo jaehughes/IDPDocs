@@ -1,4 +1,6 @@
 site_name: IDP
 theme: cinder
-pages:
+nav:
 - Home: index.md
+- Design Acceptance: da.md
+- Assessment: assesment.md
