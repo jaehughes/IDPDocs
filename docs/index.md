@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to ipp
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
 
