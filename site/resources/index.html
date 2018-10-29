@@ -146,7 +146,6 @@
 </ul>
 <p>Sensors</p>
 <ul>
-<li>Camera</li>
 <li>Compass/Accelerometer</li>
 <li>IR Sensors</li>
 <li>IR Distance Sensor</li>
@@ -162,21 +161,60 @@
 <li>Bearing Casters</li>
 </ul>
 <p>Other:
-<em> Power Supply (with split ends to power Arduino + Motor Controller)
-</em> USB Lead</p>
+<em> Mains to 9V Power Supply (with split ends to power Arduino + Motor Controller)
+</em> USB Lead x 2</p>
 <p>A list to all other components available can be found <a href="http://www3.eng.cam.ac.uk/DesignOffice/idp/resources/webcat/index.html">here</a>.</p>
 <h2 id="electronics-getting-started">Electronics: Getting Started</h2>
-<p>We suggest you take a little bit of time familiarising yourself with the Arduino and reading from sensors and setting outputs.  There is some cross over between this and the software groups, however, 2 Arduinos have been provided per team to allow you to both work on this.</p>
+<p>We suggest you take a little bit of time familiarising yourself with the Arduino and reading from sensors and setting outputs.  There is some cross over between this and the software groups, however, 2 Arduino have been provided per team to allow you to both work on this.</p>
+<p>The Arduino IDE software is installed on the teaching system, or can be used online, or can be downloaded (for free) on to your personal computer.</p>
+<p>First, you need to familarise yourself with the board and the different pins. Read through <a href="https://www.circuito.io/blog/arduino-uno-pinout/">this</a> page to understand the different inputs types and how the board works.</p>
 <p><strong>Familiarisation with the Arduino</strong></p>
+<ul>
+<li>If you are using the web IDE, follow this into <a href="https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a">tutorial</a>.</li>
+<li>If you are using th desktop IDE, follow this tutorial.</li>
+</ul>
 <p>Make sure you can run the 'blinky LED' script and your LED changes.</p>
 <p><strong>Connect an LED to the Arduino</strong></p>
-<p><strong>Connect a sensor to the Ardunio</strong></p>
+<p>Using your breadboard, now wire up an LED to another digital input on your Arduino, as shown in the figure below  You can use jumpers to connect to the Arduino and to the LED; make sure you connect the LED the correct way around and use a current limiting resistor.  Change the program written in the previous task to write to the new digital input with the LED is attached to.
+<img alt="Electonics task 1" src="../e_1.png" /></p>
+<p><strong>Read from the Analogue Input</strong></p>
+<p>Connect the LDR on breadboard with another resistor to form a potential divider as shown.  Connect the middle of this potential divider to the analogue Input.</p>
+<p><img alt="Electonics task 1" src="e_2.png =250x" /></p>
+<p>We can now using the following to read from the analog input and then print to the to the serial monitor.  The serial monitor can help for debugging.  Check that the sensor values change when the LDR is covered.</p>
+<pre><code>int sensorPin = A0;    // select the input pin for the potentiometer
+
+int sensorValue = 0;  // variable to store the value coming from the sensor
+
+void setup() {
+  Serial.begin(9600);           //Start serial and set the correct Baud Rate
+}
+
+void loop() {
+  sensorValue = analogRead(sensorPin);
+  Serial.println(sensorValue);
+}
+</code></pre>
+
 <p><strong>Wire-up motor controllers</strong></p>
+<p>Things to consider when designing your electronics:
+<em> Do you need a switch/interface to start your robot/reset?
+</em> Talk with mechanics/software, how are you going to mount your sensors?
+<em> Should sensors give you a digital/analogue input? Can you convert to a digital input to reduce the load on the software team?
+</em> How can you connect to the electronics?</p>
 <h2 id="software-getting-started">Software: Getting Started</h2>
+<p>To start with, you should gain familiarity with the Arduino and software and achieve the basics: control of motors, reading from sensors and</p>
 <p><strong>Familiarisation with the Arduino</strong></p>
 <p><strong>Motor Control</strong></p>
+<p><strong>Reading from Sensors</strong></p>
+<p>**</p>
+<p>Things to consider when developing your software:
+<em> Do you need a switch/interface to start your robot/reset?
+</em></p>
 <h2 id="mechanics-getting-started">Mechanics: Getting Started</h2>
 <p><strong>Reading from sensors</strong></p>
+<p>Things to consider when developing your software:
+<em> Do you need a switch/interface to start your robot/reset?
+</em></p>
 <h2 id="cad-and-rapid-prototyping">CAD and Rapid Prototyping</h2>
 <p>Solidworks</p>
 <hr />
@@ -190,6 +228,7 @@
 <li><a href="https://www.dysoncentre.eng.cam.ac.uk/3d-printing">3D Printing</a></li>
 <li><a href="https://www.dysoncentre.eng.cam.ac.uk/plasma-cutter/cambridge-only/cambridge-only">Plasma Cutter</a></li>
 </ul>
+<p>The laser cutter may be busy - there are training sessions daily at 12-13 and 14-15; these times should be avoided.  The laser cutter should only not be used out of hours and particular care should be taken when cardboard is cut, as this is easily flammable.</p>
 <h2 id="electronics-advice-and-technical-skills">Electronics Advice and Technical Skills</h2>
 <p><strong>Soldering</strong></p>
 <p><strong>Layout</strong></p>

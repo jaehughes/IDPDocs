@@ -64,9 +64,9 @@ The following table summarises the key activities and deadlines at each session.
 | Week    | Day      | Activity  | Deadline |
 | -----|:---------| :---------|:---------|
 | Week 1  | Thursday |  **9:00:** Introduction Session, *EIETL Projector*   <br />  **14:00:** Project Management Lecture| |
-|         | Monday   | **11:00:**  Laser Cutter Introduction (Teams 1-2, Dyson Centre)  <br /> **11:30:**  Electrical Introduction, *EIETL Projector*  <br /> **12:30:**   Mechanical Introduction,  *EIETL Projector*| |
+|         | Monday   | **12:00:**  Laser Cutter Introduction (Teams 1-2, Dyson Centre)  <br /> **11:30:**  Electrical Introduction, *EIETL Projector*  <br /> **12:30:**   Mechanical Introduction,  *EIETL Projector*| |
 |         | Tuesday  | | **First Presentation** |
-|         | Wednesday| **11:00:** Laser Cutter Introduction (Teams 3-4, Dyson Centre)
+|         | Wednesday| **12:00:** Laser Cutter Introduction (Teams 3-4, Dyson Centre)
 | Week 2  | Thursday | *Feedback on 1st Report returned to teams*| |
 |         | Monday   | | |
 |         | Wednesday| | **Deadline for Design Acceptance**|

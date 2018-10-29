@@ -11,18 +11,18 @@ The key components and links to datasheets are given here.  In addition to these
 Microcontroller & Drivers:
 
 * OrangePip ([Arduino](https://store.arduino.cc/arduino-uno-rev3) replica) (x2)
-* {Velleman Arduino Motor Driver}(https://www.velleman.eu/products/view/?id=412538&country=be&lang=en)
+* [Velleman Arduino Motor Driver](https://www.velleman.eu/products/view/?id=412538&country=be&lang=en)
 * Prototyping Shield
 * Veroboard + Connectors
 
-Sensors
+Sensors/Input Devices
 
-* Camera
 * Compass/Accelerometer
 * IR Sensors
 * IR Distance Sensor
 * Photoresistor
 * IR diodes
+* Microswitches
 
 Mechanical Components:
 
@@ -44,6 +44,8 @@ We suggest you take a little bit of time familiarising yourself with the Arduino
 
 The Arduino IDE software is installed on the teaching system, or can be used online, or can be downloaded (for free) on to your personal computer.
 
+First, you need to familiarise yourself with the board and the different pins. Read through [this](https://www.circuito.io/blog/arduino-uno-pinout/) page to understand the different inputs types and how the board works.
+
 **Familiarisation with the Arduino**
 
 * If you are using the web IDE, follow this into [tutorial](https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a).
@@ -53,11 +55,38 @@ Make sure you can run the 'blinky LED' script and your LED changes.
 
 **Connect an LED to the Arduino**
 
-Using 
+Using your breadboard, now wire up an LED to another digital input on your Arduino, as shown in the figure below  You can use jumpers to connect to the Arduino and to the LED; make sure you connect the LED the correct way around and use a current limiting resistor.  Change the program written in the previous task to write to the new digital input with the LED is attached to.
+![Electonics task 1](e_1.png)
 
-**Connect a sensor to the Ardunio**
+**Read from the Analogue Input**
+
+Connect the LDR on breadboard with another resistor to form a potential divider as shown.  Connect the middle of this potential divider to the analogue Input.
+
+![Electonics task 1](e_2.png)
+
+We can now using the following to read from the analog input and then print to the to the serial monitor.  The serial monitor can help for debugging.  Check that the sensor values change when the LDR is covered.
+
+```
+int sensorPin = A0;    // select the input pin for the potentiometer
+
+int sensorValue = 0;  // variable to store the value coming from the sensor
+
+void setup() {
+  Serial.begin(9600);           //Start serial and set the correct Baud Rate
+}
+
+void loop() {
+  sensorValue = analogRead(sensorPin);
+  Serial.println(sensorValue);
+}
+```
 
 **Wire-up motor controllers**
+
+Using the [datasheets and documents](https://www.vellemanstore.com/en/velleman-vma03-motor-power-shield-for-arduino-unotm) and examples sketches, wire up the motors.
+
+
+**Designing your electronics and sensing?**
 
 
 Things to consider when designing your electronics:
@@ -65,7 +94,6 @@ Things to consider when designing your electronics:
 * Talk with mechanics/software, how are you going to mount your sensors?
 * Should sensors give you a digital/analogue input? Can you convert to a digital input to reduce the load on the software team?
 * How can you connect to the electronics?
-
 
 
 
@@ -79,7 +107,8 @@ To start with, you should gain familiarity with the Arduino and software and ach
 
 **Reading from Sensors**
 
-**
+**Interfacing to Python**
+
 
 
 Things to consider when developing your software:
@@ -122,6 +151,7 @@ Information on the rapid prototyping facilities available in the department can 
 * [3D Printing](https://www.dysoncentre.eng.cam.ac.uk/3d-printing)
 * [Plasma Cutter](https://www.dysoncentre.eng.cam.ac.uk/plasma-cutter/cambridge-only/cambridge-only)
 
+The laser cutter may be busy - there are training sessions daily at 12-13 and 14-15; these times should be avoided.  The laser cutter should only not be used out of hours and particular care should be taken when cardboard is cut, as this is easily flammable.
 
 
 ## Electronics Advice and Technical Skills

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<!--html5-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta charset="utf-8" />
+
+	<title>Arduino - AnalogInput </title>
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+	<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+	<link rel="stylesheet" href="//content.arduino.cc/legacy/fonts/fonts.css" type="text/css" />
+	<link rel="stylesheet" href="//content.arduino.cc/legacy/css/arduino-icons.css">
+	<link rel="stylesheet" href="//content.arduino.cc/legacy/css/animation.css"><!--[if IE 7]>
+	<link rel="stylesheet" href="//content.arduino.cc/legacy/css/arduino-icons-ie7.css"><![endif]-->
+	<!--[if gte IE 9]><!-->
+	<link rel='stylesheet' href='//content.arduino.cc/legacy/css/foundation2.css' type='text/css' />
+	<!--<![endif]-->
+	<!--[if IE 8]>
+		<link rel='stylesheet' href='//content.arduino.cc/legacy/css/foundation_ie8.css' type='text/css' />
+	<![endif]-->
+	<link rel='stylesheet' href='//content.arduino.cc/legacy/css/arduino_code_highlight.css' type='text/css' />
+	<link rel="stylesheet" type="text/css" media="screen" href="//content.arduino.cc/legacy/css/typeplate.css">
+	<link rel='stylesheet' href='//www.arduino.cc/en/pub/skins/arduinoWide_SSO/css/arduinoWide_SSO.css' type='text/css' />
+
+	<link rel='stylesheet' href='//content.arduino.cc/legacy/css/common.css' type='text/css' />
+	<link rel="stylesheet" href="//content.arduino.cc/legacy/css/download_page.css" />
+	<link href="https://plus.google.com/114839908922424087554" rel="publisher" />
+
+	<!-- embedded JS and CSS from PmWiki plugins -->
+	<!--HeaderText--><style type='text/css'><!--
+  ul, ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }
+  code { white-space: nowrap; }
+  .vspace { margin-top:1.33em; }
+  .indent { margin-left:40px; }
+  .outdent { margin-left:40px; text-indent:-40px; }
+  a.createlinktext { text-decoration:none; border-bottom:1px dotted gray; }
+  a.createlink { text-decoration:none; position:relative; top:-0.5em;
+    font-weight:bold; font-size:smaller; border-bottom:none; }
+  img { border:0px; }
+  
+span.anchor {
+	float: left;
+	font-size: 10px;
+	margin-left: -10px;
+	width: 10px;
+    position:relative; top:-0.1em;
+	text-align: center;
+}
+span.anchor a { text-decoration: none; }
+span.anchor a:hover { text-decoration: underline; }
+ol.toc { text-indent:-20px; list-style: none; }
+ol.toc ol.toc { text-indent:-40px; }
+div.tocfloat { font-size: smaller; margin-bottom: 10px;
+    border-top: 1px dotted #555555; border-bottom: 1px dotted #555555;
+    padding-top: 5px; padding-bottom: 5px; 
+    width: 38%; float: right; margin-left: 10px; clear: right;
+    margin-right:-13px; padding-right: 13px; padding-left: 13px;
+    background-color: #eeeeee; }
+div.toc { font-size: smaller; 
+    padding: 5px; border: 1px dotted #cccccc;
+    background: #f7f7f7;
+    margin-bottom: 10px; }
+div.toc p { background-color: #f9f6d6;
+    margin-top:-5px;   padding-top: 5px;
+    margin-left:-5px;  padding-left: 5px;
+    margin-right:-5px; padding-right: 5px;
+    padding-bottom: 3px;
+    border-bottom:  1px dotted #cccccc; }.editconflict { color:green; 
+  font-style:italic; margin-top:1.33em; margin-bottom:1.33em; }
+
+  table.markup { border: 2px dotted #ccf; width:90%; }
+  td.markup1, td.markup2 { padding-left:10px; padding-right:10px; }
+  td.markup1 { border-bottom: 1px solid #ccf; }
+  div.faq { margin-left:2em; }
+  div.faq p.question { margin: 1em 0 0.75em -2em; font-weight:bold; }
+  div.faq hr { margin-left: -2em; }
+   
+    .frame 
+      { border:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }
+    .lfloat { float:left; margin-right:0.5em; }
+    .rfloat { float:right; margin-left:0.5em; }
+a.varlink { text-decoration:none; }
+/**
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ */
+.arduino  {font-family:monospace;}
+.arduino .imp {font-weight: bold; color: red;}
+.arduino .kw1 {color: #CC6600;}
+.arduino .kw2 {color: #006699;}
+.arduino .kw3 {color: #CC6600; font-weight: bold;}
+.arduino .co1 {color: #7E7E7E; font-style: italic;}
+.arduino .co2 {color: #7E7E7E;}
+.arduino .coMULTI {color: #7E7E7E; font-style: italic;}
+.arduino .es0 {color: #000099; font-weight: bold;}
+.arduino .es1 {color: #000099; font-weight: bold;}
+.arduino .es2 {color: #660099; font-weight: bold;}
+.arduino .es3 {color: #660099; font-weight: bold;}
+.arduino .es4 {color: #660099; font-weight: bold;}
+.arduino .es5 {color: #006699; font-weight: bold;}
+.arduino .br0 {color: #000000;}
+.arduino .sy0 {color: #000000;}
+.arduino .st0 {color: #0066CC;}
+.arduino .nu0 {color: #000000;}
+.arduino .nu6 {color: #208080;}
+.arduino .nu8 {color: #208080;}
+.arduino .nu12 {color: #208080;}
+.arduino .nu16 {color:#800080;}
+.arduino .nu17 {color:#800080;}
+.arduino .nu18 {color:#800080;}
+.arduino .nu19 {color:#800080;}
+.arduino .me1 {color: #ff1493;}
+.arduino .me2 {color: #ff1493;}
+.arduino span.xtra { display:block; }
+
+.sourceblocklink {
+  text-align: right;
+  font-size: smaller;
+}
+.sourceblocktext {
+  padding: 0.5em;
+  color: #000000;
+  background-color: #ECF1F1;
+}
+.sourceblock .sourceblocktext .arduino {
+  font-family: 'TyponineSans Monospace Regular 4';
+  font-size: 14px;
+  line-height: 18px;
+}
+code {
+  background-color: #ECF1F1;
+  font-size: 15px;
+  line-height: 19px;
+  padding: 2px 10px 5px 10px;
+}
+.sourceblocktext div {
+  font-family: monospace;
+  font-size: small;
+  line-height: 1;
+  height: 1%;
+}
+.sourceblocktext div.head,
+.sourceblocktext div.foot {
+  font: italic medium serif;
+  padding: 0.5em;
+}
+
+--></style><script type="text/javascript">
+function toggle(obj) {
+    var elstyle = document.getElementById(obj).style;
+    var text    = document.getElementById(obj + "tog");
+    if (elstyle.display == 'none') {
+        elstyle.display = 'block';
+        text.innerHTML = "hide";
+    } else {
+        elstyle.display = 'none';
+        text.innerHTML = "show";
+    }
+}
+</script><script src="//www.arduino.cc/en/pub/galleria/galleria-1.2.6.min.js"></script><script type="text/javascript">Galleria.loadTheme("//www.arduino.cc/en/pub/galleria/themes/classic/galleria.classic.min.js");</script>  <meta name='robots' content='index,follow' />
+
+	
+
+	<script src="//content.arduino.cc/legacy/js/vendor/custom.modernizr.js"></script>
+
+	<!-- do not remove none of those lines, comments embedding in pages will break! -->
+	<script src="//code.jquery.com/ui/1.10.3/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="https://checkout.stripe.com/checkout.js" type="text/javascript"></script>
+	<script src="https://www.arduino.cc/en/pub/js/software_download.js" type="text/javascript"></script><!-- keep https! -->
+	<link rel='stylesheet' href='//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.min.css' type='text/css' />
+
+	<style>
+      .temporary {
+        height: 120px;
+        background-color: #00979d;
+      }
+
+      @media screen and (max-width: 1024px) {
+        .temporary {
+          height: 54px;
+        }   
+      }
+    </style>
+</head>
+
+<body style="background:none">
+
+	
+	<div id="header" class="temporary"></div>
+
+	<div id="page">
+
+		<br class="clear"/>
+
+		<div id="pagetext">
+				<!--PageText-->
+<div id='wikitext'>
+<p class='vspace'></p><p>
+
+<div class="subHeader row">
+
+  <div class="breadcrumb columns large-10 medium-10">
+    <p>
+      <a class="wikilink" href="/en/Tutorial/HomePage">Tutorials </a>
+      >  <a class="wikilink" href="/en/Tutorial/BuiltInExamples"> Built-In Examples </a> > 03.Analog > AnalogInput
+    </p>
+  </div>
+ </div>
+
+
+</p>
+<p class='vspace'></p><h2>Analog Input</h2>
+<p>In this example we use a variable resistor (a potentiometer or a photoresistor), we read its value using one analog input of an Arduino or Genuino board and we change the blink rate of the built-in LED accordingly. The resistor's analog value is read as a voltage because this is how the analog inputs work.
+</p>
+<p class='vspace'></p><h3>Hardware Required</h3>
+<div  class='BOM'>
+<p class='vspace'></p><ul><li>Arduino or Genuino Board
+</li><li>Potentiometer <strong><em>or</em></strong> 
+</li><li>10K ohm photoresistor and 10K ohm resistor
+</li><li>built-in LED on pin 13 <strong><em>or</em></strong> 
+</li><li>220 ohm resistor and red LED
+</li></ul></div>
+<h3>Circuit</h3>
+<div  class='circuit'>
+<p class='vspace'></p><p>With a potentiometer
+<span style='font-size:83%'>click the image to enlarge</span>
+</p><div><a class='urllink' href='//www.arduino.cc/en/uploads/Tutorial/if_noLED.png' rel='nofollow'><img width='400px' src='//www.arduino.cc/en/uploads/Tutorial/if_noLED.png' alt='' title='' /></a></div>
+<p class='vspace'></p><p><span style='font-size:83%'>image developed using <a class='urllink' href='http://www.fritzing.org' rel='nofollow'>Fritzing</a>. For more circuit examples, see the <a class='urllink' href='http://fritzing.org/projects/' rel='nofollow'>Fritzing project page</a> </span>
+</p>
+<p class='vspace'></p><p>With a photoresistor
+<span style='font-size:83%'>click the image to enlarge</span>
+</p><div><a class='urllink' href='//www.arduino.cc/en/uploads/Tutorial/PhotoCellA0.png' rel='nofollow'><img width='400px' src='//www.arduino.cc/en/uploads/Tutorial/PhotoCellA0.png' alt='' title='' /></a></div>
+<p class='vspace'></p><p><span style='font-size:83%'>image developed using <a class='urllink' href='http://www.fritzing.org' rel='nofollow'>Fritzing</a>. For more circuit examples, see the <a class='urllink' href='http://fritzing.org/projects/' rel='nofollow'>Fritzing project page</a> </span>
+</p>
+<p class='vspace'></p><p>Connect three wires to the Arduino or Genuino board.  The first goes to ground from one of the outer pins of the potentiometer.  The second goes from 5 volts to the other outer pin of the potentiometer.  The third goes from analog input 0 to the middle pin of the potentiometer.  
+</p>
+<p class='vspace'></p><p>For this example, it is possible to use the board's built in LED attached to pin 13. To use an additional LED, attach its longer leg (the positive leg, or anode), to digital pin 13 in series with the 220 ohm resistor, and it's shorter leg (the negative leg, or cathode) to the ground (GND) pin next to pin 13. 
+</p>
+<p class='vspace'></p><p>The circuit based on a photoresistor uses a resistor divider to allow the high impedence Analog input to measure the voltage. These inputs do not draw almost any current, therefore by Ohm's law the voltage measured on the other end of a resistor connected to 5V is always 5V, regardless the resistor's value. To get a voltage proportional to the photoresistor value, a resistor divider is necessary.   
+This circuit uses a variable resistor, a fixed resistor and the measurement point is in the middle of the resistors. The voltage measured (Vout) follows this formula:
+</p>
+<p class='vspace'></p><p><strong>Vout=Vin*(R2/(R1+R2))</strong>
+</p>
+<p class='vspace'></p><p>where Vin is 5V, R2 is 10k ohm and R1 is the photoresistor value that ranges from 1M ohm in darkness to 10k ohm in daylight (10 lumen) and less than 1k ohm in bright light or sunlight (&gt;100 lumen). 
+</p>
+<p class='vspace'></p><h3>Schematic</h3>
+<p><span style='font-size:83%'>click the image to enlarge</span><br />Potentiometer
+</p><div><a class='urllink' href='//www.arduino.cc/en/uploads/Tutorial/AnalogReadSerial_sch.png' rel='nofollow'><img height='400px' src='//www.arduino.cc/en/uploads/Tutorial/AnalogReadSerial_sch.png' alt='' title='' /></a></div>
+<p class='vspace'></p><p><span style='font-size:83%'>click the image to enlarge</span><br />Photoresistor
+</p><div><a class='urllink' href='//www.arduino.cc/en/uploads/Tutorial/PhotoResistorA0_schem.png' rel='nofollow'><img height='400px' src='//www.arduino.cc/en/uploads/Tutorial/PhotoResistorA0_schem.png' alt='' title='' /></a></div>
+</div>
+<h3>Code</h3>
+<p>At the beginning of this sketch, the variable <code>sensorPin</code> is set to to analog pin 0, where your potentiometer is attached, and <code>ledPin</code> is set to digital pin 13. You'll also create another variable, <code>sensorValue</code> to store the values read from your sensor. 
+</p>
+<p class='vspace'></p><p>The <a class='wikilink' href='//www.arduino.cc/en/Reference/AnalogRead'><code>analogRead()</code></a> command converts the input voltage range, 0 to 5 volts, to a digital value between 0 and 1023.  This is done by a circuit inside the microcontroller called an <em>analog-to-digital converter</em> or <em>ADC</em>. 
+</p>
+<p class='vspace'></p><p>By turning the shaft of the potentiometer, you change the amount of resistance on either side of the center pin (or wiper) of the potentiometer.  This changes the relative resistances between the center pin and the two outside pins, giving you a different voltage at the analog input.  When the shaft is turned all the way in one direction, there is no resistance between the center pin and the pin connected to ground. The voltage at the center pin then is 0 volts, and <code>analogRead()</code> returns 0.  When the shaft is turned all the way in the other direction, there is no resistance between the center pin and the pin connected to +5 volts. The voltage at the center pin then is 5 volts, and <code>analogRead()</code> returns 1023.  In between,  <code>analogRead()</code> returns a number between 0 and 1023 that is proportional to the amount of voltage being applied to the pin.
+</p>
+<p class='vspace'></p><p>That value, stored in <code>sensorValue</code>, is used to set a <code>delay()</code> for your blink cycle. The higher the value, the longer the cycle, the smaller the value, the shorter the cycle. The value is read at the beginning of the cycle, therefore the on/off time is always equal.
+</p>
+<p class='vspace'></p><div  class='code' >
+<p class='vspace'></p><p>
+<div class='sourceblock ' id='sourceblock1'>
+  <div class='sourceblocktext'><div class="arduino"><span class="coMULTI">/*<br />
+&nbsp; Analog Input<br />
+<br />
+&nbsp; Demonstrates analog input by reading an analog sensor on analog pin 0 and<br />
+&nbsp; turning on and off a light emitting diode(LED) connected to digital pin 13.<br />
+&nbsp; The amount of time the LED will be on and off depends on the value obtained<br />
+&nbsp; by analogRead().<br />
+<br />
+&nbsp; The circuit:<br />
+&nbsp; - potentiometer<br />
+&nbsp; &nbsp; center pin of the potentiometer to the analog input 0<br />
+&nbsp; &nbsp; one side pin (either one) to ground<br />
+&nbsp; &nbsp; the other side pin to +5V<br />
+&nbsp; - LED<br />
+&nbsp; &nbsp; anode (long leg) attached to digital output 13<br />
+&nbsp; &nbsp; cathode (short leg) attached to ground<br />
+<br />
+&nbsp; - Note: because most Arduinos have a built-in LED attached to pin 13 on the<br />
+&nbsp; &nbsp; board, the LED is optional.<br />
+<br />
+&nbsp; created by David Cuartielles<br />
+&nbsp; modified 30 Aug 2011<br />
+&nbsp; By Tom Igoe<br />
+<br />
+&nbsp; This example code is in the public domain.<br />
+<br />
+&nbsp; http://www.arduino.cc/en/Tutorial/AnalogInput<br />
+*/</span><br />
+<br />
+<span class="kw1">int</span> sensorPin <span class="sy0">=</span> A0<span class="sy0">;</span> &nbsp; &nbsp;<span class="co1">// select the input pin for the potentiometer</span><br />
+<span class="kw1">int</span> ledPin <span class="sy0">=</span> <span class="nu0">13</span><span class="sy0">;</span> &nbsp; &nbsp; &nbsp;<span class="co1">// select the pin for the LED</span><br />
+<span class="kw1">int</span> sensorValue <span class="sy0">=</span> <span class="nu0">0</span><span class="sy0">;</span> &nbsp;<span class="co1">// variable to store the value coming from the sensor</span><br />
+<br />
+<span class="kw1">void</span> <span class="kw3">setup</span><span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span><br />
+&nbsp; <span class="co1">// declare the ledPin as an OUTPUT:</span><br />
+&nbsp; <span class="kw1">pinMode</span><span class="br0">&#40;</span>ledPin<span class="sy0">,</span> <span class="kw2">OUTPUT</span><span class="br0">&#41;</span><span class="sy0">;</span><br />
+<span class="br0">&#125;</span><br />
+<br />
+<span class="kw1">void</span> <span class="kw3">loop</span><span class="br0">&#40;</span><span class="br0">&#41;</span> <span class="br0">&#123;</span><br />
+&nbsp; <span class="co1">// read the value from the sensor:</span><br />
+&nbsp; sensorValue <span class="sy0">=</span> <span class="kw1">analogRead</span><span class="br0">&#40;</span>sensorPin<span class="br0">&#41;</span><span class="sy0">;</span><br />
+&nbsp; <span class="co1">// turn the ledPin on</span><br />
+&nbsp; <span class="kw1">digitalWrite</span><span class="br0">&#40;</span>ledPin<span class="sy0">,</span> <span class="kw2">HIGH</span><span class="br0">&#41;</span><span class="sy0">;</span><br />
+&nbsp; <span class="co1">// stop the program for &lt;sensorValue&gt; milliseconds:</span><br />
+&nbsp; <span class="kw1">delay</span><span class="br0">&#40;</span>sensorValue<span class="br0">&#41;</span><span class="sy0">;</span><br />
+&nbsp; <span class="co1">// turn the ledPin off:</span><br />
+&nbsp; <span class="kw1">digitalWrite</span><span class="br0">&#40;</span>ledPin<span class="sy0">,</span> <span class="kw2">LOW</span><span class="br0">&#41;</span><span class="sy0">;</span><br />
+&nbsp; <span class="co1">// stop the program for for &lt;sensorValue&gt; milliseconds:</span><br />
+&nbsp; <span class="kw1">delay</span><span class="br0">&#40;</span>sensorValue<span class="br0">&#41;</span><span class="sy0">;</span><br />
+<span class="br0">&#125;</span></div></div>
+  <div class='sourceblocklink'><a href='//www.arduino.cc/en/Tutorial/AnalogInput?action=sourceblock&amp;num=1' type='text/plain'>[Get Code]</a></div>
+</div>
+
+</p>
+<p class='vspace'></p></div>
+<p class='vspace'></p><h3>See Also:</h3>
+<ul><li><a class='wikilink' href='//www.arduino.cc/en/Reference/PinMode'>pinMode</a>()
+</li><li><a class='wikilink' href='//www.arduino.cc/en/Reference/AnalogRead'>analogRead</a>()
+</li><li><a class='wikilink' href='//www.arduino.cc/en/Reference/DigitalWrite'>digitalWrite</a>()
+</li><li><a class='wikilink' href='//www.arduino.cc/en/Reference/Delay'>delay</a>()
+<p class='vspace'></p></li><li><a class='wikilink' href='//www.arduino.cc/en/Tutorial/AnalogInOutSerial'>AnalogInOutSerial</a> - Read an analog input pin, map the result, and then use that data to dim or brighten an LED.
+</li><li><a class='wikilink' href='//www.arduino.cc/en/Tutorial/AnalogWriteMega'>AnalogWriteMega</a> - Fade 12 <span class='wikiword'>LEDs</span> on and off, one by one, using an Arduino or Genuino Mega board.
+</li><li><a class='wikilink' href='//www.arduino.cc/en/Tutorial/Calibration'>Calibration</a> - Define a maximum and minimum for expected analog sensor values.
+</li><li><a class='wikilink' href='//www.arduino.cc/en/Tutorial/Fading'>Fading</a> - Use an analog output (PWM pin) to fade an LED.
+</li><li><a class='wikilink' href='//www.arduino.cc/en/Tutorial/Smoothing'>Smoothing</a> - Smooth multiple readings of an analog input.
+</li></ul><p class='vspace'></p><p><br /> <em>Last revision 2015/07/28 by SM </em>
+</p>
+</div>
+
+		</div> <!-- eof pagetext -->
+
+	</div> <!-- eof page -->
+
+
+	<div id="pagefooter">
+		<div id="newsletter-modal"></div>
+        <div id="footer"></div>
+	</div>
+
+	<!-- Common Header and Footer Resources -->
+    <script src="https://cdn.arduino.cc/header-footer/loader.js" type="text/javascript"></script>
+
+	<!--[if gte IE 9]><!-->
+	<script src="//content.arduino.cc/legacy/js/foundation.min.js"></script>
+	<!--<![endif]-->
+	<!--[if IE 8]>
+	<script src="//content.arduino.cc/legacy/js/foundation_ie8.min.js"></script>
+	<script src="//content.arduino.cc/legacy/js/ie8/jquery.foundation.orbit.js"></script>
+	<script src="//content.arduino.cc/legacy/js/ie8/jquery.foundation.alerts.js"></script>
+	<script src="//content.arduino.cc/legacy/js/app.js"></script>
+
+	<script>
+	$(window).load(function(){
+	  $("#featured").orbit();
+	});
+	</script>
+	<![endif]-->
+
+	<script type="text/javascript">
+		$(function() {
+			$(document).foundation();
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-22581631-3', 'auto');
+ga('send', 'pageview');
+
+			$('a').each (function () {
+			  href = $(this).attr ('href');
+			  if (href !== undefined && href.substring (0, 4) == 'http' && href.indexOf ('arduino.cc') == -1)
+			    $(this).attr ('target', '_blank');
+			});
+
+			// js for language dropdown
+			$('.language-dropdown .current').on('click', function(e){
+			  e.stopPropagation();
+			  $('.language-dropdown ul').toggle();
+			});
+
+			$('.language-dropdown .selector').on('click', function(e){
+			  e.stopPropagation();
+			  $('.language-dropdown ul').toggle();
+			});
+
+			$(document).on('click', function(){
+			  $('.language-dropdown ul:visible').hide();
+			});
+
+			$('.language-dropdown li a').on('click', function(e){
+				$('.language-dropdown .current').text($(this).text());
+			});
+
+			//js for product pages navbar
+			var menu = $(".product-page-nav");
+			var menuItems = menu.find("a");
+			var timeoutId = null;
+			var limitTop = 600;
+
+			var menuOffset = $('.product-page-nav li').first().offset();
+			if(menuOffset) {
+				limitTop = menuOffset.top;
+			}
+			var limitBottom = $('#footer').offset().top;
+
+			var activateSection = function($sectionToActivate) {
+			  var label=$sectionToActivate.attr('label');
+
+			  $(".product-page-nav").find('li').removeClass('active');
+			  $sectionToActivate.addClass('active');
+			};
+
+			menuItems.click(function(e){
+
+			 e.preventDefault();
+			  var href = $(this).attr("href"),
+			      offsetTop = href === "#" ? 0 : $(href).offset().top,
+			      adjust = 0;
+			  if($(this).parent('li').hasClass('active') === false) {
+
+			      adjust = 80;
+
+			      $('html, body').animate({
+			            scrollTop: offsetTop - adjust
+			        }, 1500, 'easeOutExpo');
+
+			  }
+			});
+
+			$(window).scroll(function () {
+
+			  var windscroll = $(window).scrollTop();
+
+			  if(windscroll < limitTop) {
+			    $('.menu').removeClass('sticky');
+			    $('.menu').removeClass('fixed');
+			  }  else {
+			    $('.menu').addClass('fixed');
+			    $('.menu').addClass('sticky');
+			  }
+
+			  var menuEdgeBottomOffset = $('.menu.columns').offset();
+			  var menuEdgeBottom = 0;
+			  if(menuEdgeBottomOffset) {
+			  	menuEdgeBottom = menuEdgeBottomOffset.top + $('.menu.columns').height();
+			  }
+			  if(menuEdgeBottom > limitBottom) {
+			    $('.menu').fadeOut();
+			  } else {
+			    $('.menu').fadeIn();
+			  }
+			  menuItems.each(function(i) {
+			    var href = $(this).attr("href");
+			    if ($(href).offset().top <= windscroll + 150) {
+			      if(timeoutId) {
+			        clearTimeout(timeoutId);
+			      }
+			      timeoutId = setTimeout(activateSection, 60, $(".product-page-nav").find('li').eq(i));
+			    }
+			  });
+
+			});
+
+
+			// COMMON HEADER and FOOTER Loading
+			var authOptions = {
+				authURI: "https://auth.arduino.cc/login",
+				redirectURI: "https://www.arduino.cc",
+				clientID: "arduinocc",
+				scopes: ["profile:core", "profile:public"]
+			};
+	        ArduinoHeaderAndFooter({auth: 'default', authOptions: authOptions});
+
+
+			//Facebook Pixel Code
+			!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+			fbq('init', '1205220922863531');
+			fbq('track', "PageView");
+
+		});
+	</script>
+
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1205220922863531&ev=PageView&noscript=1"/></noscript>
+	<!-- End Facebook Pixel Code -->
+</body>
+</html>
