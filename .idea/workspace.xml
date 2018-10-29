@@ -4,12 +4,14 @@
     <list default="true" id="e44f4540-f836-4c4d-929c-6e58d3a57fa9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/assesment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assesment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/da.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/assesment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/assesment/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/da/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/da/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/da/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/search/search_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml.gz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,17 +26,26 @@
       <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="1275">
+              <caret line="66" column="109" selection-start-line="66" selection-start-column="109" selection-end-line="66" selection-end-column="109" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="assesment.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="assesment.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/assesment.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="461">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resources.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/resources.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -52,8 +63,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/index.md" />
         <option value="$PROJECT_DIR$/docs/assesment.md" />
+        <option value="$PROJECT_DIR$/docs/index.md" />
+        <option value="$PROJECT_DIR$/docs/resources.md" />
       </list>
     </option>
   </component>
@@ -118,7 +130,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16927083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.014973958" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -151,17 +163,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.md">
+    <entry file="file://$PROJECT_DIR$/docs/assesment.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="461">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assesment.md">
+    <entry file="file://$PROJECT_DIR$/docs/index.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="1275">
+          <caret line="66" column="109" selection-start-line="66" selection-start-column="109" selection-end-line="66" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
         </state>
       </provider>
     </entry>

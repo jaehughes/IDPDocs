@@ -9,7 +9,7 @@ The lab lasts for four weeks, with three timetabled timetabled sessions:
 * Tuesday 9-11 (first week only!)
 * Wednesday 9-11
 
-The EIETL is open from 8am-5pm, and can be used during these times. The Dyson centre is also available for use, however there is only technician support (which limits when some equipment in the Dyson centre) for limited periods.  It is expected per week you spend twice the scheduled time on this project.
+The EIETL is open from 8am-5pm, and can be used during these times. The Dyson centre is also available for use, however there is only technician support (which limits when some equipment in the Dyson centre) for limited periods.  It is expected per week you spend twice the scheduled time on this project.  You must use your university card to sign in for the lab before the five past the hour official start of the project.
 
 For design acceptance or functional demonstration outside of core IDP hours, the EIETL technicans can perform this (as long as they are not busy with other lab) in the following hours:
 
@@ -25,6 +25,7 @@ Each IDP cohort has a different task and rules set.  A challenge set will be pro
 * Michaelmas 2018, <a href="m2task.pdf" download>M2 Task</a>
 
 With the team allocations give here:
+
 * Michaelmas 2018 Team Allocations
 
 If you have any questions about the task, please use the forum in the Moodle VLE in the first place, or email Josie Hughes (jaeh2).
@@ -45,13 +46,13 @@ The assessment of the course has a number of different components. These are sum
 
 | Assessment     | Weighting | Deadline |
 | -------------------------- |:-------------| -------------|
-| Initial Report (Group)      | 10%          | Week 1, Thursday|
-| Initial Presentation(Group)| 10%          | Week 1, Thursday|
-| Design Assessment (Group)  | 10%          | Week 2,         |
-| Functional Demonstration (Group)| 10%     | Week 2,         |
-| Competition Performance (Group) | 10%     | Week 3,         |
-| Final Presentation              | 20%     | Week 4, Wed     |
-| Final Report                    | 10%     | Week 5, Monday  |
+| Initial Report (Group)     | 5%          | Week 1, Tuesday|
+| Initial Presentation(Group)| 5%          | Week 1, Wednesday|
+| Design Assessment (Group)  | 10% [max 5% is deadline missed]| Week 2, Wednesday |
+| Functional Demonstration (Group)| 10%     | Week 3, Wednesday |
+| Competition Performance (Group) | 20%     | Week 4, Wednesday        |
+| Final Presentation              | 20%     | Week 4, Wednesday     |
+| Final Report                    | 20%     | Week 5, Monday  |
 
 
 Detailed requirements and examples of the materials which must be submitted can be found [here](assesment.md).

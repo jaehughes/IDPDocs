@@ -2,7 +2,7 @@ site_name: IDP
 theme: cinder
 nav:
 - Home: index.md
-- Design Acceptance: da.md
+- Resources: resources.md
 - Assessment: assesment.md
 
 extra_css:

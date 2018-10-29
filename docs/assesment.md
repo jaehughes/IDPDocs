@@ -21,7 +21,9 @@ The initial report should provide a more detailed reflection of the planned syst
 
 The first report should be submitted online on Moodle, only one must be submitted per team.  The file name should include the Team Number.
 
-###Design Assessment
+###Design Acceptance
+
+Design acceptance is documentation that must be produced by teams, and is marked as pass/fail.  Teams are free to test and develop hardware/software before they gain design acceptance, however, where possible no fully permanent manufacturing should be made before design acceptance.  We encourage teams to get design acceptance as early as possible.
 
 **Software/Overall Design Acceptance**
 
@@ -34,21 +36,22 @@ Algorithm. An example can be found here.
 
 For electrical DA we require:
 
-* Circuit diagram.  An example can be found here.
-* Layout diagrams.  An example can be found here.
-These can be produced by hand or using CAD software, what matters is that they are clear and correct.   Software such as LTSpice (which is installed on the department PCs) can be used, equally there are free online circuit drawing systems including circuit-diagram or circuitlab.
+* **Circuit diagram.**  To clearly communicate the circuits that will be implmented. Each circuit which is going to be created should be document. An example, and notes and hints and tips can be found here.
+* **Layout diagrams.**  An example can be found here.
+
+These can be produced by hand or using CAD software, what matters is that they are clear and correct.   Software such as LTSpice (which is installed on the department PCs) can be used, equally there are free online circuit drawing systems including circuit-diagram or circuitlab.  Fritzing is another online tool (specifically for Arduinos etc. which allows creation of both circuit and layout diagrams and may be a useful tool.
 
 **Mechanical Design Acceptance**
 
-For mechanical design acceptance, we want to.  These should be sufficient for you to construct your robot, and to use the files to laser cut/3D print parts as required.
+For mechanical design acceptance, we want to.  These should be sufficient for you to construct your robot, and to use the files to laser cut/3D print parts as required.  We want to know what material you have to chosen to use and why as part of the submitted designs.
 
-Overall CAD Drawing
-System CAD Drawings
+* **Overall CAD Drawing.**
+* **System CAD Drawings.**
 
 
 ###Functional Demonstration
 
-The aim of functional demonstration is to show that integration of the different sub-systems has been achieved and to encourage teams to perform early integration.  They are to demonstrate that the core competencies required for the competition task can be achieved.  This is help evaluate the system, if, the robot fails to achieve as well as expcted in competition.
+The aim of functional demonstration is to show that integration of the different sub-systems has been achieved and to encourage teams to perform early integration.  They are to demonstrate that the core competencies required for the competition task can be achieved.  This is help evaluate the system, if, the robot fails to achieve as well as expected in competition.
 
 **Functional Demonstration #1:** Moving chassis that can navigate without crashing into walls.
 
@@ -56,15 +59,15 @@ The aim of functional demonstration is to show that integration of the different
 
 ###Final Presentation & Competition
 
-The final presentation and competition will have the following format:
+The final presentation and competition will have the following format and order:
 
 * 10 minute presentation
 * Competition run (approximately 10 minutes)
-* 5-10 minutes Q&A.  Allows for reflections on how the robot performed
+* 5-10 minutes Q&A.  Allows for reflections on how the robot performed.
 
 The final presentation (maximum of 8 slides) should focus on the following:
 
-*Brief review of the overall design strategy
+* Brief review of the overall design strategy
 * Sub-team designs
 * Problems encountered during implementation
 * Changes to the original design and reasons for these
