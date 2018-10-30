@@ -1,0 +1,92 @@
+Team     Lab  Uid     Name                           Coll
+
+M201 SEs  26 jg851    Guo,J.                         CHU   
+M201 SEs  26 sh952    Hu,S.                          CHU   
+M201 MEm   6 drh52    Harwood,D.R.                   PEM   
+M201 MEm   6 dtb34    Barlow,D.T.                    PEM   
+M201 ESe  12 jg854    Gnanakumaran,J.                SE    
+M201 ESe  12 sjp230   Park,S.J.                      SE    
+
+M202 SMs  29 ad895    del Ser,A.                     CHU   
+M202 MEs  29 maab3    Bin Affian,M.A.A.              CHU   
+M202 EMm   5 jsa41    Allen,J.S.                     PEM   
+M202 MEm   5 th539    Hadjimatheou,T.                PEM   
+M202 SEe  32 cv334    Vogdanos,C.                    SID   
+M202 ESe  32 jjrr2    Ruaux,J.J.R.                   SID   
+
+M203 ESs  16 phmn3    Nunn,P.H.M.                    CL    
+M203 SEs  16 zxyt2    Tan,Z.X.Y.                     CL    
+M203 MEm  36 acyl4    Lam,A.C.Y.                     G     
+M203 EMm  36 amgl3    Loubens,A.M.G.                 G     
+M203 ESe   4 tk520    Kosteletos,T.                  PEM   
+M203 ESe   4 zal22    Lambert,Z.A.                   PEM   
+
+M204 SEs  11 hz337    Zheng,H.                       SE    
+M204 ESs  11 rs966    Shao,R.                        SE    
+M204 MEm  17 jb2160   Bradley,J.                     CL    
+M204 MEm  17 jh2121   Hwang,J.                       CL    
+M204 ESe  24 tg415    Guo,T.                         CHU   
+M204 ESe  24 zs323    Song,Z.                        CHU   
+
+M205 SEs  18 laja2    Anderson,L.A.J.                CL    
+M205 ESs  18 tcac2    Crossley,T.C.A.                CL    
+M205 EMm  33 styw2    Wong,S.T.Y.                    SID   
+M205 MEm  33 zhk25    Keh,Z.H.                       SID   
+M205 MSe  38 hgj24    Jenkinson,H.G.                 G     
+M205 EMe  38 mc2022   Chakrabarty,M.                 G     
+
+M206 SMs  22 pe272    Eagling,P.                     CHU   
+M206 ESs  22 wjw27    Wong,W.J.                      CHU   
+M206 MEm  40 fml34    Lopes Marques Estaca,F.M.      G     
+M206 SEm  40 jw2002   Wu,J.                          G     
+M206 EMe  10 acgr2    Rigby,A.C.G.                   SE    
+M206 ESe  10 bdm31    Moore,B.D.                     SE    
+M206 SM   15 rve21    R.V. Earl                      MUR
+
+M207 EMs   7 ccn28    Norwood,C.C.                   PEM   
+M207 SEs   7 tkc26    Chung,T.K.                     PEM   
+M207 MSm  23 ap2021   Papadopoulos,A.                CHU   
+M207 MSm  23 at771    Theocharous,A.                 CHU   
+M207 ESe  31 ajs320   Smallwood,A.J.                 SID   
+M207 SEe  31 av502    Vuolo,A.                       SID   
+M207 AAs  21 aw765    Wardle-Solano,A.               CL    
+
+M208 SEs   2 hz336    Zhou,H.                        PEM   
+M208 SEs   2 yh402    Hou,Y.                         PEM   
+M208 MEm  25 ac2150   Chellappa,A.                   CHU   
+M208 EMm  25 hiww2    Wright,H.I.W.                  CHU   
+M208 EMe  35 abp33    Poland,A.B.                    SID   
+M208 ESe  35 ama86    Athar,A.M.                     SID   
+M208 MEm   9 kjb83    Bassil,K.J.                    SE    
+
+M209 SEs   1 csy22    Yeo,C.S.                       PEM   
+M209 MAs   1 ig348    Grega,I.                       PEM   
+M209 MEm  27 ck537    Kenyon,C.                      CHU   
+M209 MEm  27 em702    Morrin,E.                      CHU   
+M209 ESe  39 da460    Alexandridis,D.                G     
+M209 EMe  39 es758    Saunders,E.                    G     
+M209 SEs  21 pt404    Tower,P.                       CL    
+
+M210 MAs  14 gm600    Mba,G.O.                       MUR   
+M210 SEs  14 sz359    Zhang,S.                       SE    
+M210 EMm  28 hw488    Wallace,H.                     CHU   
+M210 MEm  28 mr741    Rapeanu,M.                     CHU   
+M210 EMe   3 ops24    Saldanha,O.P.                  PEM   
+M210 EMe   3 wmc24    Catton,W.M.                    PEM   
+M210 SEm   9 zeb24    Bull,Z.E.                      SE    
+
+M211 SEs  19 ajl205   Lezard,A.J.                    CL    
+M211 SEs  19 jjp54    Parke,J.J.                     CL    
+M211 ESm   8 jtm44    Massingham,J.T.                PEM   
+M211 MEm   8 pjc212   Cumner,P.J.                    PEM   
+M211 EMe  34 ooo30    Olawore,O.O.                   SID   
+M211 EMe  34 rlj36    Jones,R.L.                     SID   
+M211 EMe  30 fs470    Szepkuti,F.                    CHU   
+
+M212 MSs  13 hfc38    Chang,H.F.                     SE    
+M212 SEs  13 shc49    Chawla,S.H.                    SE    
+M212 MSm  20 mv448    van der Lande,M.               CL    
+M212 EAm  20 ptrr2    Rowe,P.T.R.                    CL    
+M212 ESe  37 ns723    Sun,N.                         G     
+M212 ESe  37 rs967    Streltsov,R.                   G     
+M212 ES   15 ek471    E. Kemmish                     MUR
