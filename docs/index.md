@@ -43,7 +43,7 @@ With the team allocations give here:
 
 * Michaelmas 2018 <a href="m2teams.txt" download>Team Allocations</a>
 
-If you have any questions about the task, please use the forum in the Moodle VLE in the first place, or email Josie Hughes (jaeh2).
+If you have any questions about the task, please email Dave Patterson (dip26) and Josie Hughes (jaeh2).
 
 ## Project Management
 
@@ -55,20 +55,21 @@ Full resources including getting started guides and a list of parts can be found
 
 ## Assessment
 
-The assessment of the course has a number of different components. These are summarised below and the weighting and deadline given. The weeks of the deadline correspond to the weeks into the project:
+The assessment of the course has a number of different components. These are summarised below and the weighting and deadline given.  Some assessment is performed at a group level, other at a sub-group level (e.g. for the electronics/software/mechanics) and the final report is assessed individually.  The weeks of the deadline correspond to the weeks into the project:
 
 | Assessment     | Weighting | Deadline |
 | -------------------------- |:-------------| -------------|
-| Initial Presentation (Group)     | 5%          | Week 1, Tuesday|
-| Initial Report (Group)| 5%          | Week 1, Wednesday|
-| Design Assessment (Group)  | 10% [max 5% is deadline missed]| Week 2, Wednesday |
-| Functional Demonstration (Group)| 10%     | Week 3, Wednesday |
+| Initial Presentation (Group)     | 10%          | Week 1, Tuesday|
+| Initial Report (Group)| 10%          | Week 1, Wednesday|
+| Design Assessment (Sub-Group)  | 5% [2% is deadline missed]| Week 2, Wednesday |
+| Functional Demonstration (Group)| 5% [2% is deadline missed]   | Week 3, Wednesday |
 | Competition Performance (Group) | 20%     | Week 4, Wednesday        |
-| Final Presentation              | 20%     | Week 4, Wednesday     |
-| Final Report                    | 20%     | Week 5, Monday  |
+| Final Presentation (Group)             | 20%     | Week 4, Wednesday     |
+| Robot Quality (Sub-Team)             | 10%     | Week 4, Wednesday     |
+| Final Report (Individual)                    | 20%     | Week 5, Monday  |
 
 
-Detailed requirements and examples of the materials which must be submitted can be found [here](assesment.md).
+Detailed requirements and examples of the materials which must be submitted can be found [here](assesment.md).  Reports and presentations should be submitted online on the IDP Moodle Page, which can be found here.
 
 ## Schedule & Deadlines
 
@@ -77,7 +78,7 @@ The following table summarises the key activities and deadlines at each session.
 | Week    | Day      | Activity  | Deadline |
 | -----|:---------| :---------|:------|
 | Week 1  | Thursday |  **9:00:** Introduction Session, *EIETL Projector*   <br />  **14:00:** Project Management Lecture| |
-|         | Monday   | **11:30:**   Workshop Introduction (Teams 1-6),  *Dyson Centre*   <br /> **11:30:** Software Introduction (All teams), LR3B <br /> **11:30:**  Electrical Introduction (All teams), *EIETL Projector*  <br /> **12:00:**  Laser Cutter Introduction (Teams 1-4, 1 person per team), *Dyson Centre*   <br />  **12:15:**   Workshop Introduction (Teams 7-12),  *Dyson Centre*   <br />  **14:00:**   CAD + Rapid Protoyping Introduction,  *Dyson Centre*  | |
+|         | Monday   | **11:30:**   Workshop Introduction (Teams 1-6),  *Dyson Centre*   <br /> **11:30:** Software Introduction (All teams), LR3B <br /> **11:30:**  Electrical Introduction (All teams), *EIETL Projector*  <br /> **12:00:**  Laser Cutter Introduction (Teams 1-4, 1 person per team), *Dyson Centre*   <br />  **12:15:**   Workshop Introduction (Teams 7-12),  *Dyson Centre*   <br />  **14:00:**   CAD + Rapid Prototyping Introduction,  *Dyson Centre*  | |
 |         | Tuesday  | | **First Presentation,**  find the timetable and room allocation <a href="FirstPresentation.pdf" download>here</a>|
 |         | Wednesday| **12:00:**  Laser Cutter Introduction (Teams 5-8, 1 person per team), *Dyson Centre* <br />  **14:00:** Laser Cutter Introduction (Teams 9-12, Dyson Centre)
 | Week 2  | Thursday | *Feedback on 1st Report returned to teams*| |
@@ -90,6 +91,8 @@ The following table summarises the key activities and deadlines at each session.
 |         | Monday   | | |
 |         | Wednesday| AM: Last scheduled session | ** 2pm: Final Presentation & Competition** |
 | Week 5  | Monday | | ** Final Report Deadline. Submit on Moodle.** |
+
+Laser cutting training sessions have been pre-booked, such that one person from each team is guarenteed a training session.  If other team members wish to book other training sessions, the booking link can be found [here](https://www.dysoncentre.eng.cam.ac.uk/laser-cutting).
 
 ## Feedback
 
