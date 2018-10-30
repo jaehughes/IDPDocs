@@ -85,15 +85,21 @@ void loop() {
 
 Using the [datasheets and documents](https://www.vellemanstore.com/en/velleman-vma03-motor-power-shield-for-arduino-unotm) and examples sketches, wire up the motors.
 
-
 **Designing your electronics and sensing?**
-
 
 Things to consider when designing your electronics:
 * Do you need a switch/interface to start your robot/reset?
 * Talk with mechanics/software, how are you going to mount your sensors?
 * Should sensors give you a digital/analogue input? Can you convert to a digital input to reduce the load on the software team?
 * How can you connect to the electronics?
+
+Make sure you look at the assessment page to see what is required for Design Acceptance and what must be achieved by when.
+
+**Practical Advice**
+
+* Soldering
+
+
 
 
 
@@ -113,35 +119,12 @@ To start with, you should gain familiarity with the Arduino and software and ach
 
 Things to consider when developing your software:
 * Do you need a switch/interface to start your robot/reset?
-*
 
 ## Mechanics: Getting Started
 
-**Reading from sensors**
-
-
-Things to consider when developing your software:
-* Do you need a switch/interface to start your robot/reset?
-*
-
-
-
-
-
-## CAD and Rapid Prototyping
-
-Solidworks
-
-
----
-#### Laser Cutting
+Start designing your chassis.
 
 Advice on CAD for laser cutting: https://www.sculpteo.com/blog/2017/06/14/use-fusion-360-cad-software-for-laser-cutting
-
-
-
----
-
 
 **Deparment Rapid Prototyping Facilities**
 
@@ -154,11 +137,13 @@ Information on the rapid prototyping facilities available in the department can 
 The laser cutter may be busy - there are training sessions daily at 12-13 and 14-15; these times should be avoided.  The laser cutter should only not be used out of hours and particular care should be taken when cardboard is cut, as this is easily flammable.
 
 
-## Electronics Advice and Technical Skills
+Things to consider when developing your software:
+* What pins/how will you be interfacing with the electronics sensors?
+* How can you test the software?
 
-**Soldering**
 
-**Layout**
+
+
 
 
 
