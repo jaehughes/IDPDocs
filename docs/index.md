@@ -27,13 +27,14 @@ The full timetable of events and deadlines is given below in the schedule and de
 
 The key aim of the project is to develop an understanding of systems design and integration and also project management and team work skills to design and manufacture a system.  In particular, this involves:
 
-• developing an understanding for systems design and systems integration.
-• appreciate the importance of co-ordinated teamwork and project management.
-• apply and integrate the engineering principles taught in Part I.
-• understand how to produce detailed design proposals.
-• gain experience of building and testing a system once it has been designed.
+* developing an understanding for systems design and systems integration.
+* appreciate the importance of co-ordinated teamwork and project management.
+* apply and integrate the engineering principles taught in Part I.
+* understand how to produce detailed design proposals.
+* gain experience of building and testing a system once it has been designed.
 
 In this project, rapid-prototyping techniques are used which enables quick development, integration and testing of systems, allowing for multiple iterations of the system to be produced.
+
 
 ## Task and Team Allocation
 
@@ -46,6 +47,7 @@ With the team allocations give here:
 * Michaelmas 2018 <a href="m2teams.txt" download>Team Allocations</a>
 
 If you have any questions about the task, please email Dave Patterson (dip26) and Josie Hughes (jaeh2).
+
 
 ## Project Management
 
@@ -66,7 +68,7 @@ The [Arduino software](https://www.arduino.cc/) can be downloaded for free, and 
 
 ## Resources
 
-Full resources including getting started guides and a list of parts can be found on the resources page [here](assesment.md).
+Full resources including getting started guides and a list of parts can be found online on the resources page [here](assesment.md).
 
 ## Assessment
 
@@ -90,8 +92,8 @@ Detailed requirements and examples of the materials which must be submitted can 
 
 The following table summarises the key activities and deadlines at each session.  The weeks refer to the number of week of the project - thus ifs you are doing the project in the second half of the term Week 1 will correspond to Week 5.
 
-| Week    | Day      | Activity  | Deadline |
-| -----|:---------| :---------|:------|
+| Project Week    | Day      | Activity  | Deadline |
+|:-------|:---------| :---------|:------|
 | Week 1  | Thursday |  **9:00:** Introduction Session, *EIETL Projector*   <br />  **14:00:** Project Management Lecture| |
 |         | Monday   | **11:30:**   Workshop Introduction (Teams 1-6),  *Dyson Centre*   <br /> **11:30:** Software Introduction (All teams), LR3B <br /> **11:30:**  Electrical Introduction (All teams), *EIETL Projector*  <br /> **12:00:**  Laser Cutter Introduction (Teams 1-4, 1 person per team), *Dyson Centre*   <br />  **12:15:**   Workshop Introduction (Teams 7-12),  *Dyson Centre*   <br />  **14:00:**   CAD + Rapid Prototyping Introduction,  *Dyson Centre*  | |
 |         | Tuesday  | | **First Presentation,**  find the timetable and room allocation <a href="FirstPresentation.pdf" download>here</a>|
@@ -104,8 +106,8 @@ The following table summarises the key activities and deadlines at each session.
 |         | Wednesday| | **Functional Demonstration Deadline** |
 | Week 4  | Thursday | | |
 |         | Monday   | | |
-|         | Wednesday| AM: Last scheduled session | ** 2pm: Final Presentation & Competition** |
-| Week 5  | Monday | | ** Final Report Deadline. Submit on Moodle.** |
+|         | Wednesday| AM: Last scheduled session | **2pm: Final Presentation & Competition** |
+| Week 5  | Monday | | **Final Report Deadline. Submit on Moodle.** |
 
 Laser cutting training sessions have been pre-booked, such that one person from each team is guarenteed a training session.  If other team members wish to book other training sessions, the booking link can be found [here](https://www.dysoncentre.eng.cam.ac.uk/laser-cutting).
 
@@ -116,3 +118,5 @@ Suggestions for improvements in the organisation, structure of this project, cho
 ## Contact
 
 Should you have any questions or concerns during the project please in the first instance see a demonstrator who will be there at each lab session, the EIETL Technical Team, or email Dave Patterson (dip26) or Josie Hughes (jaeh2).
+
+This document can be found online at: https://jaehughes.github.io/IDPDocs/
