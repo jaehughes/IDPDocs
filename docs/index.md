@@ -68,7 +68,7 @@ The [Arduino software](https://www.arduino.cc/) can be downloaded for free, and 
 
 ## Resources
 
-Full resources including getting started guides and a list of parts can be found online on the resources page [here](assesment.md).
+Full resources including getting started guides and a list of parts can be found online on the resources page [here](resources.md).
 
 ## Assessment
 
