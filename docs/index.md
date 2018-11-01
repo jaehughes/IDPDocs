@@ -13,6 +13,8 @@ The EIETL is open from 8am-5pm, and can be used during these times. The Dyson Ce
 
 It is expected per week you spend twice the scheduled time on this project.  You must use your university card to sign in for the lab before the five past the hour official start of the project failure to do so will mean you are not marked as attending the lab.  Even when not working in the EIETL you must head there first to sign in.  
 
+*A copy of the presentation give in the first lecture can be found <a href="IntroLecture.pdf" download>here</a>.*
+
 <!---
 For design acceptance or functional demonstration outside of core IDP hours, the EIETL technicians can perform this (as long as they are not busy with other labs) in the following hours:
 
