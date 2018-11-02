@@ -20,13 +20,27 @@ Any cardboard models/diagrams this should be brought a long for discussion.  A p
 
 You will need, as a team, to think about how the individual contributions ﬁt together and the overall timing, so as to ensure a professional impression. Where possible a projector/screen will be available.  The meeting rooms have a HDMI connector, teams should check connection between laptops/screen prior to their presentation.
 
-A draft of the mark scheme/assesssors information which is used for the First Presentation can be found [here](First Presentation Mark Scheme.pdf).
+**A draft of the mark scheme information which is used for the First Presentation can be found [here](First Presentation Mark Scheme.pdf).**
 
-**Initial Report (submitted as a group)**
+###First Report (submitted as a group)
 
-The initial report should provide a more detailed reflection of the planned system, and where possible reflect the feedback given the initial presentation. It should be a maximum of 6 pages and focus on the same content as given in the First Presentation.
+The initial report should provide a more detailed reflection of the planned system, and where possible reflect the feedback given the initial presentation. It should be a maximum of approximately 6 pages of text, with teams free to include diagrams/CAD diagrams/sketches which go beyond this 6 page text limit.  The report focus on the same content as given in the First Presentation, with more in depth information.  The report should contain:
 
-The first report should be submitted online on Moodle, only one must be submitted per team.  The file name should include the Team Number.
+*	A coversheet specifying the team identiﬁer, team name and robot name together with the name, lab group and College of each team member
+*	Approach for solving the problem
+*	Sketches of the concepts you have considered (which may be photocopied/scanned from your lab book).  Evaluation charts of these concepts together with a brief discussion of the advantages and disadvantages of each
+*	Approach for solving the problem
+*	**Robot Concept and diagram.** This could be hand-drawn diagrams, CAD models or any format which conveys the approach and concept
+*	Overall System Level Diagram. Detailing how the electronics, hardware and software interacts
+*	**Electronics/Sensing.** This should include a list of sensors/circuits required, any circuit diagrams/block diagrams which may have already been developed.  Discussion as to if/why some processing will be performed in electronics opposed to software (e.g. obtaining digital outputs from analogue signals)
+*	**Software.** Exploration and navigation algorithms.  Interface to electronics, discussion of choice of algorithmns, any failure detection/recovery which will be implemented.
+*	Integration between hardware electronics and software
+*	What is the most risky/challenging aspect of the project?
+*	Gantt Chart (resource/time allocation)
+
+The first report should be submitted online on Moodle, only one must be submitted per team.  
+
+**A draft of the mark scheme information which is used for the First Presentation can be found [here](First Report Mark Scheme.pdf).**
 
 ###Design Acceptance
 
