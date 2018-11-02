@@ -4,16 +4,21 @@
 
 **First Presentation (presented as a group)**
 
-The first presentation should be no longer than 10 minutes, to leave a further 10 minutes for discussion and Q&A.  This should be thought of as a the team acting as a consultancy pitching your overall system to your clients.  This should include a maximum of 8 slides which should cover the following:
+The first presentation should be no longer than 10 minutes, to leave a further 5-10 minutes for discussions and questions.  This should be thought of as a the team acting as a consultancy pitching your overall system to your clients. Each team member is expected to attend the presentation.  This should include a maximum of 10 slides which should cover the following:
 
 * Team Name and Management Structure
-* Concept and diagram.  *This could be hand-drawn diagrams, CAD models or any format which conveys the approach and concept*
+* Approach for solving the problem
+* Robot Concept and diagram.  *This could be hand-drawn diagrams, CAD models or any format which conveys the approach and concept*
 * Overall System Level Diagram.  *Detailing how the electronics, hardware and software interacts*
 * Electronics/Sensing.  *This could include circuit diagrams/block diagrams as to the approach*
 * Exploration and navigation algorithms
+* Integration between hardware electronics and software
+* What is the most risky/challenging aspect of the project?
 * Gantt Chart (resource/time allocation)
 
-Any cardboard models/diagrams this should be brought a long for discussion.  A printed copy of the report should be brought to the presentation, and the presentation should also be submitted on Moodle.
+Any cardboard models/diagrams this should be brought a long for discussion.  A printed copy of the *presentation* should be brought to the presentation, and the presentation should also be submitted on Moodle.
+
+You will need, as a team, to think about how the individual contributions ﬁt together and the overall timing, so as to ensure a professional impression. Where possible a projector/screen will be available.  The meeting rooms have a HDMI connector, teams should check connection between laptops/screen prior to their presentation.
 
 **Initial Report (submitted as a group)**
 
