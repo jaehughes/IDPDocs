@@ -20,6 +20,8 @@ Any cardboard models/diagrams this should be brought a long for discussion.  A p
 
 You will need, as a team, to think about how the individual contributions ﬁt together and the overall timing, so as to ensure a professional impression. Where possible a projector/screen will be available.  The meeting rooms have a HDMI connector, teams should check connection between laptops/screen prior to their presentation.
 
+A draft of the mark scheme/assesssors information which is used for the First Presentation can be found [here](First Presentation Mark Scheme.pdf).
+
 **Initial Report (submitted as a group)**
 
 The initial report should provide a more detailed reflection of the planned system, and where possible reflect the feedback given the initial presentation. It should be a maximum of 6 pages and focus on the same content as given in the First Presentation.
