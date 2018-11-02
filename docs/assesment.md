@@ -1,6 +1,6 @@
 # IDP: Assessment
 
-###First Presentation & Report
+###First Presentation
 
 **First Presentation (presented as a group)**
 
@@ -22,7 +22,9 @@ You will need, as a team, to think about how the individual contributions ﬁt t
 
 **A draft of the mark scheme for the First Presentation can be found [here](First Presentation Mark Scheme.pdf).**
 
-###First Report (submitted as a group)
+###First Report
+
+**First Report (presented as a group)**
 
 The initial report should provide a more detailed reflection of the planned system, and where possible reflect the feedback given the initial presentation. It should be a maximum of approximately 6 pages of text, with teams free to include diagrams/CAD diagrams/sketches which go beyond this 6 page text limit.  The report focus on the same content as given in the First Presentation, with more in depth information.  The report should contain:
 
