@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link rel="shortcut icon" href="../img/favicon.ico">
 
-    <title>Resources - IDP</title>
+    <title>Parts Lists - IDP</title>
 
     <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -72,8 +72,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Resources</a>
+                    <li >
+                        <a href="../resources/">Resources</a>
                     </li>
                 
                 
@@ -84,8 +84,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../parts/">Parts Lists</a>
+                    <li class="active">
+                        <a href="./">Parts Lists</a>
                     </li>
                 
                 
@@ -98,12 +98,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="..">
+                        <a rel="next" href="../assesment/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li >
-                        <a rel="prev" href="../assesment/">
+                    <li class="disabled">
+                        <a rel="prev" >
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -116,32 +116,18 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#idp-resources">IDP: Resources</a></li>
-            <li class="second-level"><a href="#platform">Platform</a></li>
+        <li class="first-level active"><a href="#idp-parts-lists">IDP: Parts Lists</a></li>
+            <li class="second-level"><a href="#microcontroller-drivers">Microcontroller &amp; Drivers:</a></li>
                 
-            <li class="second-level"><a href="#hardware-parts-list">Hardware &amp; Parts List</a></li>
+            <li class="second-level"><a href="#sensorsinput-devices">Sensors/Input Devices</a></li>
                 
-                <li class="third-level"><a href="#microcontroller-drivers">Microcontroller &amp; Drivers:</a></li>
-                <li class="third-level"><a href="#sensorsinput-devices">Sensors/Input Devices</a></li>
-                <li class="third-level"><a href="#mechanical-components">Mechanical Components:</a></li>
-            <li class="second-level"><a href="#electronics-getting-started">Electronics: Getting Started</a></li>
-                
-            <li class="second-level"><a href="#software-getting-started">Software: Getting Started</a></li>
-                
-            <li class="second-level"><a href="#mechanics-getting-started">Mechanics: Getting Started</a></li>
-                
-            <li class="second-level"><a href="#arduino-software-support">Arduino Software Support</a></li>
+            <li class="second-level"><a href="#mechanical-components">Mechanical Components:</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="idp-resources">IDP: Resources</h1>
-<h2 id="platform">Platform</h2>
-<p>In this project, we will be used an <a href="https://www.arduino.cc/en/Guide/HomePage">Arduino</a> (or OrangePip) as the micro-controller.  The Arduino is a low-cost microcontroller which is programmed in C++ via USB and has digital inputs/outputs, analogue inputs and PWM sockets.  This allows for different sensors/output devices to be controlled.  The mechanical system will be developed using laser cutting, 3D printing and other rapid fabrication methods.</p>
-<h2 id="hardware-parts-list">Hardware &amp; Parts List</h2>
-<p>The key components and links to datasheets are given here.  In addition to these there is a store of standard electronic parts.</p>
-<hr />
+<h1 id="idp-parts-lists">IDP: Parts Lists</h1>
 <h3 id="microcontroller-drivers">Microcontroller &amp; Drivers:</h3>
 <ul>
 <li>OrangePip (<a href="https://store.arduino.cc/arduino-uno-rev3">Arduino</a> replica) (x2 per team)</li>
@@ -164,8 +150,8 @@
 <p>Other:
 <em> Mains to 9V Power Supply (with split ends to power Arduino + Motor Controller)
 </em> USB Lead x 2</p>
-<p>A bank of electronic components which can be used for developing signal conditining is provided.</p>
-<p>A list to all other components available can be found <a href="http://www3.eng.cam.ac.uk/DesignOffice/idp/resources/webcat/index.html">here</a>.</p>
+<p>A bank of electronic components which can be used for developing signal conditioning is provided.</p>
+<p>A list to all other components available can be found on the IDP Moodle <a href="https://www.vle.cam.ac.uk/course/view.php?id=163282">site.</a></p>
 <hr />
 <h3 id="mechanical-components">Mechanical Components:</h3>
 <p><strong>Transmission Components</strong></p>
@@ -173,11 +159,12 @@
 <li>Wheels, soft rubber tyre, 100mm</li>
 <li>Wheels, soft rubber tyre, 75 dia</li>
 <li>Castors, soft rubber tyre, 50 dia</li>
-<li>Ball Bearings</li>
+<li>Ball Bearings castors</li>
 <li>Large Motor/Gearbox 12v DC, 20rpm &amp; 40rpm [<a href="https://uk.rs-online.com/web/p/dc-geared-motors/9158943/">datasheet</a>]</li>
 <li>Small motor/gearbox 12v DC, 18rpm &amp; 40rpm</li>
 <li>Micro-Servo [<a href="https://www.rapidonline.com/RVFM-Tower-Pro-SG90-Mini-Servo-37-1330?IncVat=1&amp;pdg=kwd-293946777986:cmp-810438953:adg-43544079578:crv-192262852978:pid-37-1330&amp;gclid=CjwKCAjwpeXeBRA6EiwAyoJPKmyNqotzf16oB_y2rpUGpWXDO7jOsTNtAsRSg5kqLFbl7uoxL1R7VxoCFVkQAvD_BwE">datasheet</a>]</li>
 </ul>
+<p><strong>A maximum of 4 motors and 2 servos may be used per team, this is a maximum not a goal!</strong></p>
 <p><strong>Structural Materials (available in the workshop)</strong></p>
 <ul>
 <li>Mild steel sheet, 22swg (450×450 max) 1 Note: swg to mm conversions</li>
@@ -194,6 +181,17 @@ gauge)</li>
 <li>Brass rod 6 dia 100 long,</li>
 <li>Brass hex 6 AF 100 long</li>
 </ul>
+<p><strong>Bearings, Gears and Sprockets</strong>
+<em> Spur Gears (exact dimensions to be confirmed)
+</em> Bevel Gears
+<em> Rack Gears
+</em> Worm Gears
+<em> Compression Springs
+</em> Extension Springs
+<em> Deep Grove Bearings
+</em> Flange Bushings
+<em> V Pulley
+</em> Toothed Pulley</p>
 <p><strong>Fasteners and other materials (available in the workshop)</strong></p>
 <ul>
 <li>M2.5/M3/M4/M5/M6 nuts &amp; washers</li>
@@ -204,6 +202,12 @@ gauge)</li>
 <li>M4 × 10, 16, 20, 25 Socket Head Cap Screws</li>
 <li>M5 × 16, 20, 25 Socket Head Cap Screws</li>
 <li>M6 × 16, 25, 40 Socket Head Cap Screws</li>
+<li>No4x25mm Round Head Screws</li>
+<li>No4x25mm Countersunk Screws</li>
+<li>12.5mm Panel Pins</li>
+<li>16mm Panel Pins</li>
+<li>19mm Panel Pins</li>
+<li>Everbuild Superglue HV</li>
 <li>Lubricants</li>
 <li>Adhesives (Hot glue, Rapid araldite, White wood glue)</li>
 <li>Adhesive-backed foam</li>
@@ -213,74 +217,7 @@ gauge)</li>
 <li>MDF (3mm, 4mm, 6mm)</li>
 <li>PlyWood (3mm, 4mm, 6mm)</li>
 </ul>
-<p><strong>Scraps of these materials for testing can also be found in the laser cutter area</strong></p>
-<h2 id="electronics-getting-started">Electronics: Getting Started</h2>
-<p>We suggest you take a little bit of time familiarising yourself with the Arduino and reading from sensors and setting outputs.  There is some cross over between this and the software groups, however, 2 Arduino have been provided per team to allow you to both work on this.</p>
-<p>The Arduino IDE software is installed on the teaching system, or can be used online, or can be downloaded (for free) on to your personal computer.</p>
-<p>First, you need to familiarise yourself with the board and the different pins. Read through <a href="https://www.circuito.io/blog/arduino-uno-pinout/">this</a> page to understand the different inputs types and how the board works.</p>
-<p><strong>Familiarisation with the Arduino</strong></p>
-<ul>
-<li>If you are using the web IDE, follow this into <a href="https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a">tutorial</a>.</li>
-<li>If you are using th desktop IDE, follow this tutorial.</li>
-</ul>
-<p>Make sure you can run the 'blinky LED' script and your LED changes.</p>
-<p><strong>Connect an LED to the Arduino</strong></p>
-<p>Using your breadboard, now wire up an LED to another digital input on your Arduino, as shown in the figure below  You can use jumpers to connect to the Arduino and to the LED; make sure you connect the LED the correct way around and use a current limiting resistor.  Change the program written in the previous task to write to the new digital input with the LED is attached to.
-<img alt="Electonics task 1" src="../e_1.png" /></p>
-<p><strong>Read from the Analogue Input</strong></p>
-<p>Connect the LDR on breadboard with another resistor to form a potential divider as shown.  Connect the middle of this potential divider to the analogue Input.</p>
-<p><img alt="Electonics task 1" src="../e_2.png" /></p>
-<p>We can now using the following to read from the analog input and then print to the to the serial monitor.  The serial monitor can help for debugging.  Check that the sensor values change when the LDR is covered.</p>
-<pre><code>int sensorPin = A0;    // select the input pin for the potentiometer
-
-int sensorValue = 0;  // variable to store the value coming from the sensor
-
-void setup() {
-  Serial.begin(9600);           //Start serial and set the correct Baud Rate
-}
-
-void loop() {
-  sensorValue = analogRead(sensorPin);
-  Serial.println(sensorValue);
-}
-</code></pre>
-
-<p><strong>Wire-up motor controllers</strong></p>
-<p>Using the <a href="https://www.vellemanstore.com/en/velleman-vma03-motor-power-shield-for-arduino-unotm">datasheets and documents</a> and examples sketches, wire up the motors.</p>
-<p><strong>Designing your electronics and sensing?</strong></p>
-<p>Things to consider when designing your electronics:
-<em> Do you need a switch/interface to start your robot/reset?
-</em> Talk with mechanics/software, how are you going to mount your sensors?
-<em> Should sensors give you a digital/analogue input? Can you convert to a digital input to reduce the load on the software team?
-</em> How can you connect to the electronics?</p>
-<p>Make sure you look at the assessment page to see what is required for Design Acceptance and what must be achieved by when.</p>
-<p><strong>Practical Advice</strong></p>
-<ul>
-<li>Soldering</li>
-</ul>
-<h2 id="software-getting-started">Software: Getting Started</h2>
-<p>To start with, you should gain familiarity with the Arduino and software and achieve the basics: control of motors, reading from sensors and</p>
-<p><strong>Familiarisation with the Arduino</strong></p>
-<p><strong>Motor Control</strong></p>
-<p><strong>Reading from Sensors</strong></p>
-<p><strong>Interfacing to Python</strong></p>
-<p>Things to consider when developing your software:
-* Do you need a switch/interface to start your robot/reset?</p>
-<h2 id="mechanics-getting-started">Mechanics: Getting Started</h2>
-<p>Start designing your chassis.</p>
-<p>Advice on CAD for laser cutting: https://www.sculpteo.com/blog/2017/06/14/use-fusion-360-cad-software-for-laser-cutting</p>
-<p><strong>Deparment Rapid Prototyping Facilities</strong></p>
-<p>Information on the rapid prototyping facilities available in the department can be found here:</p>
-<ul>
-<li><a href="https://www.dysoncentre.eng.cam.ac.uk/laser-cutting">Laser Cutting</a></li>
-<li><a href="https://www.dysoncentre.eng.cam.ac.uk/3d-printing">3D Printing</a></li>
-<li><a href="https://www.dysoncentre.eng.cam.ac.uk/plasma-cutter/cambridge-only/cambridge-only">Plasma Cutter</a></li>
-</ul>
-<p>The laser cutter may be busy - there are training sessions daily at 12-13 and 14-15; these times should be avoided.  The laser cutter should only not be used out of hours and particular care should be taken when cardboard is cut, as this is easily flammable.</p>
-<p>Things to consider when developing your software:
-<em> What pins/how will you be interfacing with the electronics sensors?
-</em> How can you test the software?</p>
-<h2 id="arduino-software-support">Arduino Software Support</h2></div>
+<p><strong>Scraps of these materials for testing can also be found in the laser cutter area</strong></p></div>
         
     </div>
 
