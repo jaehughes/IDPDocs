@@ -15,7 +15,7 @@
 * IR Sensors (Line following sensors)[[datasheet](https://cpc.farnell.com/optek-technology/opb704/optoswitch-reflective/dp/SC01254)]
 * IR (analog) Distance Sensor [[datasheet]](https://uk.farnell.com/sharp/gp2y0a41sk0f/sensor-distance-analogue-output/dp/1618431?CMP=KNC-GUK-GEN-SHOPPING-1618431&CAGPSPN=pla&gross_price=true&CAWELAID=120173390000066478&CATCI=aud-157604796549:pla-57456869170&CAAGID=14406255429)
 * Ultrasound Distance Sensor [[datasheet](https://www.rapidonline.com/trusens-hc-sr504-ultrasonic-ranging-module-74-1109)]
-* Photoresistor
+* Photo transistor
 * LDR
 * IR diodes
 * Microswitches
@@ -60,6 +60,7 @@ gauge)
 * Brass hex 6 AF 100 long
 
 **Bearings, Gears and Sprockets**
+
 * Spur Gears (exact dimensions to be confirmed)
 * Bevel Gears
 * Rack Gears
