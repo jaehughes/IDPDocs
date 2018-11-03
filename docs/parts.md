@@ -95,7 +95,11 @@ gauge)
 
 **Rapid Prototyping Materials (available from Dyson Centre Technicians**)
 
-* MDF (3mm, 4mm, 6mm)
-* PlyWood (3mm, 4mm, 6mm)
+Each team has access to 2 sheets (300mmx600mm) of the following material.  If you want more, that if fine (within reason), however you must ask a technician/demonstrator.
 
-**Scraps of these materials for testing can also be found in the laser cutter area**
+* MDF (3mm, 4mm, 6mm) for laser cutting
+* PlyWood (3mm, 4mm, 6mm for laser cutting
+* PLA for 3D printing
+* Cardboard for testing is availble in the Dyson Centre
+
+*Scraps of these materials for testing can also be found in the laser cutter area*
