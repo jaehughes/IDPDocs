@@ -113,10 +113,12 @@ The next exercises provide some introduction to programming using the Arduino:
 If you would like to do some more complicated progressing on the Arduino, for example where the Arduino is acting as slave device to a computer acting as a master, serial communication between the microcontroller and a PC can be used.  Python can then be used to read/write serial commands, communicating with the Arduino, while allowing more complex processing to be performed offline.
 
 Information about how to interface between an Arduino and a PC using Python can be found here:
+
 * [Provides introduction to interfacing to an Arduino using Python](https://circuitdigest.com/microcontroller-projects/arduino-python-tutorial)
 * [Provides some alternative methods of using Python to interface with an Arduino](https://playground.arduino.cc/interfacing/python)
 
 Things to consider when developing your software:
+
 * Do you need a switch/interface to start your robot/reset?
 
 ## Mechanics: Getting Started
