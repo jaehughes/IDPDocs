@@ -198,6 +198,22 @@ void loop() {
 <p><strong>Familiarisation with the Arduino</strong></p>
 <p>Follow this <a href="https://www.arduino.cc/en/Guide/ArduinoMega2560">tutorial</a> to using an programming an Arduino Mega.  If you a using a PC which is running the Arduino IDE for the first time, you may need to install the driver software which can be found <a href="https://www.arduino.cc/en/Guide/Windows">here</a>.  </p>
 <p>Make sure you can run the 'blinky LED' script and your LED on your board blinks.</p>
+<p>The general structure of Arduino files is as followed:</p>
+<pre><code>//Any libraries to be included go here
+//Any global variables go in here
+// Any function prototypes go here
+
+void setup() {
+  // Any setup initalisation goes in here
+}
+
+void loop(){
+  //This is the main part of the program, and this is looped continously until the reset button is pressed.
+}
+
+//Any custom functions go here
+</code></pre>
+
 <p><strong>Writing over Serial</strong></p>
 <p>Used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART): Serial. It communicates on digital pins 0 (RX) and 1 (TX) as well as with the computer via USB. Thus, if you use these functions, you cannot also use pins 0 and 1 for digital input or output.  You can use the Arduino environment’s built-in serial monitor to communicate with an Arduino board. Click the serial monitor button in the toolbar and select the same baud rate used in the call to begin().  This is very useful for debugging.  </p>
 <p>It is necessary to setup the serial communication in the setup:</p>
@@ -211,7 +227,7 @@ void loop() {
 Serial.println(&quot;Hello World&quot;)         //Sends Serial String with end of line characters
 </code></pre>
 
-<p>It is also possible to perform more string handling to print, for example a mix of text and varibles:</p>
+<p>It is also possible to perform string handling to print a mix of text and varibles:</p>
 <pre><code>int sensorValue = analogRead(A0);
 String stringOne = &quot;Sensor value: &quot;;
 String stringThree = stringOne + sensorValue;

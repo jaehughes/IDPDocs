@@ -109,6 +109,24 @@ Follow this [tutorial](https://www.arduino.cc/en/Guide/ArduinoMega2560) to using
 
 Make sure you can run the 'blinky LED' script and your LED on your board blinks.
 
+The general structure of Arduino files is as followed:
+
+```
+//Any libraries to be included go here
+//Any global variables go in here
+// Any function prototypes go here
+
+void setup() {
+  // Any setup initalisation goes in here
+}
+
+void loop(){
+  //This is the main part of the program, and this is looped continously until the reset button is pressed.
+}
+
+//Any custom functions go here
+```
+
 **Writing over Serial**
 
 Used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART): Serial. It communicates on digital pins 0 (RX) and 1 (TX) as well as with the computer via USB. Thus, if you use these functions, you cannot also use pins 0 and 1 for digital input or output.  You can use the Arduino environment’s built-in serial monitor to communicate with an Arduino board. Click the serial monitor button in the toolbar and select the same baud rate used in the call to begin().  This is very useful for debugging.  
@@ -127,7 +145,7 @@ After this, it is then possible to 'print' data over the serial link in various 
 Serial.print("Hello World")         //Sends Serial String with no end of line characters
 Serial.println("Hello World")         //Sends Serial String with end of line characters
 ```
-It is also possible to perform more string handling to print, for example a mix of text and varibles:
+It is also possible to perform string handling to print a mix of text and varibles:
 
 ```
 int sensorValue = analogRead(A0);
@@ -137,7 +155,6 @@ Serial.println(stringThree);
 ```
 
 Make sure you can print text and variables over the serial. It is also possible to read serial data and perform parsing over the incomming string.  More information on serial handling can be found [here](https://www.arduino.cc/reference/en/language/functions/communication/serial/).
-
 
 
 **Digital I/O Ports**
