@@ -117,13 +117,6 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="first-level active"><a href="#idp-resources">IDP: Resources</a></li>
-            <li class="second-level"><a href="#platform">Platform</a></li>
-                
-            <li class="second-level"><a href="#hardware-parts-list">Hardware &amp; Parts List</a></li>
-                
-                <li class="third-level"><a href="#microcontroller-drivers">Microcontroller &amp; Drivers:</a></li>
-                <li class="third-level"><a href="#sensorsinput-devices">Sensors/Input Devices</a></li>
-                <li class="third-level"><a href="#mechanical-components">Mechanical Components:</a></li>
             <li class="second-level"><a href="#electronics-getting-started">Electronics: Getting Started</a></li>
                 
             <li class="second-level"><a href="#software-getting-started">Software: Getting Started</a></li>
@@ -137,99 +130,23 @@
         <div class="col-md-9" role="main">
 
 <h1 id="idp-resources">IDP: Resources</h1>
-<h2 id="platform">Platform</h2>
-<p>In this project, we will be used an <a href="https://www.arduino.cc/en/Guide/HomePage">Arduino</a> (or OrangePip) as the micro-controller.  The Arduino is a low-cost microcontroller which is programmed in C++ via USB and has digital inputs/outputs, analogue inputs and PWM sockets.  This allows for different sensors/output devices to be controlled.  The mechanical system will be developed using laser cutting, 3D printing and other rapid fabrication methods.</p>
-<h2 id="hardware-parts-list">Hardware &amp; Parts List</h2>
-<p>The key components and links to datasheets are given here.  In addition to these there is a store of standard electronic parts.</p>
-<hr />
-<h3 id="microcontroller-drivers">Microcontroller &amp; Drivers:</h3>
-<ul>
-<li>OrangePip (<a href="https://store.arduino.cc/arduino-uno-rev3">Arduino</a> replica) (x2 per team)</li>
-<li><a href="https://www.velleman.eu/products/view/?id=412538&amp;country=be&amp;lang=en">Velleman Arduino Motor Driver</a></li>
-<li>Prototyping Shield</li>
-<li>Veroboard + Connectors</li>
-</ul>
-<hr />
-<h3 id="sensorsinput-devices">Sensors/Input Devices</h3>
-<ul>
-<li>Compass/Accelerometer [<a href="https://www.adafruit.com/product/1746">datasheet and useful guide</a>]</li>
-<li>IR Sensors (Line following sensors)[<a href="https://cpc.farnell.com/optek-technology/opb704/optoswitch-reflective/dp/SC01254">datasheet</a>]</li>
-<li>IR (analog) Distance Sensor <a href="https://uk.farnell.com/sharp/gp2y0a41sk0f/sensor-distance-analogue-output/dp/1618431?CMP=KNC-GUK-GEN-SHOPPING-1618431&amp;CAGPSPN=pla&amp;gross_price=true&amp;CAWELAID=120173390000066478&amp;CATCI=aud-157604796549:pla-57456869170&amp;CAAGID=14406255429">[datasheet]</a></li>
-<li>Ultrasound Distance Sensor [<a href="https://www.rapidonline.com/trusens-hc-sr504-ultrasonic-ranging-module-74-1109">datasheet</a>]</li>
-<li>Photoresistor</li>
-<li>LDR</li>
-<li>IR diodes</li>
-<li>Microswitches</li>
-</ul>
-<p>Other:
-<em> Mains to 9V Power Supply (with split ends to power Arduino + Motor Controller)
-</em> USB Lead x 2</p>
-<p>A bank of electronic components which can be used for developing signal conditining is provided.</p>
-<p>A list to all other components available can be found <a href="http://www3.eng.cam.ac.uk/DesignOffice/idp/resources/webcat/index.html">here</a>.</p>
-<hr />
-<h3 id="mechanical-components">Mechanical Components:</h3>
-<p><strong>Transmission Components</strong></p>
-<ul>
-<li>Wheels, soft rubber tyre, 100mm</li>
-<li>Wheels, soft rubber tyre, 75 dia</li>
-<li>Castors, soft rubber tyre, 50 dia</li>
-<li>Ball Bearings</li>
-<li>Large Motor/Gearbox 12v DC, 20rpm &amp; 40rpm [<a href="https://uk.rs-online.com/web/p/dc-geared-motors/9158943/">datasheet</a>]</li>
-<li>Small motor/gearbox 12v DC, 18rpm &amp; 40rpm</li>
-<li>Micro-Servo [<a href="https://www.rapidonline.com/RVFM-Tower-Pro-SG90-Mini-Servo-37-1330?IncVat=1&amp;pdg=kwd-293946777986:cmp-810438953:adg-43544079578:crv-192262852978:pid-37-1330&amp;gclid=CjwKCAjwpeXeBRA6EiwAyoJPKmyNqotzf16oB_y2rpUGpWXDO7jOsTNtAsRSg5kqLFbl7uoxL1R7VxoCFVkQAvD_BwE">datasheet</a>]</li>
-</ul>
-<p><strong>Structural Materials (available in the workshop)</strong></p>
-<ul>
-<li>Mild steel sheet, 22swg (450×450 max) 1 Note: swg to mm conversions</li>
-<li>Aluminium sheet, 1.5mm (200×150 max) 1 (swg = standard wire
-gauge)</li>
-<li>Aluminium tube, 19 dia, 1mm wall, 150 long 1 24swg = 0.6mm</li>
-<li>Aluminium rod, 8 dia, 150 long 1 22swg = 0.7mm</li>
-<li>Aluminium angle, 12.5×12.5×1.6 (600 max) 1 21swg = 0.8mm</li>
-<li>Mild steel tube (5/16 od × 21swg) 300 long 1 18swg = 1.2mm</li>
-<li>Mild steel tube (3/8 od × 22swg ) 300 long 1 16swg = 1.6mm</li>
-<li>Polypropylene sheet 300×150×1.5 1</li>
-<li>Mild steel rod 4 dia 300 long,</li>
-<li>Mild steel rod 6 dia 300 long,</li>
-<li>Brass rod 6 dia 100 long,</li>
-<li>Brass hex 6 AF 100 long</li>
-</ul>
-<p><strong>Fasteners and other materials (available in the workshop)</strong></p>
-<ul>
-<li>M2.5/M3/M4/M5/M6 nuts &amp; washers</li>
-<li>M2.5 × 12 Socket head Cap Screws (motor mounts)</li>
-<li>M3/M4/M6 studding</li>
-<li>M3 × 4, 10, 16, 20 Socket Head Cap Screws</li>
-<li>Pop rivets</li>
-<li>M4 × 10, 16, 20, 25 Socket Head Cap Screws</li>
-<li>M5 × 16, 20, 25 Socket Head Cap Screws</li>
-<li>M6 × 16, 25, 40 Socket Head Cap Screws</li>
-<li>Lubricants</li>
-<li>Adhesives (Hot glue, Rapid araldite, White wood glue)</li>
-<li>Adhesive-backed foam</li>
-</ul>
-<p><strong>Rapid Prototyping Materials (available from Dyson Centre Technicians</strong>)</p>
-<ul>
-<li>MDF (3mm, 4mm, 6mm)</li>
-<li>PlyWood (3mm, 4mm, 6mm)</li>
-</ul>
-<p><strong>Scraps of these materials for testing can also be found in the laser cutter area</strong></p>
+<p><em>Note: In this lab we are using OrangePip which are a direct replica of the Arduino and is fully compliant with the Arduino IDE.  More specifically we are using the <a href="https://www.orangepipboards.com/">Orangepip Mega2560</a> which is a direct equivalent of the Arduino Mega2560, thus any information/tutorials for either of these are relevant.</em></p>
 <h2 id="electronics-getting-started">Electronics: Getting Started</h2>
-<p>We suggest you take a little bit of time familiarising yourself with the Arduino and reading from sensors and setting outputs.  There is some cross over between this and the software groups, however, 2 Arduino have been provided per team to allow you to both work on this.</p>
-<p>The Arduino IDE software is installed on the teaching system, or can be used online, or can be downloaded (for free) on to your personal computer.</p>
-<p>First, you need to familiarise yourself with the board and the different pins. Read through <a href="https://www.circuito.io/blog/arduino-uno-pinout/">this</a> page to understand the different inputs types and how the board works.</p>
+<p>We suggest you take a little bit of time familiarising yourself with the microcontroller and reading from sensors and setting outputs. This will enable you to understand how it is possible to interface with sensors using a microcontroller and how the sensor circuitry should be built. There is some cross over between this and the software groups, however, 2 Arduino have been provided per team to allow you to both work on this.</p>
+<p>The Arduino IDE software is installed on the teaching system (and can be found on the PCs in the EIETL), or can be used online, or can be downloaded (for free) on to your personal computer.</p>
+<p>First, familiarise yourself with the board and the different pins. <strong>Read through <a href="https://www.circuito.io/blog/arduino-uno-pinout/">this</a> page to understand the different inputs types and how the board works.</strong>  Although this if for an smaller Arduino Uno, the same information holds for the Mega.  The specific pin out for the Arduino is given here:</p>
+<p><img alt="Arduino Mega" src="../mega.jpg" /></p>
 <p><strong>Familiarisation with the Arduino</strong></p>
-<ul>
-<li>If you are using the web IDE, follow this into <a href="https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a">tutorial</a>.</li>
-<li>If you are using th desktop IDE, follow this tutorial.</li>
-</ul>
-<p>Make sure you can run the 'blinky LED' script and your LED changes.</p>
+<p>Follow this <a href="https://www.arduino.cc/en/Guide/ArduinoMega2560">tutorial</a> to using an programming an Arduino Mega.  If you a using a PC which is running the Arduino IDE for the first time, you may need to install the driver software which can be found <a href="https://www.arduino.cc/en/Guide/Windows">here</a>.  </p>
+<p>Make sure you can run the 'blinky LED' script and your LED on your board blinks.</p>
 <p><strong>Connect an LED to the Arduino</strong></p>
-<p>Using your breadboard, now wire up an LED to another digital input on your Arduino, as shown in the figure below  You can use jumpers to connect to the Arduino and to the LED; make sure you connect the LED the correct way around and use a current limiting resistor.  Change the program written in the previous task to write to the new digital input with the LED is attached to.
+<p>Using your breadboard, now wire up an LED to another digital input on your Arduino, as shown in the figure below.  You can use jumpers to connect to the Arduino and to the LED; make sure you connect the LED the correct way around and use a current limiting resistor (assuming the max forward current of the LED is around 20-30mA).  For more information on how to pick this resistor, read <a href="https://www.build-electronic-circuits.com/current-limiting-resistor/">this page</a>.</p>
+<p>Change the program written in the previous task to write to the new digital input with the LED is attached to.  Make the LED turn on/off
 <img alt="Electonics task 1" src="../e_1.png" /></p>
 <p><strong>Read from the Analogue Input</strong></p>
-<p>Connect the LDR on breadboard with another resistor to form a potential divider as shown.  Connect the middle of this potential divider to the analogue Input.</p>
-<p><img alt="Electonics task 1" src="../e_2.png" /></p>
+<p>Connect the LDR on breadboard with another resistor to form a potential divider as shown.  Connect the middle of this potential divider to the analogue Input.  To choose the correct resistor, a multi-meter should be used to measure the average resistance of the LDR, and a matched fixed resistor can be used to achieve the largest range of output voltage.  </p>
+<p><img alt="Electonics task 1" src="../e22.png" /></p>
+<p>Build the circuit and check with a multimeter that the voltage in the middle of the LDR circuit changes as expected.</p>
 <p>We can now using the following to read from the analog input and then print to the to the serial monitor.  The serial monitor can help for debugging.  Check that the sensor values change when the LDR is covered.</p>
 <pre><code>int sensorPin = A0;    // select the input pin for the potentiometer
 
@@ -246,14 +163,26 @@ void loop() {
 </code></pre>
 
 <p><strong>Wire-up motor controllers</strong></p>
-<p>Using the <a href="https://www.vellemanstore.com/en/velleman-vma03-motor-power-shield-for-arduino-unotm">datasheets and documents</a> and examples sketches, wire up the motors.</p>
-<p><strong>Designing your electronics and sensing?</strong></p>
+<p>Using the <a href="https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/overview">documentation and tutorials</a> and examples sketches for the motor-shield, wire up the motors and check that you can control the direction.</p>
+<p><em>Passed the wired up motor-shield (with appropiate information) over to your software team.</em></p>
+<p><strong>Make a color sensor</strong></p>
+<p>Reflectance can be used to measure the colour of an object nearby.  By shining an LED, and measuring the reflectance of the output using an LDR, the analogue reading can provide an indication of the color as the absorbance of the light will vary with the colour of the material. Using the approaches in the previous tasks (controlling an LED and reading from an LDR) make a colour sensor which uses reflectance.  You may need to adjust the resistor in the potential divider to maximise the sensitivity.</p>
+<p>Color filters an be added to the LDR to detect specific colors. A similar approach can be made by using an IR diode + photodetector.  </p>
+<p>You could consider using an op-amp to make a comparitor to convert this analogue input into a digital input</p>
+<p><strong>Read from an I2C device</strong></p>
+<p>I2C is a popular method of interfacing with sensors or devices.  This is a digital protocol, which allows multiple devices to be connected over only two data lines making it highly efficient and scale-able.  Information about I2C and how I2C can be interfaced using Arduino is described <a href="https://howtomechatronics.com/tutorials/arduino/how-i2c-communication-works-and-how-to-use-it-with-arduino/">here</a>.</p>
+<p><strong>Understanding the prototyping shield &amp; Vero Board</strong></p>
+<p>To design your can first use breadboard to test, after which you can transfer them over to the prototyping board which is provided and forms a 'shield' above the microcontroller.  Additional circuits can be added by using strip board, which can then be connected by using additional headers.  </p>
+<p>This is an excellent <a href="https://electronicsclub.info/stripboard.htm">tutorial</a> on how to use strip board and how to design circuits when using strip board!  Well worth a read!</p>
+<p><strong>Designing your electronics and sensing: Hints &amp; Tips</strong></p>
 <p>Things to consider when designing your electronics:
 <em> Do you need a switch/interface to start your robot/reset?
-</em> Talk with mechanics/software, how are you going to mount your sensors?
+</em> Add indicator LEDs to electronics to identify if the circuits are working without requiring software to  run.
+<em> Talk with mechanics/software, how are you going to mount your sensors and does this influence the design you may require?
+</em> If you want to tune sensititivites (for example potential dividers or inputs to compartors/amplifyers) consider using a variable resistor.
 <em> Should sensors give you a digital/analogue input? Can you convert to a digital input to reduce the load on the software team?
-</em> How can you connect to the electronics?</p>
-<p>Make sure you look at the assessment page to see what is required for Design Acceptance and what must be achieved by when.</p>
+</em> How can you connect external flying leads/parts attached to the robot to the electronics?</p>
+<p>Make sure you look at the assessment page to see what is required for Design Acceptance and what must be achieved by when. This gives some additional advice on how to draw/design circuits.</p>
 <p><strong>Practical Advice</strong></p>
 <ul>
 <li>Soldering</li>
