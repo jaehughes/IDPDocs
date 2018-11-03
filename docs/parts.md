@@ -1,5 +1,11 @@
 # IDP: Parts Lists
 
+
+## Platform
+
+In this project, we will be used an [Arduino](https://www.arduino.cc/en/Guide/HomePage) (or OrangePip) as the micro-controller.  The Arduino is a low-cost microcontroller which is programmed in C++ via USB and has digital inputs/outputs, analogue inputs and PWM sockets.  This allows for different sensors/output devices to be controlled.  The mechanical system will be developed using laser cutting, 3D printing and other rapid fabrication methods.
+
+
 ### Microcontroller & Drivers:
 
 * OrangePip ([Arduino](https://store.arduino.cc/arduino-uno-rev3) replica) (x2 per team)
