@@ -130,22 +130,23 @@
         <div class="col-md-9" role="main">
 
 <h1 id="idp-resources">IDP: Resources</h1>
+<p><em>Note: In this lab we are using OrangePip which are a direct replica of the Arduino and is fully compliant with the Arduino IDE.  More specifically we are using the <a href="https://www.orangepipboards.com/">Orangepip Mega2560</a> which is a direct equivalent of the Arduino Mega2560, thus any information/tutorials for either of these are relevant.</em></p>
 <h2 id="electronics-getting-started">Electronics: Getting Started</h2>
-<p>We suggest you take a little bit of time familiarising yourself with the Arduino and reading from sensors and setting outputs.  There is some cross over between this and the software groups, however, 2 Arduino have been provided per team to allow you to both work on this.</p>
-<p>The Arduino IDE software is installed on the teaching system, or can be used online, or can be downloaded (for free) on to your personal computer.</p>
-<p>First, you need to familiarise yourself with the board and the different pins. Read through <a href="https://www.circuito.io/blog/arduino-uno-pinout/">this</a> page to understand the different inputs types and how the board works.</p>
+<p>We suggest you take a little bit of time familiarising yourself with the microcontroller and reading from sensors and setting outputs. This will enable you to understand how it is possible to interface with sensors using a microcontroller and how the sensor circuitry should be built. There is some cross over between this and the software groups, however, 2 Arduino have been provided per team to allow you to both work on this.</p>
+<p>The Arduino IDE software is installed on the teaching system (and can be found on the PCs in the EIETL), or can be used online, or can be downloaded (for free) on to your personal computer.</p>
+<p>First, familiarise yourself with the board and the different pins. <strong>Read through <a href="https://www.circuito.io/blog/arduino-uno-pinout/">this</a> page to understand the different inputs types and how the board works.</strong>  Although this if for an smaller Arduino Uno, the same information holds for the Mega.  The specific pin out for the Arduino is given here:</p>
+<p><img alt="Arduino Mega" src="../mega.jpg" /></p>
 <p><strong>Familiarisation with the Arduino</strong></p>
-<ul>
-<li>If you are using the web IDE, follow this into <a href="https://create.arduino.cc/projecthub/Arduino_Genuino/getting-started-with-arduino-web-editor-on-various-platforms-4b3e4a">tutorial</a>.</li>
-<li>If you are using th desktop IDE, follow this tutorial.</li>
-</ul>
-<p>Make sure you can run the 'blinky LED' script and your LED changes.</p>
+<p>Follow this <a href="https://www.arduino.cc/en/Guide/ArduinoMega2560">tutorial</a> to using an programming an Arduino Mega.  If you a using a PC which is running the Arduino IDE for the first time, you may need to install the driver software which can be found <a href="https://www.arduino.cc/en/Guide/Windows">here</a>.  </p>
+<p>Make sure you can run the 'blinky LED' script and your LED on your board blinks.</p>
 <p><strong>Connect an LED to the Arduino</strong></p>
-<p>Using your breadboard, now wire up an LED to another digital input on your Arduino, as shown in the figure below  You can use jumpers to connect to the Arduino and to the LED; make sure you connect the LED the correct way around and use a current limiting resistor.  Change the program written in the previous task to write to the new digital input with the LED is attached to.
+<p>Using your breadboard, now wire up an LED to another digital input on your Arduino, as shown in the figure below.  You can use jumpers to connect to the Arduino and to the LED; make sure you connect the LED the correct way around and use a current limiting resistor (assuming the max forward current of the LED is around 20-30mA).  For more information on how to pick this resistor, read <a href="https://www.build-electronic-circuits.com/current-limiting-resistor/">this page</a>.</p>
+<p>Change the program written in the previous task to write to the new digital input with the LED is attached to.  Make the LED turn on/off
 <img alt="Electonics task 1" src="../e_1.png" /></p>
 <p><strong>Read from the Analogue Input</strong></p>
-<p>Connect the LDR on breadboard with another resistor to form a potential divider as shown.  Connect the middle of this potential divider to the analogue Input.</p>
-<p><img alt="Electonics task 1" src="../e_2.png" /></p>
+<p>Connect the LDR on breadboard with another resistor to form a potential divider as shown.  Connect the middle of this potential divider to the analogue Input.  To choose the correct resistor, a multi-meter should be used to measure the average resistance of the LDR, and a matched fixed resistor can be used to achieve the largest range of output voltage.  </p>
+<p><img alt="Electonics task 1" src="../e22.png" /></p>
+<p>Build the circuit and check with a multimeter that the voltage in the middle of the LDR circuit changes as expected.</p>
 <p>We can now using the following to read from the analog input and then print to the to the serial monitor.  The serial monitor can help for debugging.  Check that the sensor values change when the LDR is covered.</p>
 <pre><code>int sensorPin = A0;    // select the input pin for the potentiometer
 
@@ -162,14 +163,26 @@ void loop() {
 </code></pre>
 
 <p><strong>Wire-up motor controllers</strong></p>
-<p>Using the <a href="https://www.vellemanstore.com/en/velleman-vma03-motor-power-shield-for-arduino-unotm">datasheets and documents</a> and examples sketches, wire up the motors.</p>
-<p><strong>Designing your electronics and sensing?</strong></p>
+<p>Using the <a href="https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/overview">documentation and tutorials</a> and examples sketches for the motor-shield, wire up the motors and check that you can control the direction.</p>
+<p><em>Passed the wired up motor-shield (with appropiate information) over to your software team.</em></p>
+<p><strong>Make a color sensor</strong></p>
+<p>Reflectance can be used to measure the colour of an object nearby.  By shining an LED, and measuring the reflectance of the output using an LDR, the analogue reading can provide an indication of the color as the absorbance of the light will vary with the colour of the material. Using the approaches in the previous tasks (controlling an LED and reading from an LDR) make a colour sensor which uses reflectance.  You may need to adjust the resistor in the potential divider to maximise the sensitivity.</p>
+<p>Color filters an be added to the LDR to detect specific colors. A similar approach can be made by using an IR diode + photodetector.  </p>
+<p>You could consider using an op-amp to make a comparitor to convert this analogue input into a digital input</p>
+<p><strong>Read from an I2C device</strong></p>
+<p>I2C is a popular method of interfacing with sensors or devices.  This is a digital protocol, which allows multiple devices to be connected over only two data lines making it highly efficient and scale-able.  Information about I2C and how I2C can be interfaced using Arduino is described <a href="https://howtomechatronics.com/tutorials/arduino/how-i2c-communication-works-and-how-to-use-it-with-arduino/">here</a>.</p>
+<p><strong>Understanding the prototyping shield &amp; Vero Board</strong></p>
+<p>To design your can first use breadboard to test, after which you can transfer them over to the prototyping board which is provided and forms a 'shield' above the microcontroller.  Additional circuits can be added by using strip board, which can then be connected by using additional headers.  </p>
+<p>This is an excellent <a href="https://electronicsclub.info/stripboard.htm">tutorial</a> on how to use strip board and how to design circuits when using strip board!  Well worth a read!</p>
+<p><strong>Designing your electronics and sensing: Hints &amp; Tips</strong></p>
 <p>Things to consider when designing your electronics:
 <em> Do you need a switch/interface to start your robot/reset?
-</em> Talk with mechanics/software, how are you going to mount your sensors?
+</em> Add indicator LEDs to electronics to identify if the circuits are working without requiring software to  run.
+<em> Talk with mechanics/software, how are you going to mount your sensors and does this influence the design you may require?
+</em> If you want to tune sensititivites (for example potential dividers or inputs to compartors/amplifyers) consider using a variable resistor.
 <em> Should sensors give you a digital/analogue input? Can you convert to a digital input to reduce the load on the software team?
-</em> How can you connect to the electronics?</p>
-<p>Make sure you look at the assessment page to see what is required for Design Acceptance and what must be achieved by when.</p>
+</em> How can you connect external flying leads/parts attached to the robot to the electronics?</p>
+<p>Make sure you look at the assessment page to see what is required for Design Acceptance and what must be achieved by when. This gives some additional advice on how to draw/design circuits.</p>
 <p><strong>Practical Advice</strong></p>
 <ul>
 <li>Soldering</li>
