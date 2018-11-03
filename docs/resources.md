@@ -91,12 +91,17 @@ Make sure you look at the assessment page to see what is required for Design Acc
 * Soldering
 
 
-
+---
 
 
 ## Software: Getting Started
 
-To start with, you should gain familiarity with the Arduino and software and achieve the basics: control of motors, reading from sensors and
+To start with, you should gain familiarity with the Arduino and software and achieve the basics: writing to Serial, control of motors and reading from sensors.  The following provide details and examples of Arduino programming.  In particular, the first document should be studied in depth and referred to as necessary:
+
+* [Arduino Programming Manual](https://playground.arduino.cc/uploads/Main/arduino_notebook_v1-1.pdf).
+* [A cheat sheet of the key C++ commands](https://dlnmh9ip6v2uc.cloudfront.net/learn/materials/8/Arduino_Cheat_Sheet.pdf).
+
+The next exercises provide some introduction to programming using the Arduino:
 
 **Familiarisation with the Arduino**
 
@@ -105,8 +110,11 @@ To start with, you should gain familiarity with the Arduino and software and ach
 **Reading from Sensors**
 
 **Interfacing to Python**
+If you would like to do some more complicated progressing on the Arduino, for example where the Arduino is acting as slave device to a computer acting as a master, serial communication between the microcontroller and a PC can be used.  Python can then be used to read/write serial commands, communicating with the Arduino, while allowing more complex processing to be performed offline.
 
-
+Information about how to interface between an Arduino and a PC using Python can be found here:
+* [Provides introduction to interfacing to an Arduino using Python](https://circuitdigest.com/microcontroller-projects/arduino-python-tutorial)
+* [Provides some alternative methods of using Python to interface with an Arduino](https://playground.arduino.cc/interfacing/python)
 
 Things to consider when developing your software:
 * Do you need a switch/interface to start your robot/reset?
