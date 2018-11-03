@@ -105,11 +105,56 @@ The next exercises provide some introduction to programming using the Arduino:
 
 **Familiarisation with the Arduino**
 
+Follow this [tutorial](https://www.arduino.cc/en/Guide/ArduinoMega2560) to using an programming an Arduino Mega.  If you a using a PC which is running the Arduino IDE for the first time, you may need to install the driver software which can be found [here](https://www.arduino.cc/en/Guide/Windows).  
+
+Make sure you can run the 'blinky LED' script and your LED on your board blinks.
+
+**Writing over Serial**
+
+Used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART): Serial. It communicates on digital pins 0 (RX) and 1 (TX) as well as with the computer via USB. Thus, if you use these functions, you cannot also use pins 0 and 1 for digital input or output.  You can use the Arduino environment’s built-in serial monitor to communicate with an Arduino board. Click the serial monitor button in the toolbar and select the same baud rate used in the call to begin().  This is very useful for debugging.  
+
+It is necessary to setup the serial communication in the setup:
+
+```
+void setup() {
+  Serial.begin(9600);           //Start serial and set the correct Baud Rate
+}
+```
+
+After this, it is then possible to 'print' data over the serial link in various different manners:
+
+```
+Serial.print("Hello World")         //Sends Serial String with no end of line characters
+Serial.println("Hello World")         //Sends Serial String with end of line characters
+```
+It is also possible to perform more string handling to print, for example a mix of text and varibles:
+
+```
+int sensorValue = analogRead(A0);
+String stringOne = "Sensor value: ";
+String stringThree = stringOne + sensorValue;
+Serial.println(stringThree);
+```
+
+Make sure you can print text and variables over the serial. It is also possible to read serial data and perform parsing over the incomming string.  More information on serial handling can be found [here](https://www.arduino.cc/reference/en/language/functions/communication/serial/).
+
+
+
+**Digital I/O Ports**
+
+**Read from Analogue Port**
+
+**Servo Control**
+
+
 **Motor Control**
 
-**Reading from Sensors**
+Once your electrical team are satisfied that they have correctly wired up the motor controller, you can start programming the motor controls. You will need to find out from your electrical/mechanical teams which motor port corresponds to which motor.
+
+Using the [documentation and tutorials](https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/overview) you can control the motors.  In particular look at the section at 'DC Motors' and install the relevant libraries.  You can investigate the correct motor speeds to be used.  You could consider writing functions to accelerate/deaccelerate up to a given speed. Develop functions for motor control which may come in useful - for example turning.  Communicate with your mechanical team as how the robot should best turn, what are the intended motor actions for turning?
 
 **Interfacing to Python**
+
 If you would like to do some more complicated progressing on the Arduino, for example where the Arduino is acting as slave device to a computer acting as a master, serial communication between the microcontroller and a PC can be used.  Python can then be used to read/write serial commands, communicating with the Arduino, while allowing more complex processing to be performed offline.
 
 Information about how to interface between an Arduino and a PC using Python can be found here:
@@ -127,7 +172,7 @@ Start designing your chassis.
 
 Advice on CAD for laser cutting: https://www.sculpteo.com/blog/2017/06/14/use-fusion-360-cad-software-for-laser-cutting
 
-**Deparment Rapid Prototyping Facilities**
+**Department Rapid Prototyping Facilities**
 
 Information on the rapid prototyping facilities available in the department can be found here:
 
