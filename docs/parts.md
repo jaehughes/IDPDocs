@@ -22,10 +22,10 @@ In this project, we will be used an [Arduino](https://www.arduino.cc/en/Guide/Ho
 * IR Sensors (Line following sensors)[[datasheet](https://cpc.farnell.com/optek-technology/opb704/optoswitch-reflective/dp/SC01254)]
 * IR (analog) Distance Sensor [[datasheet]](https://uk.farnell.com/sharp/gp2y0a41sk0f/sensor-distance-analogue-output/dp/1618431?CMP=KNC-GUK-GEN-SHOPPING-1618431&CAGPSPN=pla&gross_price=true&CAWELAID=120173390000066478&CATCI=aud-157604796549:pla-57456869170&CAAGID=14406255429)
 * Ultrasound Distance Sensor [[datasheet](https://www.rapidonline.com/trusens-hc-sr504-ultrasonic-ranging-module-74-1109)]
-* Photo transistor
-* LDR
-* IR diodes
-* Microswitches
+* Phototransistor [datasheet](https://docs-emea.rs-online.com/webdocs/0028/0900766b8002888b.pdf)
+* LDR [datasheet](http://www.farnell.com/datasheets/409710.pdf?_ga=2.28758908.1578032019.1541274807-561042384.1536758187)
+* Microswitches [datasheet](http://www.farnell.com/datasheets/1564547.pdf)
+*  IR Diodes & LEDs
 
 Other:
 * Mains to 9V Power Supply (with split ends to power Arduino + Motor Controller)
