@@ -6,6 +6,7 @@
 * [Velleman Arduino Motor Driver](https://www.velleman.eu/products/view/?id=412538&country=be&lang=en)
 * Prototyping Shield
 * Veroboard + Connectors
+* Breadboard for prototyping
 
 ---
 
