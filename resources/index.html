@@ -141,8 +141,8 @@
 <p>Make sure you can run the 'blinky LED' script and your LED on your board blinks.</p>
 <p><strong>Connect an LED to the Arduino</strong></p>
 <p>Using your breadboard, now wire up an LED to another digital input on your Arduino, as shown in the figure below.  You can use jumpers to connect to the Arduino and to the LED; make sure you connect the LED the correct way around and use a current limiting resistor (assuming the max forward current of the LED is around 20-30mA).  For more information on how to pick this resistor, read <a href="https://www.build-electronic-circuits.com/current-limiting-resistor/">this page</a>.</p>
-<p>Change the program written in the previous task to write to the new digital input with the LED is attached to.  Make the LED turn on/off
-<img alt="Electonics task 1" src="../e_1.png" /></p>
+<p>Change the program written in the previous task to write to the new digital input with the LED is attached to.  Make the LED turn on/off.</p>
+<p><img alt="Electonics task 1" src="../e_1.png" /></p>
 <p><strong>Read from the Analogue Input</strong></p>
 <p>Connect the LDR on breadboard with another resistor to form a potential divider as shown.  Connect the middle of this potential divider to the analogue Input.  To choose the correct resistor, a multi-meter should be used to measure the average resistance of the LDR, and a matched fixed resistor can be used to achieve the largest range of output voltage.  </p>
 <p><img alt="Electonics task 1" src="../e22.png" /></p>
@@ -185,7 +185,7 @@ void loop() {
 <p>Make sure you look at the assessment page to see what is required for Design Acceptance and what must be achieved by when. This gives some additional advice on how to draw/design circuits.</p>
 <p><strong>Practical Advice</strong></p>
 <ul>
-<li>Soldering</li>
+<li>Soldering Advice. <a href="https://www.youtube.com/watch?v=Qps9woUGkvI">[video]</a></li>
 </ul>
 <hr />
 <h2 id="software-getting-started">Software: Getting Started</h2>
@@ -236,8 +236,56 @@ Serial.println(stringThree);
 
 <p>Make sure you can print text and variables over the serial. It is also possible to read serial data and perform parsing over the incomming string.  More information on serial handling can be found <a href="https://www.arduino.cc/reference/en/language/functions/communication/serial/">here</a>.</p>
 <p><strong>Digital I/O Ports</strong></p>
+<p>The Arduino has many I/O ports which can act as both inputs or output, depending on how they are configured.  To use a digital pin as an output, it must be configured as such and then can be controlled by using a digital write:</p>
+<pre><code>void setup()
+{
+  pinMode(13, OUTPUT);          // sets the digital pin 13 as output
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);       // sets the digital pin 13 on
+  delay(1000);                  // waits for a second
+  digitalWrite(13, LOW);        // sets the digital pin 13 off
+  delay(1000);                  // waits for a second
+}
+</code></pre>
+
+<p>Use a digital output to control a LED.</p>
+<p>To configure and use a digital input, the pin must be configured as such:</p>
+<pre><code>int ledPin = 13;   // LED connected to digital pin 13
+int inPin = 7;     // pushbutton connected to digital pin 7
+int val = 0;       // variable to store the read value
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);      // sets the digital pin 13 as output
+}
+
+void loop()
+{
+  val = digitalRead(inPin);     // read the input pin
+}
+</code></pre>
+
+<p>Adapt the following to write the digital read value over serial, and then use a jumper lead to change the input from 5V to GND to simulate a digital input.</p>
 <p><strong>Read from Analogue Port</strong></p>
-<p><strong>Servo Control</strong></p>
+<p>Connect an analogue input to an analogue input, for example a variable resistor could be connected using jumper wires as shown here:</p>
+<p><img alt="Potential Divider" src="pn.png" /></p>
+<p>The analgue value can then be obtained.  Investigate averaging/filtering the result to reduce any noise.  </p>
+<pre><code>sensorPin =A0
+int sensorValue = 0;  // variable to store the value coming from the sensor
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  sensorValue = analogRead(sensorPin);
+  Serial.println(sensorValue);
+}
+</code></pre>
+
 <p><strong>Motor Control</strong></p>
 <p>Once your electrical team are satisfied that they have correctly wired up the motor controller, you can start programming the motor controls. You will need to find out from your electrical/mechanical teams which motor port corresponds to which motor.</p>
 <p>Using the <a href="https://learn.adafruit.com/adafruit-motor-shield-v2-for-arduino/overview">documentation and tutorials</a> you can control the motors.  In particular look at the section at 'DC Motors' and install the relevant libraries.  You can investigate the correct motor speeds to be used.  You could consider writing functions to accelerate/deaccelerate up to a given speed. Develop functions for motor control which may come in useful - for example turning.  Communicate with your mechanical team as how the robot should best turn, what are the intended motor actions for turning?</p>
@@ -251,7 +299,10 @@ Serial.println(stringThree);
 <p>Things to consider when developing your software:</p>
 <ul>
 <li>Do you need a switch/interface to start your robot/reset?</li>
+<li>How will you interface to the electronics?</li>
+<li>Would you prefer to have processing prefered in electronics/software? <em>This is a question for both the electrical and software team.</em></li>
 </ul>
+<hr />
 <h2 id="mechanics-getting-started">Mechanics: Getting Started</h2>
 <p>Start designing your chassis.</p>
 <p>Advice on CAD for laser cutting: https://www.sculpteo.com/blog/2017/06/14/use-fusion-360-cad-software-for-laser-cutting</p>
