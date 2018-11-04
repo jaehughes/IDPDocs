@@ -201,7 +201,7 @@ Connect an analogue input to an analogue input, for example a variable resistor 
 
 ![Potential Divider](pd.png)
 
-The analgue value can then be obtained.  Investigate averaging/filtering the result to reduce any noise.  
+The analogue value can then be obtained.  Investigate averaging/filtering the result to reduce any noise.  
 
 ```
 sensorPin =A0
@@ -232,19 +232,18 @@ Information about how to interface between an Arduino and a PC using Python can 
 * [Provides introduction to interfacing to an Arduino using Python](https://circuitdigest.com/microcontroller-projects/arduino-python-tutorial)
 * [Provides some alternative methods of using Python to interface with an Arduino](https://playground.arduino.cc/interfacing/python)
 
+
 Things to consider when developing your software:
 
 * Do you need a switch/interface to start your robot/reset?
 * How will you interface to the electronics?
 * What processing should be performed in electronics/software? *This is a question for both the electrical and software team.*
-
+* How can you test the software?
 ---
 
 ## Mechanics: Getting Started
 
-Start designing your chassis.
-
-Advice on CAD for laser cutting: https://www.sculpteo.com/blog/2017/06/14/use-fusion-360-cad-software-for-laser-cutting
+Advice on CAD for [laser cutting](https://www.sculpteo.com/blog/2017/06/14/use-fusion-360-cad-software-for-laser-cutting)
 
 **Department Rapid Prototyping Facilities**
 
@@ -256,15 +255,5 @@ Information on the rapid prototyping facilities available in the department can 
 
 The laser cutter may be busy - there are training sessions daily at 12-13 and 14-15; these times should be avoided.  The laser cutter should only not be used out of hours and particular care should be taken when cardboard is cut, as this is easily flammable.
 
-
 Things to consider when developing your software:
 * What pins/how will you be interfacing with the electronics sensors?
-* How can you test the software?
-
-
-
-
-
-
-
-## Arduino Software Support
