@@ -9,8 +9,8 @@ In this project, we will be used an [Arduino](https://www.arduino.cc/en/Guide/Ho
 ### Microcontroller & Drivers:
 
 * OrangePip ([Arduino](https://store.arduino.cc/arduino-uno-rev3) replica) (x2 per team)
-* [Velleman Arduino Motor Driver](https://www.velleman.eu/products/view/?id=412538&country=be&lang=en)
-* Prototyping Shield
+* [Arduino Motor Shield](https://www.adafruit.com/product/1438)
+* [Prototyping Shield](https://store.arduino.cc/arduino-mega-proto-shield-rev3-pcb)
 * Veroboard + Connectors
 * Breadboard for prototyping
 
