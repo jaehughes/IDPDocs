@@ -199,7 +199,7 @@ Adapt the following to write the digital read value over serial, and then use a 
 
 Connect an analogue input to an analogue input, for example a variable resistor could be connected using jumper wires as shown here:
 
-![Potential Divider](pn.png)
+![Potential Divider](pd.png)
 
 The analgue value can then be obtained.  Investigate averaging/filtering the result to reduce any noise.  
 
@@ -236,7 +236,7 @@ Things to consider when developing your software:
 
 * Do you need a switch/interface to start your robot/reset?
 * How will you interface to the electronics?
-* Would you prefer to have processing prefered in electronics/software? *This is a question for both the electrical and software team.*
+* What processing should be performed in electronics/software? *This is a question for both the electrical and software team.*
 
 ---
 
