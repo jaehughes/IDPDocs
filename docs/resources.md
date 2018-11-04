@@ -22,7 +22,8 @@ Make sure you can run the 'blinky LED' script and your LED on your board blinks.
 
 Using your breadboard, now wire up an LED to another digital input on your Arduino, as shown in the figure below.  You can use jumpers to connect to the Arduino and to the LED; make sure you connect the LED the correct way around and use a current limiting resistor (assuming the max forward current of the LED is around 20-30mA).  For more information on how to pick this resistor, read [this page](https://www.build-electronic-circuits.com/current-limiting-resistor/).
 
-Change the program written in the previous task to write to the new digital input with the LED is attached to.  Make the LED turn on/off
+Change the program written in the previous task to write to the new digital input with the LED is attached to.  Make the LED turn on/off.
+
 ![Electonics task 1](e_1.png)
 
 **Read from the Analogue Input**
@@ -88,7 +89,7 @@ Make sure you look at the assessment page to see what is required for Design Acc
 
 **Practical Advice**
 
-* Soldering
+* Soldering Advice. [[video]](https://www.youtube.com/watch?v=Qps9woUGkvI)
 
 
 ---
@@ -156,13 +157,65 @@ Serial.println(stringThree);
 
 Make sure you can print text and variables over the serial. It is also possible to read serial data and perform parsing over the incomming string.  More information on serial handling can be found [here](https://www.arduino.cc/reference/en/language/functions/communication/serial/).
 
-
 **Digital I/O Ports**
+
+The Arduino has many I/O ports which can act as both inputs or output, depending on how they are configured.  To use a digital pin as an output, it must be configured as such and then can be controlled by using a digital write:
+
+```
+void setup()
+{
+  pinMode(13, OUTPUT);          // sets the digital pin 13 as output
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);       // sets the digital pin 13 on
+  delay(1000);                  // waits for a second
+  digitalWrite(13, LOW);        // sets the digital pin 13 off
+  delay(1000);                  // waits for a second
+}
+```
+Use a digital output to control a LED.
+
+To configure and use a digital input, the pin must be configured as such:
+```
+int ledPin = 13;   // LED connected to digital pin 13
+int inPin = 7;     // pushbutton connected to digital pin 7
+int val = 0;       // variable to store the read value
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);      // sets the digital pin 13 as output
+}
+
+void loop()
+{
+  val = digitalRead(inPin);     // read the input pin
+}
+```
+Adapt the following to write the digital read value over serial, and then use a jumper lead to change the input from 5V to GND to simulate a digital input.
 
 **Read from Analogue Port**
 
-**Servo Control**
+Connect an analogue input to an analogue input, for example a variable resistor could be connected using jumper wires as shown here:
 
+![Potential Divider](pn.png)
+
+The analgue value can then be obtained.  Investigate averaging/filtering the result to reduce any noise.  
+
+```
+sensorPin =A0
+int sensorValue = 0;  // variable to store the value coming from the sensor
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  sensorValue = analogRead(sensorPin);
+  Serial.println(sensorValue);
+}
+```
 
 **Motor Control**
 
@@ -182,6 +235,10 @@ Information about how to interface between an Arduino and a PC using Python can 
 Things to consider when developing your software:
 
 * Do you need a switch/interface to start your robot/reset?
+* How will you interface to the electronics?
+* Would you prefer to have processing prefered in electronics/software? *This is a question for both the electrical and software team.*
+
+---
 
 ## Mechanics: Getting Started
 
