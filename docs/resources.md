@@ -243,6 +243,8 @@ Things to consider when developing your software:
 
 ## Mechanics: Getting Started
 
+The introduction mechanical presentation can be found [here](mech_intro.pdf).
+
 Advice on CAD for [laser cutting](https://www.sculpteo.com/blog/2017/06/14/use-fusion-360-cad-software-for-laser-cutting)
 
 **Department Rapid Prototyping Facilities**
