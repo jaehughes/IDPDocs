@@ -38,7 +38,7 @@ A list to all other components available can be found on the IDP Moodle [site.](
 ---
 ### Mechanical Components:
 
-**Transmission Components**
+**Transmission Components (available from the EIETL)**
 
 * Wheels, soft rubber tyre, 100mm
 * Wheels, soft rubber tyre, 75 dia
@@ -66,18 +66,21 @@ gauge)
 * Brass rod 6 dia 100 long,
 * Brass hex 6 AF 100 long
 
-**Bearings, Gears and Sprockets**
+
+**Bearings, Gears and Sprockets (available from the  EIETL)**
 
 * Spur Gears (exact dimensions to be confirmed)
 * Bevel Gears
 * Rack Gears
 * Worm Gears
-* Compression Springs
-* Extension Springs
+* Compression Springs (in a variety of sizes)
+* Extension Springs (in a variety of sizes)
 * Deep Grove Bearings
 * Flange Bushings
 * V Pulley
 * Toothed Pulley
+
+*See the EIETL screen with the various parts for specific details about the bearings, gears and sprockets*
 
 **Fasteners and other materials (available in the workshop)**
 
@@ -94,10 +97,10 @@ gauge)
 * 12.5mm Panel Pins
 * 16mm Panel Pins
 * 19mm Panel Pins
-* Everbuild Superglue HV
 * Lubricants
 * Adhesives (Hot glue, Rapid araldite, White wood glue)
-* Adhesive-backed foam
+* Everbuild Superglue HV (EIETL)
+* Adhesive Foam (EIETL)
 
 
 **Rapid Prototyping Materials (available from Dyson Centre Technicians**)
@@ -107,6 +110,6 @@ Each team has access to 2 sheets (300mmx600mm) of the following material.  If yo
 * MDF (3mm, 4mm, 6mm) for laser cutting
 * PlyWood (3mm, 4mm, 6mm for laser cutting
 * PLA for 3D printing
-* Cardboard for testing is availble in the Dyson Centre
+* Cardboard for testing is availiable in the Dyson Centre
 
 *Scraps of these materials for testing can also be found in the laser cutter area*
