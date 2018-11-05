@@ -1,5 +1,6 @@
 # IDP: Parts Lists
 
+The following is a summary of the key parts used in IDP.  For a fully comprehensive list, please vist the Moodle site. 
 
 ## Platform
 
