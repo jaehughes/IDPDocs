@@ -53,7 +53,7 @@ Design acceptance is documentation that must be produced by teams, and is marked
 For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  **This will require input from all sub-teams.**  Additionally, we require details of the strategy/algorithms that will be used - this could be pictorial/flow-chart or another method of representing the overall approach and strategy.  Specifically we require:
 
 * **System Diagram.**  This should include the physical connections between the Arduino and the sensors, any serial connections between the Arduino and PC and information as to how mines detection will be shown (e.g. LEDs) and how the position will be identified.  A drawing or photograph of a model of the robot should be included which has labels to show the key parts and how sensors/actuators are mounted.
-* **Algorithm.** An example can be found here.
+* **Algorithms/Strategy.** The overall strategy and algorithms which are used should be detailed.  this could be diagramatically or in a flowchart.
 
 **Electrical Design Acceptance**
 
@@ -68,9 +68,7 @@ These can be produced by hand or using CAD software, what matters is that they a
 
 For mechanical design acceptance, we want to.  These should be sufficient for you to construct your robot, and to use the files to laser cut/3D print parts as required.  We want to know what material you have to chosen to use and why as part of the submitted designs.
 
-* **Overall CAD Drawing.**
-* **System CAD Drawings.**
-
+* **Overall CAD Assembly.** Showing the assembled CAD model.  This should be as near as possible to actual design.  If any changes are made to the mechanical parts by 'hand crafting' attempts should be made to make the CAD model reflect this, or notes should be added to the CAD model.  The assembly should include any sensors mounts, electronics mounts and therefore must be developed in conjunction with the other sub-teams.  
 
 ###Functional Demonstration
 
