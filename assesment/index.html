@@ -172,16 +172,18 @@
 <h3 id="design-acceptance">Design Acceptance</h3>
 <p>Design acceptance is documentation that must be produced by teams, and is marked as pass/fail.  Teams are free to test and develop hardware/software before they gain design acceptance, however, where possible no fully permanent manufacturing should be made before design acceptance.  We encourage teams to get design acceptance as early as possible.</p>
 <p><strong>Software/Overall Design Acceptance</strong></p>
-<p>For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  Additionally, we require details of the algorithms that will be used - this could be pictorial/flow-chart or another say of representing the overall approach and strategy.</p>
-<p>System Diagram.  An example can be found here.
-Algorithm. An example can be found here.</p>
-<p><strong>Electrical Design Acceptance</strong></p>
-<p>For electrical DA we require:</p>
+<p>For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  <strong>This will require input from all sub-teams.</strong>  Additionally, we require details of the strategy/algorithms that will be used - this could be pictorial/flow-chart or another method of representing the overall approach and strategy.  Specifically we require:</p>
 <ul>
-<li><strong>Circuit diagram.</strong>  To clearly communicate the circuits that will be implmented. Each circuit which is going to be created should be document. An example, and notes and hints and tips can be found here.</li>
-<li><strong>Layout diagrams.</strong>  An example can be found here.</li>
+<li><strong>System Diagram.</strong>  This should include the physical connections between the Arduino and the sensors, any serial connections between the Arduino and PC and information as to how mines detection will be shown (e.g. LEDs) and how the position will be identified.  A drawing or photograph of a model of the robot should be included which has labels to show the key parts and how sensors/actuators are mounted.</li>
+<li><strong>Algorithm.</strong> An example can be found here.</li>
 </ul>
-<p>These can be produced by hand or using CAD software, what matters is that they are clear and correct.   Software such as LTSpice (which is installed on the department PCs) can be used, equally there are free online circuit drawing systems including circuit-diagram or circuitlab.  Fritzing is another online tool (specifically for Arduinos etc. which allows creation of both circuit and layout diagrams and may be a useful tool.</p>
+<p><strong>Electrical Design Acceptance</strong></p>
+<p>The following should be accepted before you solder onto the prototyping board.  </p>
+<ul>
+<li><strong>Circuit diagrams.</strong>  Produce circuits to show all the electronics and the interface between the sensors and the Arduino.  You should think about including indicator LEDs to show the output from the electronics so they can be tested without software, using variable resistors to set adjustable levels, include LEDs to indicate what has been detected and consider if there are any analogue inputs which would be better suited as a digital input.  </li>
+<li><strong>Layout diagrams.</strong>  The layout and connections between any sensors and the Arduino must be shown.  Stating with the layout of veroboard and the prototyping board either by hand, powerpoint or another drawing program the layout of where components will be placed should be shown.  In particular you should think through: how to connect sensors/electronics fixed on the robot to the main control electronics to enable them to be separated, where connectors should be mounted (consider putting at the edge of the board such that they can be easily accessed).</li>
+</ul>
+<p>These can be produced by hand or using CAD software, what matters is that they are clear and correct.   Software such as LTSpice (which is installed on the department PCs) can be used, equally there are free online circuit drawing systems including circuit-diagram or circuitlab. <strong>Fritzing is another online tool (specifically for Arduinos etc. which allows creation of both circuit and layout diagrams and may be a useful tool.</strong></p>
 <p><strong>Mechanical Design Acceptance</strong></p>
 <p>For mechanical design acceptance, we want to.  These should be sufficient for you to construct your robot, and to use the files to laser cut/3D print parts as required.  We want to know what material you have to chosen to use and why as part of the submitted designs.</p>
 <ul>
