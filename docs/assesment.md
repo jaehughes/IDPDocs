@@ -50,19 +50,19 @@ Design acceptance is documentation that must be produced by teams, and is marked
 
 **Software/Overall Design Acceptance**
 
-For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  Additionally, we require details of the algorithms that will be used - this could be pictorial/flow-chart or another say of representing the overall approach and strategy.
+For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  **This will require input from all sub-teams.**  Additionally, we require details of the strategy/algorithms that will be used - this could be pictorial/flow-chart or another method of representing the overall approach and strategy.  Specifically we require:
 
-System Diagram.  An example can be found here.
-Algorithm. An example can be found here.
+* **System Diagram.**  This should include the physical connections between the Arduino and the sensors, any serial connections between the Arduino and PC and information as to how mines detection will be shown (e.g. LEDs) and how the position will be identified.  A drawing or photograph of a model of the robot should be included which has labels to show the key parts and how sensors/actuators are mounted.
+* **Algorithm.** An example can be found here.
 
 **Electrical Design Acceptance**
 
-For electrical DA we require:
+The following should be accepted before you solder onto the prototyping board.  
 
-* **Circuit diagram.**  To clearly communicate the circuits that will be implmented. Each circuit which is going to be created should be document. An example, and notes and hints and tips can be found here.
-* **Layout diagrams.**  An example can be found here.
+* **Circuit diagrams.**  Produce circuits to show all the electronics and the interface between the sensors and the Arduino.  You should think about including indicator LEDs to show the output from the electronics so they can be tested without software, using variable resistors to set adjustable levels, include LEDs to indicate what has been detected and consider if there are any analogue inputs which would be better suited as a digital input.  
+* **Layout diagrams.**  The layout and connections between any sensors and the Arduino must be shown.  Stating with the layout of veroboard and the prototyping board either by hand, powerpoint or another drawing program the layout of where components will be placed should be shown.  In particular you should think through: how to connect sensors/electronics fixed on the robot to the main control electronics to enable them to be separated, where connectors should be mounted (consider putting at the edge of the board such that they can be easily accessed).
 
-These can be produced by hand or using CAD software, what matters is that they are clear and correct.   Software such as LTSpice (which is installed on the department PCs) can be used, equally there are free online circuit drawing systems including circuit-diagram or circuitlab.  Fritzing is another online tool (specifically for Arduinos etc. which allows creation of both circuit and layout diagrams and may be a useful tool.
+These can be produced by hand or using CAD software, what matters is that they are clear and correct.   Software such as LTSpice (which is installed on the department PCs) can be used, equally there are free online circuit drawing systems including circuit-diagram or circuitlab. **Fritzing is another online tool (specifically for Arduinos etc. which allows creation of both circuit and layout diagrams and may be a useful tool.**
 
 **Mechanical Design Acceptance**
 
