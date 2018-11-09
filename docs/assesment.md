@@ -70,6 +70,8 @@ For mechanical design acceptance, we want to.  These should be sufficient for yo
 
 * **Overall CAD Assembly.** Showing the assembled CAD model.  This should be as near as possible to actual design.  If any changes are made to the mechanical parts by 'hand crafting' attempts should be made to make the CAD model reflect this, or notes should be added to the CAD model.  The assembly should include any sensors mounts, electronics mounts and therefore must be developed in conjunction with the other sub-teams.  
 
+* **2D Drawing of parts.**  2D drawings of each of the parts should be developed. These should be sufficiently detailed such that if given to another person, they could build and assemble the system. These will also be useful for yourselves when constructing the robot.
+
 ###Functional Demonstration
 
 The aim of functional demonstration is to show that integration of the different sub-systems has been achieved and to encourage teams to perform early integration.  They are to demonstrate that the core competencies required for the competition task can be achieved.  This is help evaluate the system, if, the robot fails to achieve as well as expected in competition.
