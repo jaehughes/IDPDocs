@@ -50,10 +50,31 @@ Design acceptance is documentation that must be produced by teams, and is marked
 
 **Software/Overall Design Acceptance**
 
-For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  **This will require input from all sub-teams.**  Additionally, we require details of the strategy/algorithms that will be used - this could be pictorial/flow-chart or another method of representing the overall approach and strategy.  Specifically we require:
+For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  **This will require input from all sub-teams.**  Additionally, we require details of the strategy/algorithms that will be used - this could be pictorial/flow-chart or another method of representing the overall approach and strategy.  The DA document should be sufficiently detailed for a programmer to be able to finish the project for you (and perhaps not needing to consult the electrical subteam) - i.e. pins/ports defined, LEDs details specified, strategy described.
+Specifically we require:
 
-* **System Diagram.**  This should include the physical connections between the Arduino and the sensors, any serial connections between the Arduino and PC and information as to how mines detection will be shown (e.g. LEDs) and how the position will be identified.  A drawing or photograph of a model of the robot should be included which has labels to show the key parts and how sensors/actuators are mounted.
-* **Algorithms/Strategy.** The overall strategy and algorithms which are used should be detailed.  this could be diagramatically or in a flowchart.
+* **System Diagram.**  This should include the physical connections between the Arduino (including pin numbers) and the sensors, any serial connections between the Arduino and PC and information as to how mines detection will be shown (e.g. LEDs) and how the position will be identified.  A drawing or photograph of a model of the robot should be included which has labels to show the key parts and how sensors/actuators are mounted.
+
+* **Code Structure & Algorithmns.** The overall strategy and algorithms which are used should be detailed, which could be showed in a diagram, this should such sufficient to convey your approach (i.e. arouund a maximum of 10 boxes and units, UML is not required). Additionally information about code structure should be given which includes: list of function prototypes, which source files the different functions will go into (showing code organisation/modularisation), where relevant any details of object types created.  Include consideration of disaster recovery.
+ 
+* **Mini Code Review.** A sample of your current code (e.g. that developed in the initial testing stage) should be reviewed to check for appropiate use of C++ approaches, to allow advice to be given.
+
+
+
+What was learnt from running the test programs - timings? ramping?
+2. A description (flowchart or pseudocode) of your overall strategy - the route you'll take, when you'll end, etc
+3. The overall function of the software system (e.g. using flowcharts);
+The code structure in terms of the interaction of the component parts (e.g. datatypes/objects, modules, functions and procedures).
+Include a list of expected source-file names, indicating which functions are in each file.
+4.
+5. Its interface to the other subsystems (e.g. pin allocation on chips);
+6. Sample low level procedures (e.g. those developed during the initial testing process)
+7. Line-following and turning details (flowcharts or pseudo-code)
+8. Disaster recovery strategy
+9. BoM - a list of function prototypes + associated function line-count
+10. A list of three sub-systems operations which will be demonstrated as part of the B
+
+
 
 **Electrical Design Acceptance**
 
