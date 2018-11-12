@@ -64,6 +64,8 @@ The following should be accepted before you solder onto the prototyping board.
 
 These can be produced by hand or using CAD software, what matters is that they are clear and correct.   Software such as LTSpice (which is installed on the department PCs) can be used, equally there are free online circuit drawing systems including circuit-diagram or circuitlab. **Fritzing is another online tool (specifically for Arduinos etc. which allows creation of both circuit and layout diagrams and may be a useful tool.**
 
+**Examples and hints and tips on producing materials for electrical design acceptance can be found [here](ElectricalDA.pdf)**
+
 **Mechanical Design Acceptance**
 
 For mechanical design acceptance, we want to.  These should be sufficient for you to construct your robot, and to use the files to laser cut/3D print parts as required.  We want to know what material you have to chosen to use and why as part of the submitted designs.
