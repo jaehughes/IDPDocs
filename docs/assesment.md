@@ -48,33 +48,17 @@ The first report should be submitted online on Moodle, only one must be submitte
 
 Design acceptance is documentation that must be produced by teams, and is marked as pass/fail.  Teams are free to test and develop hardware/software before they gain design acceptance, however, where possible no fully permanent manufacturing should be made before design acceptance.  We encourage teams to get design acceptance as early as possible.
 
+*We ask for the final design acceptance to be printed out such that you have it to hand when working on your robots, but it may be useful to first ask for feedback on an electronic copy between printing all documents.*
+
 **Software/Overall Design Acceptance**
 
 For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  **This will require input from all sub-teams.**  Additionally, we require details of the strategy/algorithms that will be used - this could be pictorial/flow-chart or another method of representing the overall approach and strategy.  The DA document should be sufficiently detailed for a programmer to be able to finish the project for you (and perhaps not needing to consult the electrical subteam) - i.e. pins/ports defined, LEDs details specified, strategy described.
 Specifically we require:
 
 * **System Diagram.**  This should include the physical connections between the Arduino (including pin numbers) and the sensors, any serial connections between the Arduino and PC and information as to how mines detection will be shown (e.g. LEDs) and how the position will be identified.  A drawing or photograph of a model of the robot should be included which has labels to show the key parts and how sensors/actuators are mounted.
+* **Code Structure & Algorithmns.** The overall strategy and algorithms which are used should be detailed, which could be showed in a diagram, this should such sufficient to convey your approach (i.e. around a maximum of 10 boxes and units, UML is not required). Additionally information about code structure should be given which includes: list of function prototypes, which source files the different functions will go into (showing code organisation/modularisation), where relevant any details of object types created.  Include consideration of disaster recovery.
 
-* **Code Structure & Algorithmns.** The overall strategy and algorithms which are used should be detailed, which could be showed in a diagram, this should such sufficient to convey your approach (i.e. arouund a maximum of 10 boxes and units, UML is not required). Additionally information about code structure should be given which includes: list of function prototypes, which source files the different functions will go into (showing code organisation/modularisation), where relevant any details of object types created.  Include consideration of disaster recovery.
- 
-* **Mini Code Review.** A sample of your current code (e.g. that developed in the initial testing stage) should be reviewed to check for appropiate use of C++ approaches, to allow advice to be given.
-
-
-
-What was learnt from running the test programs - timings? ramping?
-2. A description (flowchart or pseudocode) of your overall strategy - the route you'll take, when you'll end, etc
-3. The overall function of the software system (e.g. using flowcharts);
-The code structure in terms of the interaction of the component parts (e.g. datatypes/objects, modules, functions and procedures).
-Include a list of expected source-file names, indicating which functions are in each file.
-4.
-5. Its interface to the other subsystems (e.g. pin allocation on chips);
-6. Sample low level procedures (e.g. those developed during the initial testing process)
-7. Line-following and turning details (flowcharts or pseudo-code)
-8. Disaster recovery strategy
-9. BoM - a list of function prototypes + associated function line-count
-10. A list of three sub-systems operations which will be demonstrated as part of the B
-
-
+In addition to this document the marker will review have all the code you have developed so far. It will be useful to have a sample of your current code (e.g. that developed in the initial testing stage) that could be looked over by a marker.  
 
 **Electrical Design Acceptance**
 
@@ -85,7 +69,7 @@ The following should be accepted before you solder onto the prototyping board.
 
 These can be produced by hand or using CAD software, what matters is that they are clear and correct.   Software such as LTSpice (which is installed on the department PCs) can be used, equally there are free online circuit drawing systems including circuit-diagram or circuitlab. **Fritzing is another online tool (specifically for Arduinos etc. which allows creation of both circuit and layout diagrams and may be a useful tool.**
 
-**Examples and hints and tips on producing materials for electrical design acceptance can be found [here](ElectricalDA.pdf)**
+*Examples and hints and tips on producing materials for electrical design acceptance can be found [here](ElectricalDA.pdf)*
 
 **Mechanical Design Acceptance**
 
@@ -93,7 +77,10 @@ For mechanical design acceptance, we want to.  These should be sufficient for yo
 
 * **Overall CAD Assembly.** Showing the assembled CAD model.  This should be as near as possible to actual design.  If any changes are made to the mechanical parts by 'hand crafting' attempts should be made to make the CAD model reflect this, or notes should be added to the CAD model.  The assembly should include any sensors mounts, electronics mounts and therefore must be developed in conjunction with the other sub-teams.  
 
-* **2D Drawing of parts.**  2D drawings of each of the parts should be developed. These should be sufficiently detailed such that if given to another person, they could build and assemble the system. These will also be useful for yourselves when constructing the robot.
+* **2D Drawing of parts.**  2D drawings of each of the parts should be developed. These should be sufficiently detailed such that if given to another person, they could build and assemble the system. These will also be useful for yourselves when constructing the robot.  These should include:
+- Major dimensions (of folded and unfolded structures where applicable)
+- Indications if any threads should be applied to holes
+Some examples of good/bad drawings can be found [here](http://www3.eng.cam.ac.uk/DesignOffice/idp/resources/current/da_mech1.pdf).
 
 ###Functional Demonstration
 
