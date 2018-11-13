@@ -48,15 +48,24 @@ The first report should be submitted online on Moodle, only one must be submitte
 
 Design acceptance is documentation that must be produced by teams, and is marked as pass/fail.  Teams are free to test and develop hardware/software before they gain design acceptance, however, where possible no fully permanent manufacturing should be made before design acceptance.  We encourage teams to get design acceptance as early as possible.
 
+**These should be professional standard, well laid out diagrams. Take some care when making these to make them of a high quality. Consider how they are presented.  They should be of a high enough quality to give to another engineering to enable them to make your robot systems.**
+
 *We ask for the final design acceptance to be printed out such that you have it to hand when working on your robots, but it may be useful to first ask for feedback on an electronic copy between printing all documents.*
 
 **Software/Overall Design Acceptance**
 
-For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  **This will require input from all sub-teams.**  Additionally, we require details of the strategy/algorithms that will be used - this could be pictorial/flow-chart or another method of representing the overall approach and strategy.  The DA document should be sufficiently detailed for a programmer to be able to finish the project for you (and perhaps not needing to consult the electrical subteam) - i.e. pins/ports defined, LEDs details specified, strategy described.
-Specifically we require:
+For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  **This will require input from all sub-teams.**  Additionally, we require details of the strategy/algorithms that will be used - this could be pictorial/flow-chart or another method of representing the overall approach and strategy.  The DA document should be sufficiently detailed for a programmer to be able to finish the project for you (and perhaps not needing to consult the electrical subteam) - i.e. pins/ports defined, LEDs details specified, strategy described. Specifically we require:
 
-* **System Diagram.**  This should include the physical connections between the Arduino (including pin numbers) and the sensors, any serial connections between the Arduino and PC and information as to how mines detection will be shown (e.g. LEDs) and how the position will be identified.  A drawing or photograph of a model of the robot should be included which has labels to show the key parts and how sensors/actuators are mounted.
-* **Code Structure & Algorithmns.** The overall strategy and algorithms which are used should be detailed, which could be showed in a diagram, this should such sufficient to convey your approach (i.e. around a maximum of 10 boxes and units, UML is not required). Additionally information about code structure should be given which includes: list of function prototypes, which source files the different functions will go into (showing code organisation/modularisation), where relevant any details of object types created.  Include consideration of disaster recovery.
+* **System Diagram.**  This should include the physical connections between the Arduino (including pin numbers) and the sensors, any serial connections between the Arduino and PC and information as to how mines detection will be shown (e.g. LEDs) and how the position will be identified.  A drawing or photograph of a model of the robot should be included which has labels to show the key parts and how sensors/actuators are mounted. Make sure you have:
+    * Pin numbers of connections between Arduino and external electronics
+    * Details of information passing over serial
+    * Details of any processing performed on the PC
+    * Location of where the sensors are on the robot
+
+* **Code Structure & Algorithms.** The overall strategy and algorithms which are used should be detailed, this could be showed in a diagram.  This should such sufficient to convey your approach (i.e. around a maximum of 10 boxes and units, UML is not required). Additionally information about code structure should be given which includes: list of function prototypes, which source files the different functions will go into (showing code organisation/modularisation), where relevant any details of object types created.  Include consideration of disaster recovery approaches.  Make sure you have:
+    * List of different source files (including those running on a PC or on the microcontroller)
+    * List of key function prototypes within the different source files (details of any code organisation/modularisation)
+    * Details of any object types created (where relevant)
 
 In addition to this document the marker will review have all the code you have developed so far. It will be useful to have a sample of your current code (e.g. that developed in the initial testing stage) that could be looked over by a marker.  
 
@@ -65,7 +74,18 @@ In addition to this document the marker will review have all the code you have d
 The following should be accepted before you solder onto the prototyping board.  
 
 * **Circuit diagrams.**  Produce circuits to show all the electronics and the interface between the sensors and the Arduino.  You should think about including indicator LEDs to show the output from the electronics so they can be tested without software, using variable resistors to set adjustable levels, include LEDs to indicate what has been detected and consider if there are any analogue inputs which would be better suited as a digital input.  
+    + Pin numbers
+    + IC Part numbers (if you are use multiple ICs of the same type these should be labelled appropriately)
+    + Power lines (labelled)
+    + All parts (including ultrasound/compass should be included)
+    + Consider what is connected as a digital/analog input.  If it is a digital input ensure it is a digital signal
 * **Layout diagrams.**  The layout and connections between any sensors and the Arduino must be shown.  Stating with the layout of veroboard and the prototyping board either by hand, powerpoint or another drawing program the layout of where components will be placed should be shown.  In particular you should think through: how to connect sensors/electronics fixed on the robot to the main control electronics to enable them to be separated, where connectors should be mounted (consider putting at the edge of the board such that they can be easily accessed).
+    * All connectors should be shown
+    * Power rails should be labelled
+    * Location of headers should be shown
+    * Location of all Parts
+    * Location where tracks should be cut
+    * Location of any jumper wires required
 
 These can be produced by hand or using CAD software, what matters is that they are clear and correct.   Software such as LTSpice (which is installed on the department PCs) can be used, equally there are free online circuit drawing systems including circuit-diagram or circuitlab. **Fritzing is another online tool (specifically for Arduinos etc. which allows creation of both circuit and layout diagrams and may be a useful tool.**
 
@@ -75,11 +95,17 @@ These can be produced by hand or using CAD software, what matters is that they a
 
 For mechanical design acceptance, we want to.  These should be sufficient for you to construct your robot, and to use the files to laser cut/3D print parts as required.  We want to know what material you have to chosen to use and why as part of the submitted designs.
 
-* **Overall CAD Assembly.** Showing the assembled CAD model.  This should be as near as possible to actual design.  If any changes are made to the mechanical parts by 'hand crafting' attempts should be made to make the CAD model reflect this, or notes should be added to the CAD model.  The assembly should include any sensors mounts, electronics mounts and therefore must be developed in conjunction with the other sub-teams.  
+* **Overall CAD Assembly.** Showing the assembled CAD model.  This should be as near as possible to actual design.  If any changes are made to the mechanical parts by 'hand crafting' attempts should be made to make the CAD model reflect this, or notes should be added to the CAD model.  The assembly should include any sensors mounts, electronics mounts and therefore must be developed in conjunction with the other sub-teams.  Make sure you have a drawing with:
+    * Overall assembly showing the entire structure (including any mounts for sensors)
+    * 3D view and appropriate plan/side views
+    * Include balloon labels which identify each part
 
-* **2D Drawing of parts.**  2D drawings of each of the parts should be developed. These should be sufficiently detailed such that if given to another person, they could build and assemble the system. These will also be useful for yourselves when constructing the robot.  These should include:
-- Major dimensions (of folded and unfolded structures where applicable)
-- Indications if any threads should be applied to holes
+* **2D Drawing of parts/subsystems.**  2D drawings of each of the parts should be developed. These should be sufficiently detailed such that if given to another person, they could build and assemble the system. These will also be useful for yourselves when constructing the robot.  The parts should be laid out appropriately on the drawing and should include: Major dimensions (of folded and unfolded structures where applicable), indications if any threads should be applied to holes.  Make sure you have a drawing with:
+    * Each part with dimensions
+    * Where applicable folded and unfolded views and dimension
+    * If tapping holes identify this
+    * If you want to include multiple parts per drawing, make sure they are appropriate to mix - don't mix 3D printing/laser cutting drawings
+
 Some examples of good/bad drawings can be found [here](http://www3.eng.cam.ac.uk/DesignOffice/idp/resources/current/da_mech1.pdf).
 
 ###Functional Demonstration
