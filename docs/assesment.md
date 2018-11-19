@@ -110,11 +110,11 @@ Some examples of good/bad drawings can be found [here](http://www3.eng.cam.ac.uk
 
 ###Functional Demonstration
 
-The aim of functional demonstration is to show that integration of the different sub-systems has been achieved and to encourage teams to perform early integration.  They are to demonstrate that the core competencies required for the competition task can be achieved.  This is help evaluate the system, if, the robot fails to achieve as well as expected in competition.
+The aim of functional demonstration is to show that integration of the different sub-systems has been achieved and to encourage teams to perform early integration.  They are to demonstrate that the core competencies required for the competition task can be achieved.  This is to help evaluate the system, if, the robot fails to achieve as well as expected in competition.
 
-**Functional Demonstration #1:** Moving chassis that can navigate without crashing into walls.
+**Functional Demonstration #1 (50%):** Moving chassis that can navigate without crashing into walls.  The robot must start in the start box, and then move out of the start box and around for 1 minute without getting stuck of crashing into walls.  The robot should not have periods of not moving which are greater than 5 seconds.
 
-**Functional Demonstration #2:** Correct identification of the test object.
+**Functional Demonstration #2 (50%):** Correct identification of the test object.  The robot should start in the start box. A mine can be placed in a area of approximate choosing by the team. The robot should run autonomously and detect the type of mine and display this in a way which can be easily seen by the marker.  
 
 ###Final Presentation & Competition
 
