@@ -137,6 +137,7 @@ The final presentation (maximum of 8 slides) should focus on the following:
  A printed copy of the report should be brought to the presentation, and the presentation should also be submitted on Moodle.
 
  **The Competition**
+ 
  The competition will take place in the Wednesday afternoon.  Teams should be on their allotted table and ready for their time slot - we recommend being on the table at least 10  minutes before their timed slot; the schedule is tight, there is very little room for delays.
 
  The scoring sheet which will be used for the M2 competition can be found [here](Score.pdf).  There will be at least two official markers.  Before the competition starts you must give a very brief (max 1 minute) introduction to state how you expect your robot to work.  You should also make sure you have told the markers how the mines will be identified (i.e. where LEDs, and how the list of mines will be displayed).
@@ -145,7 +146,8 @@ After the competition you must do the following:
 
 * After the competition, you will move to the benches behind and will have a 5 minute de-brief and will discuss the robots performance: reasons for success/failure and any key lessons learnt.
 * Take your robot to be photographed in the white robot area
-* Make sure code is uploaded
+* Make sure code is uploaded to github and a link is submitted on Moodle
+* Tidy your desk in the EIETL. Please return all unused parts to the parts trays, and return all parts and other parts to your tool box.
 
 
 
