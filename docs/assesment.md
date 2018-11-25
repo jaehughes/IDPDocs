@@ -112,6 +112,8 @@ Some examples of good/bad drawings can be found [here](http://www3.eng.cam.ac.uk
 
 The aim of functional demonstration is to show that integration of the different sub-systems has been achieved and to encourage teams to perform early integration.  They are to demonstrate that the core competencies required for the competition task can be achieved.  This is to help evaluate the system, if, the robot fails to achieve as well as expected in competition.
 
+To get functional demonstration ask a demonstrator to asses your system.  You have a **maximum of 3 attempts** to gain functional demonstration.  Check and test your system before asking for Functional Demonstration.  
+
 **Functional Demonstration #1 (50%):** Moving chassis that can navigate without crashing into walls.  The robot must start in the start box, and then move out of the start box and around for 1 minute without getting stuck of crashing into walls.  The robot should not have periods of not moving which are greater than 5 seconds.
 
 **Functional Demonstration #2 (50%):** Correct identification of the test object.  The robot should start in the start box. A mine can be placed in a area of approximate choosing by the team. The robot should run autonomously and detect the type of mine and display this in a way which can be easily seen by the marker.  
@@ -120,20 +122,32 @@ The aim of functional demonstration is to show that integration of the different
 
 The final presentation and competition will have the following format and order:
 
-* 10 minute presentation
+* 10 minute presentation (in the morning)
 * Competition run (approximately 10 minutes)
-* 5-10 minutes Q&A.  Allows for reflections on how the robot performed.
+* 5-10 minutes Q&A.  Allows for reflections and discussion on the robots performance in the challenge.
 
 The final presentation (maximum of 8 slides) should focus on the following:
 
-* Brief review of the overall design strategy
-* Sub-team designs
-* Problems encountered during implementation
-* Changes to the original design and reasons for these
-* Remaining problems
+* Brief review of the overall design strategy (inc. software, electronics and hardware and overall strategy)
+* Problems encountered during implementation and any major changes which were implemented
+* Review of the program management of the project, and differences between planned timescales and actual timescales
+* Key lessons learnt - what would you do differently if you do it again
 * Brief statement of likely performance in the competition.
 
  A printed copy of the report should be brought to the presentation, and the presentation should also be submitted on Moodle.
+
+ **The Competition**
+ The competition will take place in the Wednesday afternoon.  Teams should be on their allotted table and ready for their time slot - we recommend being on the table at least 10  minutes before their timed slot; the schedule is tight, there is very little room for delays.
+
+ The scoring sheet which will be used for the M2 competition can be found [here](Score.pdf).  There will be at least two official markers.  Before the competition starts you must give a very brief (max 1 minute) introduction to state how you expect your robot to work.  You should also make sure you have told the markers how the mines will be identified (i.e. where LEDs, and how the list of mines will be displayed).
+
+After the competition you must do the following:
+
+* After the competition, you will move to the benches behind and will have a 5 minute de-brief and will discuss the robots performance: reasons for success/failure and any key lessons learnt.
+* Take your robot to be photographed in the white robot area
+* Make sure code is uploaded
+
+
 
 ###Final Report (Individual)
 
