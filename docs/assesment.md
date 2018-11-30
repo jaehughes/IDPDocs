@@ -137,7 +137,7 @@ The final presentation (maximum of 8 slides) should focus on the following:
  A printed copy of the report should be brought to the presentation, and the presentation should also be submitted on Moodle.
 
  **The Competition**
- 
+
  The competition will take place in the Wednesday afternoon.  Teams should be on their allotted table and ready for their time slot - we recommend being on the table at least 10  minutes before their timed slot; the schedule is tight, there is very little room for delays.
 
  The scoring sheet which will be used for the M2 competition can be found [here](Score.pdf).  There will be at least two official markers.  Before the competition starts you must give a very brief (max 1 minute) introduction to state how you expect your robot to work.  You should also make sure you have told the markers how the mines will be identified (i.e. where LEDs, and how the list of mines will be displayed).
@@ -155,14 +155,12 @@ After the competition you must do the following:
 
 The final report should be a maximum of 2-pages and should include the following:
 
-* Team management aspects of the project – not a narrative describing how you did the work
-on a day to day basis.
+* Summary of the system developed, the major design decisions and the strategy used.  
+* Summary of your contributions to the project - short details of what aspects you worked on, and review of how this performed.
 * Major decisions made during the project should be reviewed and comment made on their
 correctness.
-* discussion should be put in the context of the robot’s performance in the competition and
-that of other different designs.
-* Short discussion (1 paragraph) on the cost of producing the prototype and possible savings
-for a production run of 100 - 1000 units. (See the inside of the back cover for a personal time
-sheet and the IDP website for a spreadsheet to help analyse costs)
+* Team management aspects of the project – not a narrative describing how you did the work
+on a day to day basis, but the managment structure used and a discussion of how well this worked.
+* Discussion of how the robot performed in the competition - what went well what didn't.  What would you differently next time?
 
-The final report should be submitted on Moddle.  Each student should submit their own report.
+The final report should be submitted on Moodle.  Each student should submit their own report.
