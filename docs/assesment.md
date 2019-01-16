@@ -8,7 +8,7 @@ The first presentation should be no longer than 10 minutes, to leave a further 5
 
 * Team Name and Management Structure
 * Approach for solving the problem
-* Robot Concept and diagram.  *This could be hand-drawn diagrams, CAD models or any format which conveys the approach and concept*
+* Robot Concept and diagram.  *This could be a prototype, hand-drawn diagrams, CAD models or any format which conveys the approach and concept*
 * Overall System Level Diagram.  *Detailing how the electronics, hardware and software interacts*
 * Electronics/Sensing.  *This could include circuit diagrams/block diagrams as to the approach*
 * Exploration and navigation algorithms
@@ -16,11 +16,11 @@ The first presentation should be no longer than 10 minutes, to leave a further 5
 * What is the most risky/challenging aspect of the project?
 * Gantt Chart (resource/time allocation)
 
-Any cardboard models/diagrams this should be brought a long for discussion.  A printed copy of the *presentation* should be brought to the presentation, and the presentation should also be submitted on Moodle.
+Any cardboard models/diagrams/prototypes should be brought a long for discussion.  A printed copy of the *presentation* should be brought to the presentation.
 
-You will need, as a team, to think about how the individual contributions ﬁt together and the overall timing, so as to ensure a professional impression. Where possible a projector/screen will be available.  The meeting rooms have a HDMI connector, teams should check connection between laptops/screen prior to their presentation.
+You will need, as a team, to think about how the individual contributions ﬁt together and the overall timing, so as to ensure a professional impression. Where possible a projector/screen will be available.  Meeting rooms should have a HDMI connector, however teams should check connection between laptops/screen prior to their presentation.
 
-**A draft of the mark scheme for the First Presentation can be found [here](First Presentation Mark Scheme.pdf).**
+**The mark scheme for the First Presentation can be found [here](First Presentation Mark Scheme.pdf).**
 
 ###First Report
 
@@ -42,19 +42,55 @@ The initial report should provide a more detailed reflection of the planned syst
 
 The first report should be submitted online on Moodle, only one must be submitted per team.  
 
-**A draft of the mark scheme for the First Report can be found [here](First Report Mark Scheme.pdf).**
-<!---
-###Design Acceptance
+**The mark scheme for the First Report can be found [here](First Report Mark Scheme.pdf).**
 
-Design acceptance is documentation that must be produced by teams, and is marked as pass/fail.  Teams are free to test and develop hardware/software before they gain design acceptance, however, where possible no fully permanent manufacturing should be made before design acceptance.  We encourage teams to get design acceptance as early as possible.
+###Progress Meetings
+
+There will be two progress meetings which will be held between each team and an academic and demonstrator.  These are designed to allow the academic and demonstrator to provide advice and feedback on the teams progress, team and project management and technical developments.   These meetings will last approximately 20-30 minutes.  These are not formal presentations, but teams should be prepared to give and show an update on the follow areas, which may be best presented as slides, or print outs or diagrams:
+
+* Updated Gantt chart, and progress the last week
+* Electronics - details of the approach and up-to date circuit diagrams
+* CAD assembly showing all major parts
+* Software flow chart and representation of the overall strategy
+* Remaining challenges which need to overcome and current plans for achieving this
+* Plans for the next week
+
+The more information you can provide, the more we can support you and provide feedback and advice.
+
+We expect teams to keep updated circuit diagrams, layout diagrams, CAD diagrams and software flow-charts/stratey diagrams.
+
+###Final Presentation
+
+
+The final presentation (maximum of 8 slides) should focus on the following:
+
+* Brief review of the overall design strategy (inc. software, electronics and hardware and overall strategy)
+* Problems encountered during implementation and any major changes which were implemented
+* Review of the program management of the project, and differences between planned timescales and actual timescales
+* Key lessons learnt - what would you do differently if you do it again
+* Brief statement of likely performance in the competition.
+
+ A printed copy of the report should be brought to the presentation, and the presentation should also be submitted on Moodle.
+
+###Competitions
+
+ **The Competition**
+
+ The competition will take place in the Wednesday afternoon.  Teams should be on their allotted table and ready for their time slot - we recommend being on the table at least 10  minutes before their timed slot; the schedule is tight, there is very little room for delays.
+
+There will be at least two official markers.  Before the competition starts you must give a very brief (max 1 minute) introduction to state how you expect your robot to work.  You should also make sure you have told the markers where the LEDs or other identifiers will be.
+
+
+###Final Documentation: CAD Assembly, Circuit Diagrams & Code
+
+Documentation must be produced and used throughout IDP.  The final version must be handed in at the end of the project and will be used to assess the robot quality.  
 
 **These should be professional standard, well laid out diagrams. Take some care when making these to make them of a high quality. Consider how they are presented.  They should be of a high enough quality to give to another engineering to enable them to make your robot systems.**
 
-*We ask for the final design acceptance to be printed out such that you have it to hand when working on your robots, but it may be useful to first ask for feedback on an electronic copy between printing all documents.*
 
-**Software/Overall Design Acceptance**
+**Software/Overall Documentation**
 
-For software design acceptance we want to see an overall system diagram, to show how the entire system will integrate together.  **This will require input from all sub-teams.**  Additionally, we require details of the strategy/algorithms that will be used - this could be pictorial/flow-chart or another method of representing the overall approach and strategy.  The DA document should be sufficiently detailed for a programmer to be able to finish the project for you (and perhaps not needing to consult the electrical subteam) - i.e. pins/ports defined, LEDs details specified, strategy described. Specifically we require:
+For software documentation we want to see an overall system diagram, to show how the entire system will integrate together.    Additionally, we require details of the strategy/algorithms that will be used - this could be pictorial/flow-chart or another method of representing the overall approach and strategy.  The documentation should be sufficiently detailed for a programmer to be able to finish the project for you - i.e. pins/ports defined, LEDs details specified, strategy described. Specifically we require:
 
 * **System Diagram.**  This should include the physical connections between the Arduino (including pin numbers) and the sensors, any serial connections between the Arduino and PC and information as to how mines detection will be shown (e.g. LEDs) and how the position will be identified.  A drawing or photograph of a model of the robot should be included which has labels to show the key parts and how sensors/actuators are mounted. Make sure you have:
     * Pin numbers of connections between Arduino and external electronics
@@ -67,11 +103,9 @@ For software design acceptance we want to see an overall system diagram, to show
     * List of key function prototypes within the different source files (details of any code organisation/modularisation)
     * Details of any object types created (where relevant)
 
-In addition to this document the marker will review have all the code you have developed so far. It will be useful to have a sample of your current code (e.g. that developed in the initial testing stage) that could be looked over by a marker.  
+We also require your code, which should be appropiately commented.
 
-**Electrical Design Acceptance**
-
-The following should be accepted before you solder onto the prototyping board.  
+**Electrical Documentation**
 
 * **Circuit diagrams.**  Produce circuits to show all the electronics and the interface between the sensors and the Arduino.  You should think about including indicator LEDs to show the output from the electronics so they can be tested without software, using variable resistors to set adjustable levels, include LEDs to indicate what has been detected and consider if there are any analogue inputs which would be better suited as a digital input.  
     + Pin numbers
@@ -91,9 +125,9 @@ These can be produced by hand or using CAD software, what matters is that they a
 
 *Examples and hints and tips on producing materials for electrical design acceptance can be found [here](ElectricalDA.pdf)*
 
-**Mechanical Design Acceptance**
+**Mechanical Documentation**
 
-For mechanical design acceptance, we want to.  These should be sufficient for you to construct your robot, and to use the files to laser cut/3D print parts as required.  We want to know what material you have to chosen to use and why as part of the submitted designs.
+The CAD submitted should be sufficient to allow another engineer to assemble your robot, and to use the files to laser cut/3D print parts as required.  We want to know what material you have to chosen to use and why as part of the submitted designs.
 
 * **Overall CAD Assembly.** Showing the assembled CAD model.  This should be as near as possible to actual design.  If any changes are made to the mechanical parts by 'hand crafting' attempts should be made to make the CAD model reflect this, or notes should be added to the CAD model.  The assembly should include any sensors mounts, electronics mounts and therefore must be developed in conjunction with the other sub-teams.  Make sure you have a drawing with:
     * Overall assembly showing the entire structure (including any mounts for sensors)
@@ -108,48 +142,6 @@ For mechanical design acceptance, we want to.  These should be sufficient for yo
 
 Some examples of good/bad drawings can be found [here](http://www3.eng.cam.ac.uk/DesignOffice/idp/resources/current/da_mech1.pdf).
 
-###Functional Demonstration
-
-The aim of functional demonstration is to show that integration of the different sub-systems has been achieved and to encourage teams to perform early integration.  They are to demonstrate that the core competencies required for the competition task can be achieved.  This is to help evaluate the system, if, the robot fails to achieve as well as expected in competition.
-
-To get functional demonstration ask a demonstrator to asses your system.  You have a **maximum of 3 attempts** to gain functional demonstration.  Check and test your system before asking for Functional Demonstration.  
-
-**Functional Demonstration #1 (50%):** Moving chassis that can navigate without crashing into walls.  The robot must start in the start box, and then move out of the start box and around for 1 minute without getting stuck of crashing into walls.  The robot should not have periods of not moving which are greater than 5 seconds.
-
-**Functional Demonstration #2 (50%):** Correct identification of the test object.  The robot should start in the start box. A mine can be placed in a area of approximate choosing by the team. The robot should run autonomously and detect the type of mine and display this in a way which can be easily seen by the marker.  
-
-
--->
-###Final Presentation & Competition
-
-The final presentation and competition will have the following format and order:
-
-* 10 minute presentation (in the morning)
-* Competition run (approximately 10 minutes)
-* 5-10 minutes Q&A.  Allows for reflections and discussion on the robots performance in the challenge.
-
-The final presentation (maximum of 8 slides) should focus on the following:
-
-* Brief review of the overall design strategy (inc. software, electronics and hardware and overall strategy)
-* Problems encountered during implementation and any major changes which were implemented
-* Review of the program management of the project, and differences between planned timescales and actual timescales
-* Key lessons learnt - what would you do differently if you do it again
-* Brief statement of likely performance in the competition.
-
- A printed copy of the report should be brought to the presentation, and the presentation should also be submitted on Moodle.
-
- **The Competition**
-
- The competition will take place in the Wednesday afternoon.  Teams should be on their allotted table and ready for their time slot - we recommend being on the table at least 10  minutes before their timed slot; the schedule is tight, there is very little room for delays.
-
- The scoring sheet which will be used for the M2 competition can be found [here](Score.pdf).  There will be at least two official markers.  Before the competition starts you must give a very brief (max 1 minute) introduction to state how you expect your robot to work.  You should also make sure you have told the markers how the mines will be identified (i.e. where LEDs, and how the list of mines will be displayed).
-
-After the competition you must do the following:
-
-* After the competition, you will move to the benches behind and will have a 5 minute de-brief and will discuss the robots performance: reasons for success/failure and any key lessons learnt.
-* Take your robot to be photographed in the white robot area
-* Make sure code is uploaded to github and a link is submitted on Moodle
-* Tidy your desk in the EIETL. Please return all unused parts to the parts trays, and return all parts and other parts to your tool box.
 
 ###Final Report (Individual)
 
@@ -160,7 +152,8 @@ The final report should be a maximum of 2-pages and should include the following
 * Major decisions made during the project should be reviewed and comment made on their
 correctness.
 * Team management aspects of the project – not a narrative describing how you did the work
-on a day to day basis, but the managment structure used and a discussion of how well this worked.
-* Discussion of how the robot performed in the competition - what went well what didn't.  What would you differently next time?
+on a day to day basis, but the management structure used and a discussion of how well this worked.
+* Discussion of how the robot performed in the competition, what went well what didn't and how you meet the task specification.  What would you differently next time?
+* Short discussion on what changes would be needed to produce the robots on mass, and how production would scale.
 
-The final report should be submitted on Moodle.  Each student should submit their own report.
+The final report must be submitted as a pdf, must not exceed two pages and should be submitted on Moodle.  Each student should submit their own report.
