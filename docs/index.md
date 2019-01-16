@@ -103,9 +103,9 @@ The following table summarizes the key activities and deadlines at each session.
 |         | Monday   | |
 |         | Tuesday  | **Progress Meeting with Academic** |
 |         | Wednesday| |
-| Week 3  | Thursday ||
+| Week 3  | Thursday | |
 |         | Monday   | |
-|         | Tuesday   | **Progress Meeting with Academic** |
+|         | Tuesday  | **Progress Meeting with Academic** |
 |         | Wednesday| |
 | Week 4  | Thursday | |
 |         | Monday   | **11:00: First Competition** |
