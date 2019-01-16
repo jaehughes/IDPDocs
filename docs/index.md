@@ -15,14 +15,6 @@ It is expected per week you spend twice the scheduled time on this project.  You
 
 *A copy of the presentation give in the first lecture can be found <a href="IntroLecture.pdf" download>here</a>.*
 
-<!---
-For design acceptance or functional demonstration outside of core IDP hours, the EIETL technicians can perform this (as long as they are not busy with other labs) in the following hours:
-
-* Morning: 9:00 -11:30
-* Afternoon: 14:00 - 16:00
-
--->
-
 The full timetable of events and deadlines is given below in the schedule and deadlines section.
 
 ## Aims & Objectives
@@ -99,32 +91,30 @@ The following table summarises the key activities and deadlines at each session.
 
 | Project Week    | Day      | Activity  | Deadline |
 |:-------|:---------| :---------|:------|
-| Week 1  | Thursday |  **9:00:** Introduction Session, *EIETL Projector*   <br />  **14:00:** Project Management Lecture| |
-|         | Monday   | **11:30:**   Workshop Introduction (Teams 1-6),  *Dyson Centre*   <br /> **11:30:** Software Introduction (All teams), LR3B <br /> **11:30:**  Electrical Introduction (All teams), *EIETL Projector*  <br /> **12:00:**  Laser Cutter Introduction (Teams 1-4, 1 person per team), *Dyson Centre*   <br />  **12:15:**   Workshop Introduction (Teams 7-12),  *Dyson Centre*   <br />  **14:00:**   CAD + Rapid Prototyping Introduction,  *Dyson Centre*  | |
+| Week 1  | Thursday |  **9:00:** Introduction Session, *LT0*   <br />  **14:00:** Project Management Lecture| |
+|         | Monday   | **11:30:**   Workshop Introduction (Teams 1-6),  *Dyson Centre*   <br /> **11:30:** Software Introduction (All teams), LR3B <br /> **11:30:**  Electrical Introduction (All teams), *EIETL Projector*   <br />  **12:15:**   Workshop Introduction (Teams 7-13),  *Dyson Centre*   <br />  **14:00:**   CAD + Rapid Prototyping Introduction,  *Dyson Centre*  | |
 |         | Tuesday  | | **First Presentation,**  find the timetable and room allocation <a href="FirstPresentation.pdf" download>here</a>|
 |         | Wednesday| **12:00:**  Laser Cutter Introduction (Teams 5-8, 1 person per team), *Dyson Centre* <br />  **14:00:** Laser Cutter Introduction (Teams 9-12, Dyson Centre)
 | Week 2  | Thursday | | **First Report Due**|
 |         | Monday   | | |
-|         | Tuesday   | *Progress Meeting with Academic* | |
-|         | Wednesday| | **Deadline for Design Acceptance**|
-| Week 3  | Thursday | System Integration Presentation.  Quick 5 min update   <br />  to present the integration progress/challenges| |
+|         | Tuesday  | *Progress Meeting with Academic* | |
+|         | Wednesday| | |
+| Week 3  | Thursday ||
 |         | Monday   | | |
-|         | Tuesday   | *Progress Meeting with Academic*| |
+|         | Tuesday   | *Progress Meeting with Academic* |
 |         | Wednesday| | |
 | Week 4  | Thursday | | |
 |         | Monday   | **First Competition** |
 |         | Tuesday  | **Final Presentation** |
-|         | Wednesday| **The wednesday scheduled can be found [here](FinalPresentation.pdf) |
+|         | Wednesday| **Final Competition.** The schedule can be found [here](FinalPresentation.pdf) |
 | Week 5  | Monday | | **Final Report Deadline. Submit on Moodle.** |
 
-Laser cutting training sessions have been pre-booked, such that one person from each team is guarenteed a training session.  If other team members wish to book other training sessions, the booking link can be found [here](https://www.dysoncentre.eng.cam.ac.uk/laser-cutting).
+Laser cutting training sessions have been pre-booked, such that one person from each team is guaranteed a training session.  If other team members wish to book other training sessions, the booking link can be found [here](https://www.dysoncentre.eng.cam.ac.uk/laser-cutting).
 
 ## Feedback
 
-Suggestions for improvements in the organisation, structure of this project, choice of hardware and also the task, would be extremely welcome.  If you have any suggestions during the course, please feel free to email Dave Patterson (dip26) or Josie Hughes (jaeh2), and we will do our best to make necessary changes.  Please also feel free to use the fast feedback reporting mechanism.  We will send out a feedback questionaire at the end of the course, we would appreciate all team members returning this promptly.  
+Suggestions for improvements in the organization, structure of this project, choice of hardware and also the task, would be extremely welcome.  If you have any suggestions during the course, please feel free to email Dave Patterson (dip26) or Josie Hughes (jaeh2), and we will do our best to make necessary changes.  Please also feel free to use the fast feedback reporting mechanism.  We will send out a feedback questionnaire at the end of the course, we would appreciate all team members returning this promptly.  
 
 ## Contact
 
 Should you have any questions or concerns during the project please in the first instance see a demonstrator who will be there at each lab session, the EIETL Technical Team, or email Dave Patterson (dip26) or Josie Hughes (jaeh2).
-
-This document can be found online at: https://jaehughes.github.io/IDPDocs/
