@@ -6,7 +6,7 @@ The lab lasts for four weeks, with three weekly timetabled sessions:
 
 * Thursday 9-11
 * Monday 11-1
-* *Tuesday 9-11 (first week only!)*
+* Tuesday 9-11 (first week only!)
 * Wednesday 9-11
 
 The EIETL is open from 8am-5pm, and can be used during these times. The Dyson Centre is also available for use however there is only technician support (which limits when some equipment can be used) for limited periods.  The laser cutter can be used from 8am-5pm, and the 3D printers likewise. If you require out-of-hours access to the Dyson Centre, you must fill in the relevant forms.
@@ -35,7 +35,7 @@ The key aim of the project is to develop an understanding of systems design and 
 * understand how to produce detailed design proposals.
 * gain experience of building and testing a system once it has been designed.
 
-In this project, rapid-prototyping techniques are used which enables quick development, integration and testing of systems, allowing for multiple iterations of the system to be produced.
+In this project, rapid-prototyping techniques are used which enables quick development, integration and testing of systems and allows for multiple iterations of the system to be produced.
 
 
 ## Task and Team Allocation
@@ -43,10 +43,12 @@ In this project, rapid-prototyping techniques are used which enables quick devel
 Each IDP cohort has a different task and rules set.  A challenge set will be produced for each group, and the current (and existing challenges can be found here):
 
 * Michaelmas 2018, <a href="m2task.pdf" download>M2 Task</a>
+* Lent 2019, <a href="l1task.pdf" download>L1 Task</a>
 
 With the team allocations give here:
 
 * Michaelmas 2018 <a href="m2teams.txt" download>Team Allocations</a>
+* Lent 2019,  <a href="l1teams.txt" download>Team Allocations</a>
 
 If you have any questions about the task, please email Dave Patterson (dip26) and Josie Hughes (jaeh2).
 
@@ -80,12 +82,13 @@ The assessment of the course has a number of different components. These are sum
 | -------------------------- |:-------------| -------------|
 | Initial Presentation (Group)     | 10%          | Week 1, Tuesday|
 | Initial Report (Group)| 10%          | Week 2, Thursday|
-| Design Assessment (Sub-Group)  | 5% [2% if deadline missed]| Week 2, Wednesday |
-| Functional Demonstration (Group)| 5% [2% if deadline missed]   | Week 3, Wednesday |
-| Competition Performance (Group) | 20%     | Week 4, Wednesday        |
-| Final Presentation (Group)             | 20%     | Week 4, Wednesday     |
-| Robot Quality (Sub-Team)             | 10%     | Week 4, Wednesday     |
-| Final Report (Individual)                    | 20%     | Week 5, Monday  |
+| Progress Assessment (Group)     | 5% | Week 2, Tuesday |
+| Progress Assessment (Group)| 5%    | Week 3, Tuesday |
+| First Competition (Group)  | 20%     | Week 4, Monday        |
+| Final Presentation (Group)  | 10%     | Week 4, Tuesday        |
+| Final Competition (Group) | 10%     | Week 4, Wednesday        |
+| Robot Quality (Group)             | 20%     | Week 4, Wednesday     |
+| Final Report (Individual)     | 10%     | Week 5, Monday  |
 
 
 Detailed requirements and examples of the materials which must be submitted can be found [here](assesment.md).  Reports and presentations should be submitted online on the IDP Moodle Page, which can be found here.
