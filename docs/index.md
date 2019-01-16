@@ -84,9 +84,9 @@ The assessment of the course has a number of different components. These are sum
 | Initial Report (Group)| 10%          | Week 2, Thursday|
 | Progress Assessment (Group)     | 5% | Week 2, Tuesday |
 | Progress Assessment (Group)| 5%    | Week 3, Tuesday |
-| First Competition (Group)  | 20%     | Week 4, Monday        |
+| First Competition (Group)  | 10%     | Week 4, Monday        |
 | Final Presentation (Group)  | 10%     | Week 4, Tuesday        |
-| Final Competition (Group) | 10%     | Week 4, Wednesday        |
+| Final Competition (Group) | 20%     | Week 4, Wednesday        |
 | Robot Quality (Group)             | 20%     | Week 4, Wednesday     |
 | Final Report (Individual)     | 10%     | Week 5, Monday  |
 
