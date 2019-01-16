@@ -43,7 +43,7 @@ The initial report should provide a more detailed reflection of the planned syst
 The first report should be submitted online on Moodle, only one must be submitted per team.  
 
 **A draft of the mark scheme for the First Report can be found [here](First Report Mark Scheme.pdf).**
-
+<!---
 ###Design Acceptance
 
 Design acceptance is documentation that must be produced by teams, and is marked as pass/fail.  Teams are free to test and develop hardware/software before they gain design acceptance, however, where possible no fully permanent manufacturing should be made before design acceptance.  We encourage teams to get design acceptance as early as possible.
@@ -118,6 +118,8 @@ To get functional demonstration ask a demonstrator to asses your system.  You ha
 
 **Functional Demonstration #2 (50%):** Correct identification of the test object.  The robot should start in the start box. A mine can be placed in a area of approximate choosing by the team. The robot should run autonomously and detect the type of mine and display this in a way which can be easily seen by the marker.  
 
+
+-->
 ###Final Presentation & Competition
 
 The final presentation and competition will have the following format and order:
@@ -148,8 +150,6 @@ After the competition you must do the following:
 * Take your robot to be photographed in the white robot area
 * Make sure code is uploaded to github and a link is submitted on Moodle
 * Tidy your desk in the EIETL. Please return all unused parts to the parts trays, and return all parts and other parts to your tool box.
-
-
 
 ###Final Report (Individual)
 

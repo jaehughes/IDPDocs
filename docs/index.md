@@ -2,7 +2,7 @@
 
 In the integrated design project (IDP) teams work in teams of 6 to develop an autonomous robotic system to solve a problem inspired by a real-world challenge. These will required the development of hardware, electronics and sensing and the accompanying control and software systems.  Over 4 weeks teams develop a robot and at the end of the project there is a competition to assess the performance of the robots developed.
 
-The lab lasts for four weeks, with three weekly timetabled sessions:
+The lab lasts for four weeks, with four weekly timetabled sessions:
 
 * Thursday 9-11
 * Monday 11-1
@@ -11,7 +11,7 @@ The lab lasts for four weeks, with three weekly timetabled sessions:
 
 The EIETL is open from 8am-5pm, and can be used during these times. The Dyson Centre is also available for use however there is only technician support (which limits when some equipment can be used) for limited periods.  The laser cutter can be used from 8am-5pm, and the 3D printers likewise. If you require out-of-hours access to the Dyson Centre, you must fill in the relevant forms.
 
-It is expected per week you spend twice the scheduled time on this project.  You must use your university card to sign in for the lab before the five past the hour official start of the project failure to do so will mean you are not marked as attending the lab.  Even when not working in the EIETL you must head there first to sign in.  
+It is expected per week you spend twice the scheduled time on this project.  You must use your university card to sign in for the lab before five past the hour of the official start of the project. Failure to do so will mean you are not marked as attending the lab.  Even when not working in the EIETL you must head there first to sign in.  
 
 *A copy of the presentation give in the first lecture can be found <a href="IntroLecture.pdf" download>here</a>.*
 
@@ -66,6 +66,10 @@ The [Arduino software](https://www.arduino.cc/) can be downloaded for free, and 
 
 Full resources including getting started guides and a list of parts can be found online on the resources page [here](resources.md).
 
+## Parts Lists and Kit Lists
+
+Full details of the availble parts and datasheets can be found on the Moodle site which can be found [here](https://www.vle.cam.ac.uk/course/view.php?id=163282).
+
 ## Assessment
 
 The assessment of the course has a number of different components. These are summarised below and the weighting and deadline given.  Some assessment is performed at a group level, other at a sub-group level (e.g. for the electronics/software/mechanics) and the final report is assessed individually.  The weeks of the deadline correspond to the weeks into the project:
@@ -87,7 +91,7 @@ Detailed requirements and examples of the materials which must be submitted can 
 
 ## Schedule & Deadlines
 
-The following table summarises the key activities and deadlines at each session.  The weeks refer to the number of week of the project - thus ifs you are doing the project in the second half of the term Week 1 will correspond to Week 5.
+The following table summarizes the key activities and deadlines at each session.  The weeks refer to the number of week of the project - thus ifs you are doing the project in the second half of the term Week 1 will correspond to Week 5.
 
 | Project Week    | Day      | Activity  | Deadline |
 |:-------|:---------| :---------|:------|
