@@ -93,25 +93,25 @@ Detailed requirements and examples of the materials which must be submitted can 
 
 The following table summarizes the key activities and deadlines at each session.  The weeks refer to the number of week of the project - thus ifs you are doing the project in the second half of the term Week 1 will correspond to Week 5.
 
-| Project Week    | Day      | Activity  | Deadline |
-|:-------|:---------| :---------|:------|
-| Week 1  | Thursday |  **9:00:** Introduction Session, *LT0*   <br />  **14:00:** Project Management Lecture| |
-|         | Monday   | **11:30:**   Workshop Introduction (Teams 1-6),  *Dyson Centre*   <br /> **11:30:** Software Introduction (All teams), LR3B <br /> **11:30:**  Electrical Introduction (All teams), *EIETL Projector*   <br />  **12:15:**   Workshop Introduction (Teams 7-13),  *Dyson Centre*   <br />  **14:00:**   CAD + Rapid Prototyping Introduction,  *Dyson Centre*  | |
-|         | Tuesday  | | **First Presentation,**  find the timetable and room allocation <a href="FirstPresentation.pdf" download>here</a>|
-|         | Wednesday| **12:00:**  Laser Cutter Introduction (Teams 5-8, 1 person per team), *Dyson Centre* <br />  **14:00:** Laser Cutter Introduction (Teams 9-12, Dyson Centre)
-| Week 2  | Thursday | | **First Report Due**|
-|         | Monday   | | |
-|         | Tuesday  | **Progress Meeting with Academic** | |
-|         | Wednesday| | |
+| Project Week    | Day      | Activity  |
+|:-------|:---------| :---------|
+| Week 1  | Thursday |  **9:00:** Introduction Session, *LT0*   <br />  **14:00:** Project Management Lecture|
+|         | Monday   | **11:30:**   Workshop Introduction (Teams 1-6),  *Dyson Centre*   <br /> **11:30:** Software Introduction (All teams), LR3B <br /> **11:30:**  Electrical Introduction (All teams), *EIETL Projector*   <br />  **12:15:**   Workshop Introduction (Teams 7-13),  *Dyson Centre*   <br />  **14:00:**   CAD + Rapid Prototyping Introduction,  *Dyson Centre*  |
+|         | Tuesday  | **First Presentation,**  find the timetable and room allocation <a href="FirstPresentation.pdf" download>here</a>|
+|         | Wednesday| |
+| Week 2  | Thursday | **16:00 First Report Due** |
+|         | Monday   | |
+|         | Tuesday  | **Progress Meeting with Academic** |
+|         | Wednesday| |
 | Week 3  | Thursday ||
-|         | Monday   | | |
+|         | Monday   | |
 |         | Tuesday   | **Progress Meeting with Academic** |
-|         | Wednesday| | |
-| Week 4  | Thursday | | |
+|         | Wednesday| |
+| Week 4  | Thursday | |
 |         | Monday   | **11:00: First Competition** |
 |         | Tuesday  | **9:00: Final Presentation** |
 |         | Wednesday| **14:00: Final Competition.** The schedule can be found [here](FinalPresentation.pdf) |
-| Week 5  | Monday | | **Final Report Deadline. Submit on Moodle.** |
+| Week 5  | Monday  | **16:00 Final Report Deadline. Submit on Moodle.** |
 
 Laser cutting training sessions have been pre-booked, such that one person from each team is guaranteed a training session.  If other team members wish to book other training sessions, the booking link can be found [here](https://www.dysoncentre.eng.cam.ac.uk/laser-cutting).
 
