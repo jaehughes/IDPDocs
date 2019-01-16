@@ -6,7 +6,7 @@ The lab lasts for four weeks, with three weekly timetabled sessions:
 
 * Thursday 9-11
 * Monday 11-1
-* Tuesday 9-11 (first week only!)
+* Tuesday 9-11
 * Wednesday 9-11
 
 The EIETL is open from 8am-5pm, and can be used during these times. The Dyson Centre is also available for use however there is only technician support (which limits when some equipment can be used) for limited periods.  The laser cutter can be used from 8am-5pm, and the 3D printers likewise. If you require out-of-hours access to the Dyson Centre, you must fill in the relevant forms.
@@ -104,13 +104,16 @@ The following table summarises the key activities and deadlines at each session.
 |         | Tuesday  | | **First Presentation,**  find the timetable and room allocation <a href="FirstPresentation.pdf" download>here</a>|
 |         | Wednesday| **12:00:**  Laser Cutter Introduction (Teams 5-8, 1 person per team), *Dyson Centre* <br />  **14:00:** Laser Cutter Introduction (Teams 9-12, Dyson Centre)
 | Week 2  | Thursday | | **First Report Due**|
-|         | Monday   | *Feedback on 1st Report returned to teams* | |
+|         | Monday   | | |
+|         | Tuesday   | *Progress Meeting with Academic* | |
 |         | Wednesday| | **Deadline for Design Acceptance**|
 | Week 3  | Thursday | System Integration Presentation.  Quick 5 min update   <br />  to present the integration progress/challenges| |
 |         | Monday   | | |
-|         | Wednesday| | **Functional Demonstration Deadline** |
+|         | Tuesday   | *Progress Meeting with Academic*| |
+|         | Wednesday| | |
 | Week 4  | Thursday | | |
-|         | Monday   | | |
+|         | Monday   | **First Competition** |
+|         | Tuesday  | **Final Presentation** |
 |         | Wednesday| **The wednesday scheduled can be found [here](FinalPresentation.pdf) |
 | Week 5  | Monday | | **Final Report Deadline. Submit on Moodle.** |
 
