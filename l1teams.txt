@@ -1,0 +1,96 @@
+Team Lab  Uid     Name                           Coll
+
+L101 122 on229    Nick,O.                        HO    
+L101 122 wa265    Azubuike,W.                    HO    
+L101  95 ch792    Hamilton,C.                    DOW   
+L101  95 jaj60    Janik,J.A.                     DOW   
+L101 100 jc2075   Currie,J.E.                    JN    
+L101 100 ojrb2    Barnard,O.J.R.                 JN    
+
+L102 119 adr43    Reddi,A.D.                     HO    
+L102 119 rarg2    Gordon,R.A.R.                  HO    
+L102  97 am2593   Macdonald,A.                   DOW   
+L102  97 bl435    Lee,B.                         DOW   
+L102 103 bfw22    Whitfield,B.F.                 JN    
+L102 103 ya279    Agarwal,Y.                     JN    
+
+L103 117 ah973    Hughes,A.                      HO    
+L103 117 rcs62    Slaney,R.C.                    HO    
+L103  93 nh489    Hughes,N.J.A.                  DOW   
+L103  93 srf47    Follen,S.R.                    DOW   
+L103 105 cmf58    Friend,C.M.                    JN    
+L103 105 fht22    Treherne Pollock,F.H.          JN    
+
+L104  91 irct2    Tan,I.R.C.                     DOW   
+L104  91 sc2057   Chen,S.                        DOW   
+L104 123 cr610    Ren,C.                         HO    
+L104 123 tl463    Li,T.                          EM    
+L104 108 fjs41    Scott,F.J.                     F     
+L104 108 ml810    Latham,M.C.                    F    
+
+L105  96 nh490    Hyldmar Dauffi,N.              DOW   
+L105  96 phi23    Iacovides,P-H.                 DOW   
+L105 121 ab2472   Bennett,A.                     HO    
+L105 121 mm2264   Mufti,M.                       HO    
+L105 109 jm2180   Ma,J.                          F     
+L105 109 wy253    Yu,W.                          F     
+
+L106  99 inm25    McLean,I.N.                    JN    
+L106  99 zrjn2    Nyirenda,Z.R.J.                JN    
+L106 124 ac2153   Clayton,A.                     EM    
+L106 124 jjw80    Williams,J.J.                  EM    
+L106 114 yw450    Wang,Y.                        N     
+L106 114 zz354    Zhou,Z.                        N     
+
+L107  92 cs936    Suen,C.                        DOW   
+L107  92 mcm85    Moore,M.C.                     DOW   
+L107  88 ams279   Shine,A.M.                     R     
+L107  88 dpo26    O'Riordan,D.P.                 R     
+L107 118 kmn40    Nikolov,K.M.                   HO    
+L107 118 tc511    Charoenvasnadumrong,T.         HO    
+
+L108  98 bsy21    Yass,B.S.                      DOW   
+L108  98 fk315    Kyriakides,F.                  DOW   
+L108 120 kcj21    Junge,K.C.                     HO    
+L108 120 pw444    Wernicke,P.                    HO    
+L108  85 hc492    Crisp,H.                       R     
+L108  85 ojb42    Buchan,O.J.                    R     
+
+L109 104 ejk52    Krishek,E.J.                   JN    
+L109 104 mv449    Voloboev,M.S.                  JN    
+L109 111 ero24    Olah,E.R.                      N     
+L109 111 ld529    Da-Cunha,L.                    N     
+L109 125 mal84    Langtry,M.A.                   EM    
+L109 125 ms2459   Stevens,M.                     EM    
+
+L110 110 afb49    bin Anuar,A.F.                 F     
+L110 110 wigw2    Wilkins,W.I.G.                 F     
+L110  87 jc2065   Collins,J.                     R     
+L110  87 qz265    Zheng,Q.                       R     
+L110 112 bam49    Moncur,B.A.                    N     
+L110 112 rs965    Sallis,R.                      N     
+
+L111 102 av504    Vinod,A.                       JN    
+L111 102 cx232    Xu,C.                          JN    
+L111 106 jz458    Zheng,J.                       F     
+L111 106 lj353    Jia,L.                         F     
+L111  86 mj498    Jiang,M.                       R     
+L111  86 zc292    Cheng,Z.                       R     
+L111 115 ja639    Alexander,J.                   HO    
+
+L112 101 bmp30    Parikh,B.M.                    JN    
+L112 101 lpt30    Tray,L.P.                      JN    
+L112 113 gaj31    Jones,G.A.                     N     
+L112 113 jp772    Pongetti,J.                    N     
+L112 126 fg364    Georgiou,F.                    EM    
+L112 126 mfn28    Nash,M.F.                      EM    
+L112 115 wow20    Weatherill,W.O.                HO
+
+L113  94 mjtd2    Djali,M.J.T.                   DOW   
+L113  94 zn223    Ni,Z.                          DOW   
+L113 116 jc2071   Collins,J.                     HO    
+L113 116 jwhc4    Chaudhry,J.W.H.                HO    
+L113 107 bjb57    Bristow,B.J.                   F     
+L113 107 tn320    Newton,T.                      F     
+L113  89 or273    Rose,O.                        R     
+
