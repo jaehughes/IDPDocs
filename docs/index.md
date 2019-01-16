@@ -104,9 +104,9 @@ The following table summarises the key activities and deadlines at each session.
 |         | Tuesday   | *Progress Meeting with Academic* |
 |         | Wednesday| | |
 | Week 4  | Thursday | | |
-|         | Monday   | **First Competition** |
-|         | Tuesday  | **Final Presentation** |
-|         | Wednesday| **Final Competition.** The schedule can be found [here](FinalPresentation.pdf) |
+|         | Monday   | *11:00: First Competition* |
+|         | Tuesday  | *9:00: Final Presentation* |
+|         | Wednesday| **14:00: Final Competition.** The schedule can be found [here](FinalPresentation.pdf) |
 | Week 5  | Monday | | **Final Report Deadline. Submit on Moodle.** |
 
 Laser cutting training sessions have been pre-booked, such that one person from each team is guaranteed a training session.  If other team members wish to book other training sessions, the booking link can be found [here](https://www.dysoncentre.eng.cam.ac.uk/laser-cutting).
