@@ -97,15 +97,15 @@ The following table summarises the key activities and deadlines at each session.
 |         | Wednesday| **12:00:**  Laser Cutter Introduction (Teams 5-8, 1 person per team), *Dyson Centre* <br />  **14:00:** Laser Cutter Introduction (Teams 9-12, Dyson Centre)
 | Week 2  | Thursday | | **First Report Due**|
 |         | Monday   | | |
-|         | Tuesday  | *Progress Meeting with Academic* | |
+|         | Tuesday  | **Progress Meeting with Academic** | |
 |         | Wednesday| | |
 | Week 3  | Thursday ||
 |         | Monday   | | |
-|         | Tuesday   | *Progress Meeting with Academic* |
+|         | Tuesday   | **Progress Meeting with Academic** |
 |         | Wednesday| | |
 | Week 4  | Thursday | | |
-|         | Monday   | *11:00: First Competition* |
-|         | Tuesday  | *9:00: Final Presentation* |
+|         | Monday   | **11:00: First Competition** |
+|         | Tuesday  | **9:00: Final Presentation** |
 |         | Wednesday| **14:00: Final Competition.** The schedule can be found [here](FinalPresentation.pdf) |
 | Week 5  | Monday | | **Final Report Deadline. Submit on Moodle.** |
 
