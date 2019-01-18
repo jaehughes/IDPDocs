@@ -97,7 +97,7 @@ The following table summarizes the key activities and deadlines at each session.
 |:-------|:---------| :---------|
 | Week 1  | Thursday |  **9:00:** Introduction Session, *LT0*   <br />  **14:00:** Project Management Lecture|
 |         | Monday   | **11:30:**   Workshop Introduction (Teams 1-6),  *Dyson Centre*   <br /> **11:30:** Software Introduction (All teams), LR3B <br /> **11:30:**  Electrical Introduction (All teams), *EIETL Projector*   <br />  **12:15:**   Workshop Introduction (Teams 7-13),  *Dyson Centre*   <br />  **14:00:**   CAD + Rapid Prototyping Introduction,  *Dyson Centre*  |
-|         | Tuesday  | **First Presentation,**  find the timetable and room allocation <a href="FirstPresentation.pdf" download>here</a>|
+|         | Tuesday  | **First Presentation,**  find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a>|
 |         | Wednesday| |
 | Week 2  | Thursday | **16:00 First Report Due** |
 |         | Monday   | |
