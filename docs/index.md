@@ -101,16 +101,16 @@ The following table summarizes the key activities and deadlines at each session.
 |         | Wednesday| |
 | Week 2  | Thursday | **16:00 First Report Due** |
 |         | Monday   | |
-|         | Tuesday  | **Progress Meeting with Academic** |
+|         | Tuesday  | **Progress Meeting with Academic** ,  find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet)|
 |         | Wednesday| |
 | Week 3  | Thursday | |
 |         | Monday   | |
-|         | Tuesday  | **Progress Meeting with Academic** |
+|         | Tuesday  | **Progress Meeting with Academic** , find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet) |
 |         | Wednesday| |
 | Week 4  | Thursday | |
-|         | Monday   | **11:00: First Competition** |
-|         | Tuesday  | **9:00: Final Presentation** |
-|         | Wednesday| **14:00: Final Competition.** The schedule can be found [here](FinalPresentation.pdf) |
+|         | Monday   | **11:00: First Competition.**  Find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet) |
+|         | Tuesday  | **9:00: Final Presentation.**  Find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet)|
+|         | Wednesday| **14:00: Final Competition.** Find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet)|
 | Week 5  | Monday  | **16:00 Final Report Deadline. Submit on Moodle.** |
 
 Laser cutting training sessions have been pre-booked, such that one person from each team is guaranteed a training session.  If other team members wish to book other training sessions, the booking link can be found [here](https://www.dysoncentre.eng.cam.ac.uk/laser-cutting).
