@@ -1,0 +1,97 @@
+Team Lab  Uid     Name                           Coll
+
+L201 155 djh246   Hale,D.J.                      Q     
+L201 155 oaj24    John,O.A.                      Q     
+L201 139 hhc32    Cuthbert,H.H.                  CAI   
+L201 139 jcb214   Brown,J.C.                     CAI   
+L201 161 hs661    Saddiq,H.                      CTH   
+L201 161 tk524    Kirby,T.                       CTH   
+
+L202 151 bl434    Lustrini,B.                    Q     
+L202 151 ryo20    Ong,R.Y.                       Q     
+L202 136 mccv2    Vinycomb,M.C.C.                CAI   
+L202 136 tk518    Kopmels-Markland,T.M.          CAI   
+L202 168 cm923    Maxoutis,C.                    W     
+L202 168 svn22    Nicolaou,S-V.                  W     
+
+L203 156 ak2091   Kamerkar,A.                    Q     
+L203 156 sg836    Gandhi,S.                      Q     
+L203 141 hw492    Wang,H.                        CAI   
+L203 141 wt262    Tapanakornwut,W.               CAI   
+L203 143 jo398    Olieslagers,J.                 K     
+L203 143 sks57    Szymanowicz,S.K.               K     
+
+L204 164 hagd2    de Spoelberch,H.A.G.           CTH   
+L204 164 kms65    Shipley,K.M.                   W     
+L204 158 mm2258   Muttoni,M.                     Q     
+L204 158 sd784    Das,S.                         Q     
+L204 144 aej45    Janowska,A.E.                  K     
+L204 144 rhl29    Lim,R.H.                       K     
+
+L205 142 ac2146   Christou,A.                    CAI   
+L205 142 agab2    Brett,A.G.A.                   CAI   
+L205 153 kea37    Attfield,K.E.                  Q     
+L205 153 wjb48    Baldwin,W.J.                   Q     
+L205 160 npdp2    Palmer,N.P.D.                  CTH   
+L205 160 tcw51    Wyllie,T.C.                    CTH   
+
+L206 138 ae408    Edwards,A.V.                   CAI   
+L206 138 lrc47    Cryer,L.R.                     CAI   
+L206 129 fh362    Heraghty,F.                    EM    
+L206 129 mwd35    De Paepe,M.W.                  EM    
+L206 159 gh454    Hall,G.                        Q     
+L206 159 gx218    Xia,G.                         Q     
+
+L207 131 ps764    Scott,P.                       EM    
+L207 131 scss2    Singh,S.C.S.                   EM    
+L207 146 mko27    Oldfield,M.K.                  K     
+L207 146 vb378    Bhonge,V.                      K     
+L207 147 nh483    Harris,N.                      TH    
+L207 147 rf424    Fleck,R.                       TH    
+
+L208 130 hm582    May,H.                         EM    
+L208 130 ngs31    Singh,N.G.                     EM    
+L208 149 er499    Reeman,E.                      TH    
+L208 149 tag42    Gibb,T.A.                      TH    
+L208 134 dwl36    Ley,D.W.                       CC    
+L208 134 sd793    Dubov,S.                       CC    
+
+L209 127 ksc37    Chan,K.S.                      EM    
+L209 127 tc513    Chan,T.                        EM    
+L209 145 dl584    Levi,D.                        K     
+L209 145 st712    Tan-Ya,S.                      K     
+L209 157 leyt2    Teng,L.E.Y.                    Q     
+L209 157 tww26    Wood,T.W.                      Q     
+L209 150 jac287   Clarkson,J.A.                  TH    
+
+L210 137 bmh39    Howells,B.M.                   CAI   
+L210 137 fc445    Cassidy,F.T.                   CAI   
+L210 128 oms28    Smith,O.M.                     EM    
+L210 128 snp25    Patel,S.N.                     EM    
+L210 152 ilyh2    Han,I.L.Y.                     Q   
+L210 152 mxt22    Tan,M.X.                       Q     
+L210 167 as2740   Sofianos,A.                    W     
+
+L211 140 as2743   Stoilov,A.T.                   CAI   
+L211 140 mwo22    O'Sullivan,M.W.D.              CAI   
+L211 166 mp864    Ponya,M.                       W     
+L211 166 rs974    Swaminathan,R.                 W     
+L211 154 jl2009   Lloyd,J.                       Q     
+L211 154 pgj27    Jennings,P.G.                  Q     
+L211 150 js2372   Stuchbury-Wass,J.              TH    
+
+L212 165 bwmn2    Neo,B.W.M.                     W     
+L212 165 sm2287   Mandoki,S.                     W     
+L212 148 ccg36    Gai,C.C.                       TH    
+L212 148 sg835    Guo,S.                         TH    
+L212 163 jq245    Quach,J.                       CTH   
+L212 163 ptg27    Gardner,P.T.                   CTH   
+L212 135 wl355    Layzell-Smith,W.               CC    
+
+L213 167 yl645    Liu,Y.                         W     
+L213 162 lrg41    Gilbert,L.R.                   CTH   
+L213 162 lyc29    Cheng,L.Y.                     CTH   
+L213 132 cho23    Ong,C.H.                       HH    
+L213 132 zw329    Wang,Z.                        HH    
+L213 133 jc2069   Chang,J.                       CC    
+L213 133 jh2047   Hunt,J.                        CC    

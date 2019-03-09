@@ -36,11 +36,13 @@ Each IDP cohort has a different task and rules set.  A challenge set will be pro
 
 * Michaelmas 2018, <a href="m2task.pdf" download>M2 Task</a>
 * Lent 2019, <a href="l1task.pdf" download>L1 Task</a>
+* Lent 2019, <a href="l2task.pdf" download>L2 Task</a>
 
 with the team allocations give here:
 
 * Michaelmas 2018 <a href="m2teams.txt" download>Team Allocations</a>
-* Lent 2019,  <a href="l1teams.txt" download>Team Allocations</a>
+* Lent 2019 L1,  <a href="l1teams.txt" download>Team Allocations</a>
+* Lent 2019 L2,  <a href="l2teams.txt" download>Team Allocations</a>
 
 If you have any questions about the task, please email Dave Patterson (dip26) and Josie Hughes (jaeh2).
 
@@ -83,7 +85,7 @@ The assessment of the course has a number of different components. These are sum
 | First Competition (Group)  | 10%     | Week 4, Monday        |
 | Final Presentation (Group)  | 10%     | Week 4, Tuesday        |
 | Final Competition (Group) | 20%     | Week 4, Wednesday        |
-| Robot Quality (Group)             | 20%     | Week 4, Wednesday     |
+| Robot Quality (Group)             | 20%     | Week 5, Monday     |
 | Final Report (Individual)     | 10%     | Week 5, Monday  |
 
 
@@ -97,21 +99,21 @@ The following table summarizes the key activities and deadlines at each session.
 |:-------|:---------| :---------|
 | Week 1  | Thursday |  **9:00:** Introduction Session, *LT0*   <br />  **14:00:** Project Management Lecture|
 |         | Monday   | **11:30:**   Workshop Introduction (Teams 1-6),  *Dyson Centre*   <br /> **11:30:** Electrical Introduction (All teams), *LR3B* <br /> **12:00:**  Software Introduction (All teams), *LR3B*   <br />  **12:15:**   Workshop Introduction (Teams 7-13),  *Dyson Centre*   <br />  **14:00:**   CAD + Rapid Prototyping Introduction,  *Dyson Centre*  |
-|         | Tuesday  | **First Presentation,**  find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a>|
+|         | Tuesday  | **First Presentation,**  find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1DMUFXUEWt5XduLpS0HbcBOLhN0hUMXdbwG-Xh_G3gXc/edit?usp=sharing" download>here</a>|
 |         | Wednesday| |
 | Week 2  | Thursday | **16:00 First Report Due** |
 |         | Monday   | |
-|         | Tuesday  | **Progress Meeting with Academic** ,  find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet)|
+|         | Tuesday  | **Progress Meeting with Academic** ,  find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1DMUFXUEWt5XduLpS0HbcBOLhN0hUMXdbwG-Xh_G3gXc/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet)|
 |         | Wednesday| |
 | Week 3  | Thursday | |
 |         | Monday   | |
-|         | Tuesday  | **Progress Meeting with Academic** , find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet) |
+|         | Tuesday  | **Progress Meeting with Academic** , find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1DMUFXUEWt5XduLpS0HbcBOLhN0hUMXdbwG-Xh_G3gXc/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet) |
 |         | Wednesday| |
 | Week 4  | Thursday | |
-|         | Monday   | **11:00: First Competition.**  Find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet) |
-|         | Tuesday  | **9:00: Final Presentation.**  Find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet)|
-|         | Wednesday| **14:00: Final Competition.** Find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1a2qEICgVEEDaCTtpkwYtwcFEH8yK1X0fycLwz4b1duE/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet)|
-| Week 5  | Monday  | **16:00 Final Report Deadline. Submit on Moodle.** |
+|         | Monday   | **11:00: First Competition.**  Find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1DMUFXUEWt5XduLpS0HbcBOLhN0hUMXdbwG-Xh_G3gXc/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet) |
+|         | Tuesday  | **9:00: Final Presentation.**  Find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1DMUFXUEWt5XduLpS0HbcBOLhN0hUMXdbwG-Xh_G3gXc/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet)|
+|         | Wednesday| **14:00: Final Competition.** Find the timetable and room allocation <a href="https://docs.google.com/spreadsheets/d/1DMUFXUEWt5XduLpS0HbcBOLhN0hUMXdbwG-Xh_G3gXc/edit?usp=sharing" download>here</a> (move to correct tab in s'sheet)|
+| Week 5  | Monday  | **16:00 Final Report  Deadline. Submit on Moodle.**   <br /> **16:00 Documentation Submission Deadline** Hard copies to EIETL|
 
 Laser cutting training sessions have been pre-booked, such that one person from each team is guaranteed a training session.  If other team members wish to book other training sessions, the booking link can be found [here](https://www.dysoncentre.eng.cam.ac.uk/laser-cutting).
 

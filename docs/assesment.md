@@ -63,10 +63,9 @@ We expect teams to keep updated circuit diagrams, layout diagrams, CAD diagrams 
 
 The final presentation (maximum of 8 slides) should focus on the following:
 
-* Brief review of the overall design strategy (inc. software, electronics and hardware and overall strategy)
-* Problems encountered during implementation and any major changes which were implemented
-* Review of the program management of the project, and differences between planned timescales and actual timescales
-* Key lessons learnt - what would you do differently if you do it again
+* A review of the overall design strategy (inc. software, electronics and hardware and overall strategy).  What is clever, innovative about your approach, try and 'sell' this to your assessors.  
+* How was the approach physically implemented, what problems encountered during implementation and any major changes which were implemented to overcome these problems.
+* Review of the program management of the project, and differences between planned timescales and actual timescales and what were the key lessons learnt - what would you do differently if you do it again
 * Brief statement of likely performance in the competition.
 
 
